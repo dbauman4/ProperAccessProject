@@ -1,0 +1,33 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1  95656  8020 ?        Ss   Jun06   3:39 /sbin/init
+root        25  0.1  0.2  38136 10428 ?        Ss   Jun06  62:21 /lib/systemd/systemd-journald
+root        57  0.0  0.0   5356  2368 ?        Ss   Jun06   0:01 /usr/sbin/cron -f
+root        59  0.0  0.1   9908  4848 ?        Ss   Jun06   0:51 /lib/systemd/systemd-logind
+message+    61  0.0  0.0   6412  3448 ?        Ss   Jun06   2:22 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+avahi       62  0.0  0.0   5992  3248 ?        Ss   Jun06   0:33 avahi-daemon: running [ubnt.local]
+avahi       72  0.0  0.0   5592  1456 ?        S    Jun06   0:00 avahi-daemon: chroot helper
+postgres   233  0.0  0.5 200224 23184 ?        S    Jun06   2:02 /usr/lib/postgresql/9.6/bin/postgres -D /data/postgresql/9.6/main/data -c config_file=/etc/postgresql/9.6/main/postgresql.conf
+postgres   237  0.0  0.4 200368 19632 ?        Ss   Jun06   0:00 postgres: 9.6/main: checkpointer process   
+postgres   238  0.0  0.1 200224  5632 ?        Ss   Jun06   0:13 postgres: 9.6/main: writer process   
+postgres   239  0.0  0.2 200224  8776 ?        Ss   Jun06   0:01 postgres: 9.6/main: wal writer process   
+postgres   240  0.0  0.1 200764  6768 ?        Ss   Jun06   1:15 postgres: 9.6/main: autovacuum launcher process   
+postgres   241  0.0  0.1  55648  4432 ?        Ss   Jun06   3:30 postgres: 9.6/main: stats collector process   
+Debian-+   697  0.0  0.0  11288  2988 ?        Ss   Jun06   0:00 /usr/sbin/exim4 -bd -q30m
+ulp-go     735  0.0  0.8 727940 33980 ?        Sl   Jun06  10:11 /usr/sbin/ulp-go-app --prop /usr/lib/ulp-go/config.props
+postgres   743  0.0  0.4 202860 18224 ?        Ss   Jun06   0:00 postgres: 9.6/main: ulp-go ulp-go [local] idle
+postgres   746  0.0  0.6 202784 25360 ?        Ss   Jun06   0:00 postgres: 9.6/main: ulp-go ulp-go-syslog [local] idle
+root      3004  7.1  4.1 4606896 168544 ?      Ssl  Jun06 2250:41 /usr/lib/nvm/versions/node/v12.22.12/bin/node --expose-gc --optimize-for-size --memory-reducer --max-old-space-size=512 /usr/share/unifi-core/app/service.js
+postgres  3505  0.0  0.4 202084 16324 ?        Ss   Jun06   0:00 postgres: 9.6/main: unifi-core unifi-core 127.0.0.1(59006) idle
+unifi     3598  1.6 16.6 4232400 674212 ?      Ssl  Jun06 532:10 /usr/bin/java -Dfile.encoding=UTF-8 -Djava.awt.headless=true -Dapple.awt.UIElement=true -Dunifi.core.enabled=true -Dorg.xerial.snappy.tempdir=/usr/lib/unifi/run -Xmx768M -Xss1024K -XX:MinHeapFreeRatio=0 -XX:MaxHeapFreeRatio=50 -XX:-TieredCompilation -XX:+ExitOnOutOfMemoryError -XX:+CrashOnOutOfMemoryError -XX:ErrorFile=/usr/lib/unifi/logs/hs_err_pidunifi.log -jar /usr/lib/unifi/lib/ace.jar start
+postgres  3663  0.0  0.3 201328 15036 ?        Ss   Jun06   0:00 postgres: 9.6/main: unifi-core unifi-core 127.0.0.1(59078) idle
+unifi     4407  0.5  7.1 1269996 287500 ?      Sl   Jun06 170:26 bin/mongod --dbpath /usr/lib/unifi/data/db --port 27117 --unixSocketPrefix /usr/lib/unifi/run --logRotate reopen --logappend --logpath /usr/lib/unifi/logs/mongod.log --pidfilepath /usr/lib/unifi/run/mongod.pid --wiredTigerEngineConfigString=cache_size=128M --bind_ip 127.0.0.1
+unifi-b+  4955  0.0  0.6 857928 28124 ?        Ssl  00:14   0:00 node /usr/share/unifi-base-ucore/app/daemon.js --env=debian
+unifi-t+  5022  0.0  0.7 861000 28488 ?        Ssl  00:14   0:00 node /usr/share/unifi-talk/app/daemon.js --env=debian
+unifi-b+  5050  0.0  1.5 641804 63720 ?        Ssl  00:14   1:01 unifi-base-ucore
+unifi-t+  5175  0.3  2.1 943216 88428 ?        Ssl  00:14   4:37 unifi-talk
+freeswi+  5765  0.7  1.0 1774676 42916 ?       S<sl 00:14  10:43 /usr/bin/freeswitch -u freeswitch -g freeswitch -db /data/unifi-talk/freeswitch_db -conf /etc/freeswitch -log /var/log/freeswitch -run /var/run/freeswitch -ncwait -nonat
+postgres 19099  0.1  0.3 201324 13348 ?        Ss   23:43   0:00 postgres: 9.6/main: unifi-talk unifi-talk [local] idle
+postgres 19422  0.1  0.3 201312 13312 ?        Ss   23:43   0:00 postgres: 9.6/main: unifi-talk unifi-talk [local] idle
+unifi    19572  0.0  0.0   6972  2692 ?        R    23:43   0:00 ps aux
+postgres 28900  0.0  1.2 203356 49048 ?        Ss   Jun23   0:15 postgres: 9.6/main: ulp-go ulp-go [local] idle
+postgres 31068  0.0  0.4 201928 16768 ?        Ss   13:55   0:01 postgres: 9.6/main: ulp-go ulp-go [local] idle

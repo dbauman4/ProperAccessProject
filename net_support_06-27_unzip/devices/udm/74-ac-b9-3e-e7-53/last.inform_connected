@@ -1,0 +1,2606 @@
+{
+  "anon_id" : "111e4693-496a-4072-8029-9aa80404710a",
+  "antenna_table" : [ ],
+  "architecture" : "aarch64",
+  "ble_caps" : 0,
+  "board_rev" : 8,
+  "bootid" : -1,
+  "bootrom_version" : "unknown",
+  "cfgversion" : "e50102eb1a3831b3",
+  "config_network_wan" : {
+    "type" : "dhcp"
+  },
+  "config_network_wan2" : {
+    "type" : "dhcp"
+  },
+  "connect_request_ip" : "127.0.0.1",
+  "connect_request_port" : "57750",
+  "country_code" : 0,
+  "countrycode_table" : [ ],
+  "default" : false,
+  "discovery_response" : false,
+  "dpi_stats" : [ {
+    "initialized" : 1655882243,
+    "ip" : "192.168.1.25",
+    "mac" : "44:d9:e7:05:80:81",
+    "stats" : [ {
+      "app" : 15,
+      "cat" : 13,
+      "rx_bytes" : 252277,
+      "tx_bytes" : 135653,
+      "rx_packets" : 373,
+      "tx_packets" : 411
+    }, {
+      "app" : 195,
+      "cat" : 20,
+      "rx_bytes" : 794510,
+      "tx_bytes" : 368046,
+      "rx_packets" : 1832,
+      "tx_packets" : 2187
+    }, {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 456,
+      "tx_bytes" : 939,
+      "rx_packets" : 6,
+      "tx_packets" : 13
+    }, {
+      "app" : 185,
+      "cat" : 20,
+      "rx_bytes" : 829386,
+      "tx_bytes" : 795176,
+      "rx_packets" : 2611,
+      "tx_packets" : 2840
+    }, {
+      "app" : 112,
+      "cat" : 4,
+      "rx_bytes" : 1071626,
+      "tx_bytes" : 471422,
+      "rx_packets" : 1467,
+      "tx_packets" : 1724
+    }, {
+      "app" : 188,
+      "cat" : 20,
+      "rx_bytes" : 1237797,
+      "tx_bytes" : 1612939,
+      "rx_packets" : 8368,
+      "tx_packets" : 8387
+    }, {
+      "app" : 222,
+      "cat" : 13,
+      "rx_bytes" : 81577,
+      "tx_bytes" : 16105,
+      "rx_packets" : 122,
+      "tx_packets" : 151
+    }, {
+      "app" : 134,
+      "cat" : 13,
+      "rx_bytes" : 1104189,
+      "tx_bytes" : 1807273,
+      "rx_packets" : 3754,
+      "tx_packets" : 4518
+    }, {
+      "app" : 186,
+      "cat" : 20,
+      "rx_bytes" : 3260433,
+      "tx_bytes" : 1032856,
+      "rx_packets" : 3609,
+      "tx_packets" : 3287
+    } ]
+  }, {
+    "initialized" : 1655881145,
+    "ip" : "192.168.1.210",
+    "mac" : "7c:10:c9:d0:88:b8",
+    "stats" : [ {
+      "app" : 62,
+      "cat" : 8,
+      "rx_bytes" : 346289,
+      "tx_bytes" : 8487,
+      "rx_packets" : 236,
+      "tx_packets" : 194
+    }, {
+      "app" : 126,
+      "cat" : 13,
+      "rx_bytes" : 8087265,
+      "tx_bytes" : 58454,
+      "rx_packets" : 3100,
+      "tx_packets" : 1337
+    }, {
+      "app" : 186,
+      "cat" : 20,
+      "rx_bytes" : 267553,
+      "tx_bytes" : 130218,
+      "rx_packets" : 581,
+      "tx_packets" : 589
+    }, {
+      "app" : 94,
+      "cat" : 19,
+      "rx_bytes" : 847489,
+      "tx_bytes" : 4220754,
+      "rx_packets" : 18073,
+      "tx_packets" : 18687
+    }, {
+      "app" : 69,
+      "cat" : 13,
+      "rx_bytes" : 7003390,
+      "tx_bytes" : 3313065,
+      "rx_packets" : 14987,
+      "tx_packets" : 17910
+    }, {
+      "app" : 34,
+      "cat" : 14,
+      "rx_bytes" : 5742076,
+      "tx_bytes" : 41583,
+      "rx_packets" : 2557,
+      "tx_packets" : 897
+    }, {
+      "app" : 37,
+      "cat" : 6,
+      "rx_bytes" : 102087,
+      "tx_bytes" : 14875,
+      "rx_packets" : 143,
+      "tx_packets" : 116
+    }, {
+      "app" : 250,
+      "cat" : 13,
+      "rx_bytes" : 455106,
+      "tx_bytes" : 164848,
+      "rx_packets" : 677,
+      "tx_packets" : 729
+    }, {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 2428,
+      "tx_bytes" : 4229072,
+      "rx_packets" : 74,
+      "tx_packets" : 96110
+    }, {
+      "app" : 120,
+      "cat" : 13,
+      "rx_bytes" : 1281271,
+      "tx_bytes" : 383813,
+      "rx_packets" : 1249,
+      "tx_packets" : 1290
+    }, {
+      "app" : 130,
+      "cat" : 4,
+      "rx_bytes" : 1660115,
+      "tx_bytes" : 245762,
+      "rx_packets" : 3098,
+      "tx_packets" : 2817
+    }, {
+      "app" : 136,
+      "cat" : 13,
+      "rx_bytes" : 115370202,
+      "tx_bytes" : 4044549,
+      "rx_packets" : 52107,
+      "tx_packets" : 25665
+    }, {
+      "app" : 5,
+      "cat" : 3,
+      "rx_bytes" : 20971,
+      "tx_bytes" : 7152,
+      "rx_packets" : 67,
+      "tx_packets" : 90
+    }, {
+      "app" : 1,
+      "cat" : 6,
+      "rx_bytes" : 99691,
+      "tx_bytes" : 33817,
+      "rx_packets" : 204,
+      "tx_packets" : 179
+    }, {
+      "app" : 15,
+      "cat" : 13,
+      "rx_bytes" : 39534,
+      "tx_bytes" : 6825,
+      "rx_packets" : 77,
+      "tx_packets" : 70
+    }, {
+      "app" : 222,
+      "cat" : 13,
+      "rx_bytes" : 3916862,
+      "tx_bytes" : 181591,
+      "rx_packets" : 3335,
+      "tx_packets" : 2785
+    }, {
+      "app" : 185,
+      "cat" : 20,
+      "rx_bytes" : 94550239,
+      "tx_bytes" : 7657614,
+      "rx_packets" : 57271,
+      "tx_packets" : 35674
+    }, {
+      "app" : 9,
+      "cat" : 14,
+      "rx_bytes" : 43158152,
+      "tx_bytes" : 3382979,
+      "rx_packets" : 27487,
+      "tx_packets" : 14838
+    } ]
+  }, {
+    "initialized" : 1655881060,
+    "ip" : "192.168.1.70",
+    "mac" : "b0:be:83:26:81:c4",
+    "stats" : [ {
+      "app" : 5,
+      "cat" : 3,
+      "rx_bytes" : 14717,
+      "tx_bytes" : 14209,
+      "rx_packets" : 82,
+      "tx_packets" : 104
+    }, {
+      "app" : 84,
+      "cat" : 13,
+      "rx_bytes" : 215081442,
+      "tx_bytes" : 19352653,
+      "rx_packets" : 172745,
+      "tx_packets" : 94390
+    }, {
+      "app" : 185,
+      "cat" : 20,
+      "rx_bytes" : 55230957,
+      "tx_bytes" : 32825897,
+      "rx_packets" : 107810,
+      "tx_packets" : 117309
+    }, {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 100362,
+      "tx_bytes" : 4562236,
+      "rx_packets" : 1342,
+      "tx_packets" : 102675
+    }, {
+      "app" : 94,
+      "cat" : 19,
+      "rx_bytes" : 781872,
+      "tx_bytes" : 989258,
+      "rx_packets" : 12863,
+      "tx_packets" : 16856
+    }, {
+      "app" : 27,
+      "cat" : 0,
+      "rx_bytes" : 257317,
+      "tx_bytes" : 212305,
+      "rx_packets" : 2724,
+      "tx_packets" : 3018
+    }, {
+      "app" : 3,
+      "cat" : 10,
+      "rx_bytes" : 12320066,
+      "tx_bytes" : 15745760,
+      "rx_packets" : 100350,
+      "tx_packets" : 117516
+    } ]
+  }, {
+    "initialized" : 1655876724,
+    "ip" : "192.168.1.211",
+    "mac" : "a0:99:9b:18:01:93",
+    "stats" : [ {
+      "app" : 62,
+      "cat" : 17,
+      "rx_bytes" : 125004151,
+      "tx_bytes" : 284065,
+      "rx_packets" : 50085,
+      "tx_packets" : 4942
+    }, {
+      "app" : 3,
+      "cat" : 10,
+      "rx_bytes" : 9957,
+      "tx_bytes" : 1575,
+      "rx_packets" : 15,
+      "tx_packets" : 13
+    }, {
+      "app" : 42,
+      "cat" : 4,
+      "rx_bytes" : 9155,
+      "tx_bytes" : 3108,
+      "rx_packets" : 17,
+      "tx_packets" : 18
+    }, {
+      "app" : 5,
+      "cat" : 3,
+      "rx_bytes" : 11507,
+      "tx_bytes" : 8265,
+      "rx_packets" : 48,
+      "tx_packets" : 62
+    }, {
+      "app" : 120,
+      "cat" : 13,
+      "rx_bytes" : 45268,
+      "tx_bytes" : 11550,
+      "rx_packets" : 67,
+      "tx_packets" : 90
+    }, {
+      "app" : 150,
+      "cat" : 3,
+      "rx_bytes" : 58719355,
+      "tx_bytes" : 2231848,
+      "rx_packets" : 41436,
+      "tx_packets" : 24522
+    }, {
+      "app" : 10,
+      "cat" : 4,
+      "rx_bytes" : 501633,
+      "tx_bytes" : 86653,
+      "rx_packets" : 752,
+      "tx_packets" : 697
+    }, {
+      "app" : 246,
+      "cat" : 13,
+      "rx_bytes" : 886952,
+      "tx_bytes" : 360868,
+      "rx_packets" : 1804,
+      "tx_packets" : 2326
+    }, {
+      "app" : 185,
+      "cat" : 20,
+      "rx_bytes" : 32109193,
+      "tx_bytes" : 7330373,
+      "rx_packets" : 44643,
+      "tx_packets" : 47432
+    }, {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 214621,
+      "tx_bytes" : 205904,
+      "rx_packets" : 470,
+      "tx_packets" : 1426
+    }, {
+      "app" : 27,
+      "cat" : 0,
+      "rx_bytes" : 229657,
+      "tx_bytes" : 272207,
+      "rx_packets" : 2796,
+      "tx_packets" : 3939
+    }, {
+      "app" : 186,
+      "cat" : 20,
+      "rx_bytes" : 2579374,
+      "tx_bytes" : 1760915,
+      "rx_packets" : 5121,
+      "tx_packets" : 4937
+    }, {
+      "app" : 234,
+      "cat" : 13,
+      "rx_bytes" : 473191966,
+      "tx_bytes" : 90910274,
+      "rx_packets" : 700150,
+      "tx_packets" : 577735
+    }, {
+      "app" : 69,
+      "cat" : 13,
+      "rx_bytes" : 12401662,
+      "tx_bytes" : 3559912,
+      "rx_packets" : 19746,
+      "tx_packets" : 24476
+    }, {
+      "app" : 94,
+      "cat" : 19,
+      "rx_bytes" : 4758248,
+      "tx_bytes" : 7286164,
+      "rx_packets" : 102737,
+      "tx_packets" : 151471
+    }, {
+      "app" : 66,
+      "cat" : 13,
+      "rx_bytes" : 17429846,
+      "tx_bytes" : 1983076,
+      "rx_packets" : 24724,
+      "tx_packets" : 22609
+    }, {
+      "app" : 222,
+      "cat" : 13,
+      "rx_bytes" : 7315917,
+      "tx_bytes" : 96777,
+      "rx_packets" : 3172,
+      "tx_packets" : 1380
+    }, {
+      "app" : 84,
+      "cat" : 13,
+      "rx_bytes" : 38770077,
+      "tx_bytes" : 2033792,
+      "rx_packets" : 30159,
+      "tx_packets" : 18046
+    }, {
+      "app" : 15,
+      "cat" : 13,
+      "rx_bytes" : 541560,
+      "tx_bytes" : 157850,
+      "rx_packets" : 785,
+      "tx_packets" : 687
+    } ]
+  }, {
+    "initialized" : 1655876533,
+    "ip" : "192.168.1.139",
+    "mac" : "b0:be:83:30:cb:6b",
+    "stats" : [ {
+      "app" : 190,
+      "cat" : 13,
+      "rx_bytes" : 15714,
+      "tx_bytes" : 16151,
+      "rx_packets" : 26,
+      "tx_packets" : 26
+    }, {
+      "app" : 120,
+      "cat" : 13,
+      "rx_bytes" : 44405,
+      "tx_bytes" : 10858,
+      "rx_packets" : 54,
+      "tx_packets" : 73
+    }, {
+      "app" : 195,
+      "cat" : 20,
+      "rx_bytes" : 56394,
+      "tx_bytes" : 45784,
+      "rx_packets" : 147,
+      "tx_packets" : 164
+    }, {
+      "app" : 3,
+      "cat" : 10,
+      "rx_bytes" : 9877,
+      "tx_bytes" : 1584,
+      "rx_packets" : 13,
+      "tx_packets" : 13
+    }, {
+      "app" : 209,
+      "cat" : 13,
+      "rx_bytes" : 9258,
+      "tx_bytes" : 2926,
+      "rx_packets" : 18,
+      "tx_packets" : 20
+    }, {
+      "app" : 27,
+      "cat" : 0,
+      "rx_bytes" : 319396,
+      "tx_bytes" : 289537,
+      "rx_packets" : 3498,
+      "tx_packets" : 4116
+    }, {
+      "app" : 186,
+      "cat" : 20,
+      "rx_bytes" : 2661824,
+      "tx_bytes" : 1893495,
+      "rx_packets" : 5458,
+      "tx_packets" : 5376
+    }, {
+      "app" : 185,
+      "cat" : 20,
+      "rx_bytes" : 81459636,
+      "tx_bytes" : 37529422,
+      "rx_packets" : 151151,
+      "tx_packets" : 167905
+    }, {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 2475659,
+      "tx_bytes" : 3182534,
+      "rx_packets" : 32550,
+      "tx_packets" : 40385
+    }, {
+      "app" : 10,
+      "cat" : 4,
+      "rx_bytes" : 1645598,
+      "tx_bytes" : 190880,
+      "rx_packets" : 1990,
+      "tx_packets" : 1696
+    }, {
+      "app" : 150,
+      "cat" : 3,
+      "rx_bytes" : 70785114,
+      "tx_bytes" : 2701089,
+      "rx_packets" : 49743,
+      "tx_packets" : 27066
+    }, {
+      "app" : 69,
+      "cat" : 13,
+      "rx_bytes" : 14169606,
+      "tx_bytes" : 3591580,
+      "rx_packets" : 22292,
+      "tx_packets" : 24598
+    }, {
+      "app" : 5,
+      "cat" : 3,
+      "rx_bytes" : 160790,
+      "tx_bytes" : 126643,
+      "rx_packets" : 757,
+      "tx_packets" : 951
+    }, {
+      "app" : 222,
+      "cat" : 13,
+      "rx_bytes" : 59029778,
+      "tx_bytes" : 202763,
+      "rx_packets" : 26988,
+      "tx_packets" : 3226
+    }, {
+      "app" : 84,
+      "cat" : 13,
+      "rx_bytes" : 248222496,
+      "tx_bytes" : 21416259,
+      "rx_packets" : 202494,
+      "tx_packets" : 110159
+    }, {
+      "app" : 15,
+      "cat" : 13,
+      "rx_bytes" : 544182,
+      "tx_bytes" : 130950,
+      "rx_packets" : 689,
+      "tx_packets" : 586
+    } ]
+  }, {
+    "initialized" : 1654488350,
+    "ip" : "192.168.1.158",
+    "mac" : "b4:fb:e4:7f:72:a7",
+    "stats" : [ {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 0,
+      "tx_bytes" : 27582120,
+      "rx_packets" : 0,
+      "tx_packets" : 459702
+    } ]
+  }, {
+    "initialized" : 1654488350,
+    "ip" : "174.100.165.160",
+    "stats" : [ {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 2103301283,
+      "tx_bytes" : 2128183693,
+      "rx_packets" : 6987209,
+      "tx_packets" : 7319583
+    } ],
+    "mac" : "74:ac:b9:3e:e7:53"
+  }, {
+    "initialized" : 1654488350,
+    "ip" : "192.168.1.134",
+    "mac" : "b4:fb:e4:7e:b9:5d",
+    "stats" : [ {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 0,
+      "tx_bytes" : 27595020,
+      "rx_packets" : 0,
+      "tx_packets" : 459917
+    } ]
+  }, {
+    "initialized" : 1654488355,
+    "ip" : "192.168.1.160",
+    "mac" : "b4:fb:e4:7e:65:41",
+    "stats" : [ {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 0,
+      "tx_bytes" : 27580320,
+      "rx_packets" : 0,
+      "tx_packets" : 459672
+    } ]
+  }, {
+    "initialized" : 1654488350,
+    "ip" : "192.168.1.77",
+    "mac" : "a4:08:01:8e:57:a6",
+    "stats" : [ {
+      "app" : 66,
+      "cat" : 13,
+      "rx_bytes" : 107522046,
+      "tx_bytes" : 1247890,
+      "rx_packets" : 59803,
+      "tx_packets" : 23922
+    }, {
+      "app" : 222,
+      "cat" : 13,
+      "rx_bytes" : 2856,
+      "tx_bytes" : 3548,
+      "rx_packets" : 24,
+      "tx_packets" : 28
+    }, {
+      "app" : 185,
+      "cat" : 20,
+      "rx_bytes" : 93273685,
+      "tx_bytes" : 43088449,
+      "rx_packets" : 383390,
+      "tx_packets" : 358269
+    }, {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 454010,
+      "tx_bytes" : 710118,
+      "rx_packets" : 5452,
+      "tx_packets" : 10538
+    }, {
+      "app" : 63,
+      "cat" : 18,
+      "rx_bytes" : 8519,
+      "tx_bytes" : 11354,
+      "rx_packets" : 120,
+      "tx_packets" : 123
+    }, {
+      "app" : 234,
+      "cat" : 13,
+      "rx_bytes" : 31789276,
+      "tx_bytes" : 51628495,
+      "rx_packets" : 100989,
+      "tx_packets" : 123371
+    } ]
+  }, {
+    "initialized" : 1654488355,
+    "ip" : "192.168.1.59",
+    "mac" : "b4:fb:e4:7e:78:4d",
+    "stats" : [ {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 0,
+      "tx_bytes" : 27569340,
+      "rx_packets" : 0,
+      "tx_packets" : 459489
+    } ]
+  }, {
+    "initialized" : 1654488355,
+    "ip" : "192.168.1.75",
+    "mac" : "b4:fb:e4:05:c9:d8",
+    "stats" : [ {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 0,
+      "tx_bytes" : 29738400,
+      "rx_packets" : 0,
+      "tx_packets" : 495640
+    } ]
+  }, {
+    "initialized" : 1654488360,
+    "ip" : "192.168.1.44",
+    "mac" : "68:72:c3:38:2b:36",
+    "stats" : [ {
+      "app" : 61,
+      "cat" : 9,
+      "rx_bytes" : 0,
+      "tx_bytes" : 9216,
+      "rx_packets" : 0,
+      "tx_packets" : 144
+    }, {
+      "app" : 126,
+      "cat" : 13,
+      "rx_bytes" : 4496,
+      "tx_bytes" : 1464,
+      "rx_packets" : 9,
+      "tx_packets" : 13
+    }, {
+      "app" : 132,
+      "cat" : 4,
+      "rx_bytes" : 2954090,
+      "tx_bytes" : 122267,
+      "rx_packets" : 1345,
+      "tx_packets" : 1058
+    }, {
+      "app" : 194,
+      "cat" : 20,
+      "rx_bytes" : 14559,
+      "tx_bytes" : 3193,
+      "rx_packets" : 21,
+      "tx_packets" : 34
+    }, {
+      "app" : 185,
+      "cat" : 20,
+      "rx_bytes" : 365347147,
+      "tx_bytes" : 24882861,
+      "rx_packets" : 313830,
+      "tx_packets" : 232410
+    }, {
+      "app" : 65535,
+      "cat" : 255,
+      "rx_bytes" : 420451,
+      "tx_bytes" : 1464728,
+      "rx_packets" : 4958,
+      "tx_packets" : 21099
+    }, {
+      "app" : 10,
+      "cat" : 4,
+      "rx_bytes" : 10252335,
+      "tx_bytes" : 836178,
+      "rx_packets" : 9496,
+      "tx_packets" : 8153
+    }, {
+      "app" : 5,
+      "cat" : 3,
+      "rx_bytes" : 2172931,
+      "tx_bytes" : 2065474,
+      "rx_packets" : 20174,
+      "tx_packets" : 29995
+    }, {
+      "app" : 63,
+      "cat" : 18,
+      "rx_bytes" : 224804,
+      "tx_bytes" : 75675,
+      "rx_packets" : 948,
+      "tx_packets" : 1152
+    }, {
+      "app" : 69,
+      "cat" : 13,
+      "rx_bytes" : 800,
+      "tx_bytes" : 580,
+      "rx_packets" : 7,
+      "tx_packets" : 7
+    }, {
+      "app" : 35,
+      "cat" : 4,
+      "rx_bytes" : 394345,
+      "tx_bytes" : 68635,
+      "rx_packets" : 574,
+      "tx_packets" : 664
+    }, {
+      "app" : 66,
+      "cat" : 13,
+      "rx_bytes" : 19645901896,
+      "tx_bytes" : 329883018,
+      "rx_packets" : 13015086,
+      "tx_packets" : 5983069
+    }, {
+      "app" : 124,
+      "cat" : 4,
+      "rx_bytes" : 1444743,
+      "tx_bytes" : 276709,
+      "rx_packets" : 2523,
+      "tx_packets" : 2216
+    }, {
+      "app" : 222,
+      "cat" : 13,
+      "rx_bytes" : 2962,
+      "tx_bytes" : 1209,
+      "rx_packets" : 9,
+      "tx_packets" : 11
+    }, {
+      "app" : 84,
+      "cat" : 13,
+      "rx_bytes" : 573197,
+      "tx_bytes" : 21260,
+      "rx_packets" : 431,
+      "tx_packets" : 311
+    }, {
+      "app" : 38,
+      "cat" : 13,
+      "rx_bytes" : 6917,
+      "tx_bytes" : 2636,
+      "rx_packets" : 25,
+      "tx_packets" : 23
+    }, {
+      "app" : 3,
+      "cat" : 24,
+      "rx_bytes" : 93030,
+      "tx_bytes" : 29140,
+      "rx_packets" : 328,
+      "tx_packets" : 212
+    }, {
+      "app" : 94,
+      "cat" : 19,
+      "rx_bytes" : 5012,
+      "tx_bytes" : 2480,
+      "rx_packets" : 94,
+      "tx_packets" : 46
+    } ]
+  } ],
+  "dualboot" : false,
+  "ever_crash" : false,
+  "fingerprint_req" : true,
+  "fingerprints" : {
+    "hosts" : [ {
+      "custom" : {
+        "confidence" : 80,
+        "deviceCategoryID" : 49,
+        "deviceFamilyID" : 24,
+        "deviceNameID" : 1899,
+        "osNameID" : 1,
+        "vendorID" : 1
+      },
+      "fingerbank" : {
+        "device" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2020-11-27T00:36:53.000Z",
+          "id" : 86264,
+          "name" : "HP Color LaserJet Pro MFP M478-M479 Series",
+          "parent_id" : 157,
+          "parents" : [ {
+            "created_at" : "2014-09-09T15:09:51.000Z",
+            "id" : 157,
+            "name" : "HP Printer",
+            "parent_id" : 8,
+            "updated_at" : "2022-06-21T14:16:26.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 8,
+            "name" : "Printer or Scanner",
+            "parent_id" : null,
+            "updated_at" : "2022-06-21T14:16:24.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-20T14:32:57.000Z",
+          "virtual_parent_id" : null
+        },
+        "device_name" : "Printer or Scanner/HP Printer/HP Color LaserJet Pro MFP M478-M479 Series",
+        "manufacturer" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2019-09-06T18:53:45.000Z",
+          "id" : 70363,
+          "name" : "HP Inc.",
+          "parent_id" : 16861,
+          "parents" : [ {
+            "created_at" : "2017-09-14T18:33:35.000Z",
+            "id" : 16861,
+            "name" : "Hardware Manufacturer",
+            "parent_id" : null,
+            "updated_at" : "2022-06-21T14:16:46.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-21T14:24:16.000Z",
+          "virtual_parent_id" : null
+        },
+        "request_id" : "3c727016-8210-4d1e-a117-43bcb8bcfff2",
+        "score" : 87
+      },
+      "ip" : "192.168.1.192",
+      "mac" : "14:cb:19:9c:d9:45"
+    }, {
+      "custom" : {
+        "confidence" : 60,
+        "deviceCategoryID" : 44,
+        "deviceFamilyID" : 22,
+        "deviceNameID" : 1681,
+        "osNameID" : 56,
+        "vendorID" : 7,
+        "fingerprint_engine_version" : "1.0.2"
+      },
+      "fingerbank" : {
+        "device" : {
+          "can_be_more_precise" : true,
+          "child_devices_count" : 61,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2016-01-18T20:34:13.000Z",
+          "id" : 8181,
+          "name" : "Ubiquiti WAP",
+          "parent_id" : 8135,
+          "parents" : [ {
+            "created_at" : "2016-01-18T19:14:30.000Z",
+            "id" : 8135,
+            "name" : "Wireless Access Point",
+            "parent_id" : 4,
+            "updated_at" : "2022-06-24T14:16:44.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 4,
+            "name" : "Router, Access Point or Femtocell",
+            "parent_id" : null,
+            "updated_at" : "2022-06-24T14:16:33.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-24T14:16:45.000Z",
+          "virtual_parent_id" : null
+        },
+        "device_name" : "Router, Access Point or Femtocell/Wireless Access Point/Ubiquiti WAP",
+        "manufacturer" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2017-09-04T16:41:59.000Z",
+          "id" : 20225,
+          "name" : "Ubiquiti Networks Inc.",
+          "parent_id" : 16861,
+          "parents" : [ {
+            "created_at" : "2017-09-14T18:33:35.000Z",
+            "id" : 16861,
+            "name" : "Hardware Manufacturer",
+            "parent_id" : null,
+            "updated_at" : "2022-06-24T14:17:00.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-23T14:17:51.000Z",
+          "virtual_parent_id" : null
+        },
+        "operating_system" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2020-02-17T20:06:14.000Z",
+          "id" : 76371,
+          "name" : "BusyBox/OpenWrt",
+          "parent_id" : 75475,
+          "parents" : [ {
+            "created_at" : "2020-02-04T19:57:01.000Z",
+            "id" : 75475,
+            "name" : "Embedded Linux",
+            "parent_id" : 5,
+            "updated_at" : "2022-06-24T14:27:17.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 5,
+            "name" : "Linux OS",
+            "parent_id" : 16879,
+            "updated_at" : "2022-06-24T14:16:33.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-14T18:41:06.000Z",
+            "id" : 16879,
+            "name" : "Operating System",
+            "parent_id" : null,
+            "updated_at" : "2022-06-24T14:17:00.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-24T14:27:26.000Z",
+          "virtual_parent_id" : null
+        },
+        "request_id" : "790fb7aa-afb3-4c0d-aa4b-83df27545442",
+        "score" : 49,
+        "fingerprint_engine_version" : ""
+      },
+      "ip" : "192.168.1.25",
+      "mac" : "44:d9:e7:05:80:81",
+      "tdts" : {
+        "deviceCategoryID" : 32,
+        "deviceFamilyID" : 3,
+        "deviceNameID" : 1483,
+        "osClassID" : 5,
+        "osNameID" : 57,
+        "priority" : 8097,
+        "vendorID" : 8,
+        "fingerprint_engine_version" : "0.0.0"
+      }
+    }, {
+      "fingerbank" : {
+        "device" : {
+          "can_be_more_precise" : true,
+          "child_devices_count" : 150,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2014-09-09T15:09:51.000Z",
+          "id" : 148,
+          "name" : "Samsung TV",
+          "parent_id" : 7175,
+          "parents" : [ {
+            "created_at" : "2015-07-07T15:27:54.000Z",
+            "id" : 7175,
+            "name" : "Television",
+            "parent_id" : 7,
+            "updated_at" : "2022-06-27T14:16:38.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 7,
+            "name" : "Audio, Imaging or Video Equipment",
+            "parent_id" : null,
+            "updated_at" : "2022-06-27T14:16:29.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-27T14:16:31.000Z",
+          "virtual_parent_id" : null
+        },
+        "device_name" : "Audio, Imaging or Video Equipment/Television/Samsung TV",
+        "manufacturer" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2017-09-04T16:41:59.000Z",
+          "id" : 17307,
+          "name" : "Samsung",
+          "parent_id" : 16861,
+          "parents" : [ {
+            "created_at" : "2017-09-14T18:33:35.000Z",
+            "id" : 16861,
+            "name" : "Hardware Manufacturer",
+            "parent_id" : null,
+            "updated_at" : "2022-06-27T14:16:55.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-24T14:17:06.000Z",
+          "virtual_parent_id" : null
+        },
+        "operating_system" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2016-05-18T04:06:43.000Z",
+          "id" : 9961,
+          "name" : "Tizen OS",
+          "parent_id" : 16879,
+          "parents" : [ {
+            "created_at" : "2017-09-14T18:41:06.000Z",
+            "id" : 16879,
+            "name" : "Operating System",
+            "parent_id" : null,
+            "updated_at" : "2022-06-27T14:16:55.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-24T14:16:47.000Z",
+          "virtual_parent_id" : null
+        },
+        "request_id" : "525b9b24-c637-47de-ac69-b4d7afd2823e",
+        "score" : 63,
+        "fingerprint_engine_version" : ""
+      },
+      "ip" : "192.168.1.44",
+      "mac" : "68:72:c3:38:2b:36"
+    }, {
+      "custom" : {
+        "confidence" : 99,
+        "deviceCategoryID" : 1,
+        "deviceFamilyID" : 13,
+        "deviceNameID" : 2810,
+        "osNameID" : 18,
+        "vendorID" : 94,
+        "fingerprint_engine_version" : "1.0.2"
+      },
+      "fingerbank" : {
+        "device" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2015-08-05T13:53:20.000Z",
+          "id" : 7406,
+          "name" : "Microsoft Windows Kernel 10.0",
+          "parent_id" : 1,
+          "parents" : [ {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 1,
+            "name" : "Windows OS",
+            "parent_id" : 16879,
+            "updated_at" : "2022-06-23T14:16:35.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-14T18:41:06.000Z",
+            "id" : 16879,
+            "name" : "Operating System",
+            "parent_id" : null,
+            "updated_at" : "2022-06-23T14:17:03.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-22T14:16:54.000Z",
+          "virtual_parent_id" : null
+        },
+        "device_name" : "Operating System/Windows OS/Microsoft Windows Kernel 10.0",
+        "manufacturer" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2017-09-04T16:41:59.000Z",
+          "id" : 16918,
+          "name" : "ASUSTek COMPUTER INC.",
+          "parent_id" : 16861,
+          "parents" : [ {
+            "created_at" : "2017-09-14T18:33:35.000Z",
+            "id" : 16861,
+            "name" : "Hardware Manufacturer",
+            "parent_id" : null,
+            "updated_at" : "2022-06-23T14:17:03.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-23T14:17:04.000Z",
+          "virtual_parent_id" : null
+        },
+        "operating_system" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2015-08-05T13:53:20.000Z",
+          "id" : 7406,
+          "name" : "Microsoft Windows Kernel 10.0",
+          "parent_id" : 1,
+          "parents" : [ {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 1,
+            "name" : "Windows OS",
+            "parent_id" : 16879,
+            "updated_at" : "2022-06-23T14:16:35.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-14T18:41:06.000Z",
+            "id" : 16879,
+            "name" : "Operating System",
+            "parent_id" : null,
+            "updated_at" : "2022-06-23T14:17:03.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-22T14:16:54.000Z",
+          "virtual_parent_id" : null
+        },
+        "request_id" : "d458012c-b283-4598-a019-8f432a14f37a",
+        "score" : 90,
+        "fingerprint_engine_version" : ""
+      },
+      "ip" : "192.168.1.210",
+      "mac" : "7c:10:c9:d0:88:b8",
+      "tdts" : {
+        "deviceCategoryID" : 1,
+        "deviceFamilyID" : 4,
+        "deviceNameID" : 239,
+        "osClassID" : 15,
+        "osNameID" : 19,
+        "priority" : 8998,
+        "vendorID" : 47,
+        "fingerprint_engine_version" : "0.0.0"
+      }
+    }, {
+      "custom" : {
+        "confidence" : 99,
+        "deviceCategoryID" : 46,
+        "deviceFamilyID" : 13,
+        "deviceNameID" : 2137,
+        "osNameID" : 72,
+        "vendorID" : 320,
+        "fingerprint_engine_version" : "1.0.2"
+      },
+      "fingerbank" : {
+        "device" : {
+          "can_be_more_precise" : true,
+          "child_devices_count" : 43,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2014-09-09T15:09:51.000Z",
+          "id" : 38,
+          "name" : "Mac OS X",
+          "parent_id" : 2,
+          "parents" : [ {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 2,
+            "name" : "Mac OS X or macOS",
+            "parent_id" : 33449,
+            "updated_at" : "2022-06-21T14:16:24.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-18T15:49:16.000Z",
+            "id" : 33449,
+            "name" : "Apple OS",
+            "parent_id" : 16879,
+            "updated_at" : "2022-06-21T14:19:48.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-14T18:41:06.000Z",
+            "id" : 16879,
+            "name" : "Operating System",
+            "parent_id" : null,
+            "updated_at" : "2022-06-21T14:16:47.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-20T14:16:47.000Z",
+          "virtual_parent_id" : null
+        },
+        "device_name" : "Operating System/Apple OS/Mac OS X or macOS/Mac OS X",
+        "manufacturer" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2017-09-04T16:41:59.000Z",
+          "id" : 16893,
+          "name" : "Apple, Inc.",
+          "parent_id" : 16861,
+          "parents" : [ {
+            "created_at" : "2017-09-14T18:33:35.000Z",
+            "id" : 16861,
+            "name" : "Hardware Manufacturer",
+            "parent_id" : null,
+            "updated_at" : "2022-06-21T14:16:46.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-21T14:16:47.000Z",
+          "virtual_parent_id" : null
+        },
+        "operating_system" : {
+          "can_be_more_precise" : true,
+          "child_devices_count" : 43,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2014-09-09T15:09:51.000Z",
+          "id" : 38,
+          "name" : "Mac OS X",
+          "parent_id" : 2,
+          "parents" : [ {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 2,
+            "name" : "Mac OS X or macOS",
+            "parent_id" : 33449,
+            "updated_at" : "2022-06-21T14:16:24.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-18T15:49:16.000Z",
+            "id" : 33449,
+            "name" : "Apple OS",
+            "parent_id" : 16879,
+            "updated_at" : "2022-06-21T14:19:48.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-14T18:41:06.000Z",
+            "id" : 16879,
+            "name" : "Operating System",
+            "parent_id" : null,
+            "updated_at" : "2022-06-21T14:16:47.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-20T14:16:47.000Z",
+          "virtual_parent_id" : null
+        },
+        "request_id" : "129c023e-b4ec-409f-9a05-3989171ca404",
+        "score" : 82,
+        "fingerprint_engine_version" : ""
+      },
+      "ip" : "192.168.1.211",
+      "mac" : "a0:99:9b:18:01:93",
+      "tdts" : {
+        "deviceCategoryID" : 1,
+        "deviceFamilyID" : 4,
+        "deviceNameID" : 279,
+        "osClassID" : 7,
+        "osNameID" : 12,
+        "priority" : 8998,
+        "vendorID" : 11,
+        "fingerprint_engine_version" : "0.0.0"
+      }
+    }, {
+      "custom" : {
+        "confidence" : 60,
+        "deviceCategoryID" : 1,
+        "deviceFamilyID" : 13,
+        "deviceNameID" : 2664,
+        "osNameID" : 3,
+        "vendorID" : 66,
+        "fingerprint_engine_version" : "1.0.2"
+      },
+      "fingerbank" : {
+        "device" : {
+          "can_be_more_precise" : true,
+          "child_devices_count" : 26,
+          "child_virtual_devices_count" : 2,
+          "created_at" : "2016-02-04T12:52:10.000Z",
+          "id" : 9417,
+          "name" : "Amazon Android",
+          "parent_id" : 202,
+          "parents" : [ {
+            "created_at" : "2014-09-09T15:09:52.000Z",
+            "id" : 202,
+            "name" : "Generic Android",
+            "parent_id" : 11,
+            "updated_at" : "2022-06-17T14:16:34.000Z",
+            "virtual_parent_id" : 33453
+          }, {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 11,
+            "name" : "Phone, Tablet or Wearable",
+            "parent_id" : null,
+            "updated_at" : "2022-06-17T14:16:33.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-17T14:16:42.000Z",
+          "virtual_parent_id" : null
+        },
+        "device_name" : "Phone, Tablet or Wearable/Generic Android/Amazon Android",
+        "manufacturer" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2017-09-04T16:41:59.000Z",
+          "id" : 20282,
+          "name" : "Amazon Technologies Inc.",
+          "parent_id" : 16861,
+          "parents" : [ {
+            "created_at" : "2017-09-14T18:33:35.000Z",
+            "id" : 16861,
+            "name" : "Hardware Manufacturer",
+            "parent_id" : null,
+            "updated_at" : "2022-06-17T14:16:52.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-17T14:17:26.000Z",
+          "virtual_parent_id" : null
+        },
+        "operating_system" : {
+          "can_be_more_precise" : true,
+          "child_devices_count" : 3,
+          "child_virtual_devices_count" : 2,
+          "created_at" : "2017-09-18T17:12:14.000Z",
+          "id" : 33453,
+          "name" : "Android OS",
+          "parent_id" : 33452,
+          "parents" : [ {
+            "created_at" : "2017-09-18T17:08:09.000Z",
+            "id" : 33452,
+            "name" : "Google OS",
+            "parent_id" : 16879,
+            "updated_at" : "2022-06-17T14:19:40.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-14T18:41:06.000Z",
+            "id" : 16879,
+            "name" : "Operating System",
+            "parent_id" : null,
+            "updated_at" : "2022-06-17T14:16:52.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-17T14:19:40.000Z",
+          "virtual_parent_id" : null
+        },
+        "request_id" : "5d81d976-fc1a-4613-830b-b326eb0fb603",
+        "score" : 21,
+        "fingerprint_engine_version" : ""
+      },
+      "ip" : "192.168.1.77",
+      "mac" : "a4:08:01:8e:57:a6",
+      "tdts" : {
+        "deviceCategoryID" : 1,
+        "deviceFamilyID" : 4,
+        "deviceNameID" : 283,
+        "osClassID" : 3,
+        "osNameID" : 3,
+        "priority" : 8998,
+        "vendorID" : 1,
+        "fingerprint_engine_version" : "0.0.0"
+      }
+    }, {
+      "custom" : {
+        "confidence" : 99,
+        "deviceCategoryID" : 46,
+        "deviceFamilyID" : 13,
+        "deviceNameID" : 2139,
+        "osNameID" : 72,
+        "vendorID" : 320,
+        "fingerprint_engine_version" : "1.0.2"
+      },
+      "fingerbank" : {
+        "device" : {
+          "can_be_more_precise" : true,
+          "child_devices_count" : 14,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2018-06-20T12:27:15.000Z",
+          "id" : 37605,
+          "name" : "Apple MacBook Air",
+          "parent_id" : 38,
+          "parents" : [ {
+            "created_at" : "2014-09-09T15:09:51.000Z",
+            "id" : 38,
+            "name" : "Mac OS X",
+            "parent_id" : 2,
+            "updated_at" : "2022-06-21T14:16:25.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 2,
+            "name" : "Mac OS X or macOS",
+            "parent_id" : 33449,
+            "updated_at" : "2022-06-21T14:16:24.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-18T15:49:16.000Z",
+            "id" : 33449,
+            "name" : "Apple OS",
+            "parent_id" : 16879,
+            "updated_at" : "2022-06-21T14:19:48.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-14T18:41:06.000Z",
+            "id" : 16879,
+            "name" : "Operating System",
+            "parent_id" : null,
+            "updated_at" : "2022-06-21T14:16:47.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-20T14:22:46.000Z",
+          "virtual_parent_id" : null
+        },
+        "device_name" : "Operating System/Apple OS/Mac OS X or macOS/Mac OS X/Apple MacBook Air",
+        "manufacturer" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2017-09-04T16:41:59.000Z",
+          "id" : 16893,
+          "name" : "Apple, Inc.",
+          "parent_id" : 16861,
+          "parents" : [ {
+            "created_at" : "2017-09-14T18:33:35.000Z",
+            "id" : 16861,
+            "name" : "Hardware Manufacturer",
+            "parent_id" : null,
+            "updated_at" : "2022-06-21T14:16:46.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-21T14:16:47.000Z",
+          "virtual_parent_id" : null
+        },
+        "operating_system" : {
+          "can_be_more_precise" : true,
+          "child_devices_count" : 14,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2018-06-20T12:27:15.000Z",
+          "id" : 37605,
+          "name" : "Apple MacBook Air",
+          "parent_id" : 38,
+          "parents" : [ {
+            "created_at" : "2014-09-09T15:09:51.000Z",
+            "id" : 38,
+            "name" : "Mac OS X",
+            "parent_id" : 2,
+            "updated_at" : "2022-06-21T14:16:25.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 2,
+            "name" : "Mac OS X or macOS",
+            "parent_id" : 33449,
+            "updated_at" : "2022-06-21T14:16:24.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-18T15:49:16.000Z",
+            "id" : 33449,
+            "name" : "Apple OS",
+            "parent_id" : 16879,
+            "updated_at" : "2022-06-21T14:19:48.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-14T18:41:06.000Z",
+            "id" : 16879,
+            "name" : "Operating System",
+            "parent_id" : null,
+            "updated_at" : "2022-06-21T14:16:47.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-20T14:22:46.000Z",
+          "virtual_parent_id" : null
+        },
+        "request_id" : "026cf342-5b80-424b-867a-11e5bd45bcb1",
+        "score" : 80,
+        "fingerprint_engine_version" : ""
+      },
+      "ip" : "192.168.1.70",
+      "mac" : "b0:be:83:26:81:c4",
+      "tdts" : {
+        "deviceCategoryID" : 1,
+        "deviceFamilyID" : 4,
+        "deviceNameID" : 239,
+        "osClassID" : 15,
+        "osNameID" : 19,
+        "priority" : 8998,
+        "vendorID" : 47,
+        "fingerprint_engine_version" : "0.0.0"
+      }
+    }, {
+      "custom" : {
+        "confidence" : 99,
+        "deviceCategoryID" : 46,
+        "deviceFamilyID" : 13,
+        "deviceNameID" : 2139,
+        "osNameID" : 72,
+        "vendorID" : 320,
+        "fingerprint_engine_version" : "1.0.2"
+      },
+      "fingerbank" : {
+        "device" : {
+          "can_be_more_precise" : true,
+          "child_devices_count" : 43,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2014-09-09T15:09:51.000Z",
+          "id" : 38,
+          "name" : "Mac OS X",
+          "parent_id" : 2,
+          "parents" : [ {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 2,
+            "name" : "Mac OS X or macOS",
+            "parent_id" : 33449,
+            "updated_at" : "2022-06-27T14:16:29.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-18T15:49:16.000Z",
+            "id" : 33449,
+            "name" : "Apple OS",
+            "parent_id" : 16879,
+            "updated_at" : "2022-06-27T14:20:19.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-14T18:41:06.000Z",
+            "id" : 16879,
+            "name" : "Operating System",
+            "parent_id" : null,
+            "updated_at" : "2022-06-27T14:16:55.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-24T14:16:34.000Z",
+          "virtual_parent_id" : null
+        },
+        "device_name" : "Operating System/Apple OS/Mac OS X or macOS/Mac OS X",
+        "manufacturer" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2017-09-04T16:41:59.000Z",
+          "id" : 16893,
+          "name" : "Apple, Inc.",
+          "parent_id" : 16861,
+          "parents" : [ {
+            "created_at" : "2017-09-14T18:33:35.000Z",
+            "id" : 16861,
+            "name" : "Hardware Manufacturer",
+            "parent_id" : null,
+            "updated_at" : "2022-06-27T14:16:55.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-24T14:17:00.000Z",
+          "virtual_parent_id" : null
+        },
+        "operating_system" : {
+          "can_be_more_precise" : true,
+          "child_devices_count" : 43,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2014-09-09T15:09:51.000Z",
+          "id" : 38,
+          "name" : "Mac OS X",
+          "parent_id" : 2,
+          "parents" : [ {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 2,
+            "name" : "Mac OS X or macOS",
+            "parent_id" : 33449,
+            "updated_at" : "2022-06-27T14:16:29.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-18T15:49:16.000Z",
+            "id" : 33449,
+            "name" : "Apple OS",
+            "parent_id" : 16879,
+            "updated_at" : "2022-06-27T14:20:19.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-14T18:41:06.000Z",
+            "id" : 16879,
+            "name" : "Operating System",
+            "parent_id" : null,
+            "updated_at" : "2022-06-27T14:16:55.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-24T14:16:34.000Z",
+          "virtual_parent_id" : null
+        },
+        "request_id" : "38c6ef97-e1a1-4ceb-9da1-b9a613844a6e",
+        "score" : 71,
+        "fingerprint_engine_version" : ""
+      },
+      "ip" : "192.168.1.139",
+      "mac" : "b0:be:83:30:cb:6b",
+      "tdts" : {
+        "deviceCategoryID" : 1,
+        "deviceFamilyID" : 4,
+        "deviceNameID" : 279,
+        "osClassID" : 7,
+        "osNameID" : 12,
+        "priority" : 8998,
+        "vendorID" : 11,
+        "fingerprint_engine_version" : "0.0.0"
+      }
+    }, {
+      "custom" : {
+        "confidence" : 100,
+        "deviceCategoryID" : 57,
+        "deviceFamilyID" : 35,
+        "deviceNameID" : 2641,
+        "osNameID" : 1,
+        "vendorID" : 234,
+        "fingerprint_engine_version" : "1.0.2"
+      },
+      "fingerbank" : {
+        "device" : {
+          "can_be_more_precise" : true,
+          "child_devices_count" : 61,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2016-01-18T20:34:13.000Z",
+          "id" : 8181,
+          "name" : "Ubiquiti WAP",
+          "parent_id" : 8135,
+          "parents" : [ {
+            "created_at" : "2016-01-18T19:14:30.000Z",
+            "id" : 8135,
+            "name" : "Wireless Access Point",
+            "parent_id" : 4,
+            "updated_at" : "2022-06-27T14:16:39.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 4,
+            "name" : "Router, Access Point or Femtocell",
+            "parent_id" : null,
+            "updated_at" : "2022-06-27T14:16:29.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-27T14:16:40.000Z",
+          "virtual_parent_id" : null
+        },
+        "device_name" : "Router, Access Point or Femtocell/Wireless Access Point/Ubiquiti WAP",
+        "manufacturer" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2017-09-04T16:41:59.000Z",
+          "id" : 20225,
+          "name" : "Ubiquiti Networks Inc.",
+          "parent_id" : 16861,
+          "parents" : [ {
+            "created_at" : "2017-09-14T18:33:35.000Z",
+            "id" : 16861,
+            "name" : "Hardware Manufacturer",
+            "parent_id" : null,
+            "updated_at" : "2022-06-27T14:16:55.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-27T14:17:36.000Z",
+          "virtual_parent_id" : null
+        },
+        "operating_system" : {
+          "can_be_more_precise" : false,
+          "child_devices_count" : 0,
+          "child_virtual_devices_count" : 0,
+          "created_at" : "2020-02-17T20:06:14.000Z",
+          "id" : 76371,
+          "name" : "BusyBox/OpenWrt",
+          "parent_id" : 75475,
+          "parents" : [ {
+            "created_at" : "2020-02-04T19:57:01.000Z",
+            "id" : 75475,
+            "name" : "Embedded Linux",
+            "parent_id" : 5,
+            "updated_at" : "2022-06-27T14:26:05.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2014-09-09T15:09:50.000Z",
+            "id" : 5,
+            "name" : "Linux OS",
+            "parent_id" : 16879,
+            "updated_at" : "2022-06-27T14:16:29.000Z",
+            "virtual_parent_id" : null
+          }, {
+            "created_at" : "2017-09-14T18:41:06.000Z",
+            "id" : 16879,
+            "name" : "Operating System",
+            "parent_id" : null,
+            "updated_at" : "2022-06-27T14:16:55.000Z",
+            "virtual_parent_id" : null
+          } ],
+          "updated_at" : "2022-06-27T14:26:14.000Z",
+          "virtual_parent_id" : null
+        },
+        "request_id" : "f14ce9e6-f7b5-40bb-b28b-a923b8d53402",
+        "score" : 25,
+        "fingerprint_engine_version" : ""
+      },
+      "ip" : "192.168.1.158",
+      "mac" : "b4:fb:e4:7f:72:a7",
+      "ui" : {
+        "fw_version" : "UVC.S2LM.v4.41.16.67.db78752.210719.1647",
+        "unifi" : {
+          "adoptability" : "adoptable",
+          "protect" : {
+            "fov" : 92,
+            "suggestedDistance" : 4
+          }
+        },
+        "fingerprint_engine_version" : "0.0.0",
+        "product_line" : "unifi-protect",
+        "product_model" : "Camera G3 Micro",
+        "icon_filename" : "aea0b2dd-53a7-4a01-9057-d4278f7430bc",
+        "icon_resolutions" : [ [ 101, 101 ], [ 129, 129 ], [ 25, 25 ], [ 257, 257 ], [ 51, 51 ] ]
+      }
+    } ],
+    "version" : {
+      "custom" : "1.0.2",
+      "fingerbank" : ""
+    }
+  },
+  "fw_caps" : 1651416107,
+  "geo_info" : {
+    "WAN" : {
+      "accuracy" : 5.0,
+      "address" : "174.100.165.160",
+      "asn" : 10796,
+      "city" : "Beachwood",
+      "continent_code" : "NA",
+      "country_code" : "US",
+      "country_name" : "United States",
+      "isp_name" : "Spectrum",
+      "isp_organization" : "TWC-10796-MIDWEST",
+      "latitude" : 41.4712,
+      "longitude" : -81.5248,
+      "timezone" : "America/New_York"
+    }
+  },
+  "guest_kicks" : 0,
+  "guest_token" : "F42920D44AE79BA92A8BEA2231755CF9",
+  "has_default_route_distance" : true,
+  "has_eth1" : false,
+  "has_speaker" : false,
+  "has_ssh_disable" : true,
+  "has_vti" : true,
+  "hash_id" : "20299aa80404710a",
+  "hostname" : "SpencerFi-HomeBase",
+  "hw_caps" : 24,
+  "if_table" : [ {
+    "drops" : 4,
+    "ip" : "174.100.165.160",
+    "latency" : 30,
+    "name" : "eth8",
+    "netmask" : "255.255.240.0",
+    "num_port" : 1,
+    "rx_bytes" : 104274370461,
+    "rx_dropped" : 0,
+    "rx_errors" : 0,
+    "rx_multicast" : 0,
+    "rx_packets" : 179125801,
+    "speedtest_lastrun" : 1656352887,
+    "speedtest_ping" : 38,
+    "speedtest_status" : "Success",
+    "tx_bytes" : 13767043394,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_packets" : 48324879,
+    "up" : true,
+    "uptime" : 506367,
+    "xput_down" : 400.819,
+    "xput_up" : 23.378,
+    "port_idx" : 9,
+    "media" : "GE",
+    "speed" : 1000,
+    "full_duplex" : true,
+    "rx_rate" : 50965,
+    "tx_rate" : 485433,
+    "max_speed" : 1000,
+    "type" : "wire",
+    "tx_bytes-r" : 60679,
+    "rx_bytes-r" : 6370,
+    "uplink_source" : "legacy",
+    "bytes-r" : 67049
+  }, {
+    "drops" : 0,
+    "name" : "eth9",
+    "num_port" : 1,
+    "rx_bytes" : 0,
+    "rx_dropped" : 0,
+    "rx_errors" : 0,
+    "rx_multicast" : 0,
+    "rx_packets" : 0,
+    "tx_bytes" : 0,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_packets" : 0,
+    "up" : false
+  }, {
+    "drops" : 0,
+    "enable" : true,
+    "full_duplex" : false,
+    "ip" : "192.168.4.1",
+    "mac" : "76:ac:b9:3e:e7:54",
+    "name" : "switch0",
+    "netmask" : "255.255.255.0",
+    "num_port" : 2,
+    "rx_bytes" : 187037625,
+    "rx_dropped" : 0,
+    "rx_errors" : 0,
+    "rx_multicast" : 0,
+    "rx_packets" : 297820,
+    "speed" : 10,
+    "tx_bytes" : 670426848,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_packets" : 911309,
+    "up" : true
+  } ],
+  "inform_ip" : "127.0.0.1",
+  "inform_min_interval" : 1,
+  "inform_url" : "http://localhost:8080/inform",
+  "internet" : true,
+  "ip" : "174.100.165.160",
+  "isolated" : false,
+  "kernel_version" : "4.19.152-al-linux-v10.2.0-v1.12.22.4309-4105ace",
+  "last_error_conns" : [ {
+    "error_reason" : 3,
+    "last_error_str" : "Unreachable (http://localhost:8080/inform)",
+    "last_managed_e_time" : 0,
+    "last_managed_s_time" : 0,
+    "timestamp" : "Mon Jun  6 00:05:49 2022"
+  }, {
+    "error_reason" : 7,
+    "last_error_str" : "Server Busy (http://localhost:8080/inform)",
+    "last_managed_e_time" : 0,
+    "last_managed_s_time" : 0,
+    "timestamp" : "Mon Jun  6 00:06:46 2022"
+  }, {
+    "error_reason" : 6,
+    "last_error_str" : "Not Adopted (http://localhost:8080/inform)",
+    "last_managed_e_time" : 0,
+    "last_managed_s_time" : 0,
+    "timestamp" : "Mon Jun  6 00:06:47 2022"
+  }, {
+    "error_reason" : 6,
+    "last_error_str" : "Not Adopted (http://localhost:8080/inform)",
+    "last_managed_e_time" : 101,
+    "last_managed_s_time" : 0,
+    "timestamp" : "Mon Jun  6 00:06:49 2022"
+  }, {
+    "error_reason" : 7,
+    "last_error_str" : "Server Busy (http://localhost:8080/inform)",
+    "last_managed_e_time" : 101,
+    "last_managed_s_time" : 0,
+    "timestamp" : "Mon Jun  6 00:07:17 2022"
+  }, {
+    "error_reason" : 7,
+    "last_error_str" : "Server Busy (http://localhost:8080/inform)",
+    "last_managed_e_time" : 101,
+    "last_managed_s_time" : 137,
+    "timestamp" : "Tue Jun  7 04:00:10 2022"
+  } ],
+  "led_state" : {
+    "pattern" : "1",
+    "tempo" : 120
+  },
+  "lldp_table" : [ {
+    "chassis_id" : "18:e8:29:2b:36:81",
+    "chassis_id_subtype" : "mac",
+    "is_wired" : true,
+    "local_port_idx" : 1,
+    "local_port_name" : "eth0",
+    "port_id" : "local Port 13"
+  }, {
+    "chassis_id" : "7c:10:c9:d0:88:b8",
+    "chassis_id_subtype" : "mac",
+    "is_wired" : true,
+    "local_port_idx" : 4,
+    "local_port_name" : "eth3",
+    "port_id" : "7c:10:c9:d0:88:b8"
+  }, {
+    "chassis_id" : "18:e8:29:2b:36:81",
+    "chassis_id_subtype" : "mac",
+    "is_wired" : true,
+    "local_port_idx" : 5,
+    "local_port_name" : "eth4",
+    "port_id" : "local Port 7"
+  } ],
+  "locating" : false,
+  "mac" : "74:ac:b9:3e:e7:53",
+  "manufacturer_id" : 4,
+  "model" : "UDMPRO",
+  "model_display" : "UniFi Dream Machine PRO",
+  "netmask" : "255.255.240.0",
+  "network_table" : [ {
+    "address" : "174.100.165.160/20",
+    "addresses" : [ "174.100.165.160/20" ],
+    "autoneg" : "true",
+    "duplex" : "full",
+    "mac" : "74:ac:b9:3e:e7:5b",
+    "mtu" : "1500",
+    "name" : "eth8",
+    "speed" : "1000",
+    "stats" : {
+      "multicast" : "0",
+      "rx_bytes" : 104274370461,
+      "rx_dropped" : 0,
+      "rx_errors" : 0,
+      "rx_multicast" : 0,
+      "rx_packets" : 179125801,
+      "tx_bytes" : 13767043394,
+      "tx_dropped" : 0,
+      "tx_errors" : 0,
+      "tx_packets" : 48324879
+    },
+    "up" : true
+  }, {
+    "autoneg" : "true",
+    "duplex" : "full",
+    "mac" : "74:ac:b9:3e:e7:5c",
+    "mtu" : "1500",
+    "name" : "eth9",
+    "speed" : "1000",
+    "stats" : {
+      "multicast" : "0",
+      "rx_bytes" : 0,
+      "rx_dropped" : 0,
+      "rx_errors" : 0,
+      "rx_multicast" : 0,
+      "rx_packets" : 0,
+      "tx_bytes" : 0,
+      "tx_dropped" : 0,
+      "tx_errors" : 0,
+      "tx_packets" : 0
+    },
+    "up" : false
+  }, {
+    "active_dhcp_lease_count" : 28,
+    "address" : "192.168.1.1/24",
+    "addresses" : [ "192.168.1.1/24" ],
+    "autoneg" : "true",
+    "duplex" : "half",
+    "mac" : "76:ac:b9:3e:e7:54",
+    "mtu" : "1500",
+    "name" : "br0",
+    "speed" : "10",
+    "stats" : {
+      "multicast" : "0",
+      "rx_bytes" : 11929080440,
+      "rx_dropped" : 0,
+      "rx_errors" : 0,
+      "rx_multicast" : 0,
+      "rx_packets" : 48889503,
+      "tx_bytes" : 89671559034,
+      "tx_dropped" : 0,
+      "tx_errors" : 0,
+      "tx_packets" : 83460478
+    },
+    "up" : true
+  }, {
+    "active_dhcp_lease_count" : 0,
+    "address" : "192.168.5.1/24",
+    "addresses" : [ "192.168.5.1/24" ],
+    "autoneg" : "true",
+    "duplex" : "half",
+    "mac" : "74:ac:b9:3e:e7:5d",
+    "mtu" : "1500",
+    "name" : "br13",
+    "speed" : "10",
+    "stats" : {
+      "multicast" : "0",
+      "rx_bytes" : 0,
+      "rx_dropped" : 0,
+      "rx_errors" : 0,
+      "rx_multicast" : 0,
+      "rx_packets" : 0,
+      "tx_bytes" : 16656698,
+      "tx_dropped" : 0,
+      "tx_errors" : 0,
+      "tx_packets" : 361883
+    },
+    "up" : true
+  }, {
+    "active_dhcp_lease_count" : 1,
+    "address" : "192.168.2.1/24",
+    "addresses" : [ "192.168.2.1/24" ],
+    "autoneg" : "true",
+    "duplex" : "half",
+    "mac" : "74:ac:b9:3e:e7:5d",
+    "mtu" : "1500",
+    "name" : "br2",
+    "speed" : "10",
+    "stats" : {
+      "multicast" : "0",
+      "rx_bytes" : 240492720,
+      "rx_dropped" : 0,
+      "rx_errors" : 0,
+      "rx_multicast" : 0,
+      "rx_packets" : 710562,
+      "tx_bytes" : 69490133,
+      "tx_dropped" : 0,
+      "tx_errors" : 0,
+      "tx_packets" : 1013942
+    },
+    "up" : true
+  }, {
+    "active_dhcp_lease_count" : 2,
+    "address" : "192.168.3.1/24",
+    "addresses" : [ "192.168.3.1/24" ],
+    "autoneg" : "true",
+    "duplex" : "half",
+    "mac" : "74:ac:b9:3e:e7:5d",
+    "mtu" : "1500",
+    "name" : "br3",
+    "speed" : "10",
+    "stats" : {
+      "multicast" : "0",
+      "rx_bytes" : 2021854545,
+      "rx_dropped" : 0,
+      "rx_errors" : 0,
+      "rx_multicast" : 0,
+      "rx_packets" : 4792452,
+      "tx_bytes" : 10368471796,
+      "tx_dropped" : 0,
+      "tx_errors" : 0,
+      "tx_packets" : 8679453
+    },
+    "up" : true
+  }, {
+    "active_dhcp_lease_count" : 1,
+    "address" : "192.168.4.1/24",
+    "addresses" : [ "192.168.4.1/24" ],
+    "autoneg" : "true",
+    "duplex" : "half",
+    "mac" : "74:ac:b9:3e:e7:5d",
+    "mtu" : "1500",
+    "name" : "br4",
+    "speed" : "10",
+    "stats" : {
+      "multicast" : "0",
+      "rx_bytes" : 187037625,
+      "rx_dropped" : 0,
+      "rx_errors" : 0,
+      "rx_multicast" : 0,
+      "rx_packets" : 297820,
+      "tx_bytes" : 670418474,
+      "tx_dropped" : 0,
+      "tx_errors" : 0,
+      "tx_packets" : 911251
+    },
+    "up" : true
+  } ],
+  "port_table" : [ {
+    "autoneg" : true,
+    "enable" : true,
+    "flowctrl_rx" : false,
+    "flowctrl_tx" : false,
+    "full_duplex" : true,
+    "is_uplink" : false,
+    "mac" : "74:ac:b9:3e:e7:53",
+    "media" : "GE",
+    "name" : "eth0",
+    "num_port" : 1,
+    "port_idx" : 1,
+    "port_poe" : false,
+    "rx_broadcast" : 203,
+    "rx_bytes" : 7792664,
+    "rx_dropped" : 216,
+    "rx_errors" : 0,
+    "rx_multicast" : 62632,
+    "rx_packets" : 62950,
+    "rx_rate" : 0,
+    "rx_rate-max" : 776,
+    "speed" : 1000,
+    "speed_caps" : 1048623,
+    "tx_broadcast" : 1187673,
+    "tx_bytes" : 355423474,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_multicast" : 2474327,
+    "tx_packets" : 3666067,
+    "tx_rate" : 400,
+    "tx_rate-max" : 6128,
+    "type" : "ethernet",
+    "up" : true,
+    "ifname" : "eth0",
+    "tx_bytes-r" : 366,
+    "rx_bytes-r" : 0,
+    "bytes-r" : 366
+  }, {
+    "autoneg" : true,
+    "enable" : true,
+    "flowctrl_rx" : true,
+    "flowctrl_tx" : false,
+    "full_duplex" : false,
+    "is_uplink" : false,
+    "mac" : "74:ac:b9:3e:e7:54",
+    "media" : "GE",
+    "name" : "eth1",
+    "num_port" : 1,
+    "port_idx" : 2,
+    "port_poe" : false,
+    "rx_broadcast" : 1036,
+    "rx_bytes" : 323228891,
+    "rx_dropped" : 10,
+    "rx_errors" : 10,
+    "rx_multicast" : 2724,
+    "rx_packets" : 1589746,
+    "rx_rate" : 0,
+    "rx_rate-max" : 0,
+    "speed" : 10,
+    "speed_caps" : 1048623,
+    "tx_broadcast" : 7369,
+    "tx_bytes" : 3291550408,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_multicast" : 18080,
+    "tx_packets" : 2622955,
+    "tx_rate" : 0,
+    "tx_rate-max" : 0,
+    "type" : "ethernet",
+    "up" : false,
+    "ifname" : "eth1",
+    "tx_bytes-r" : 0,
+    "rx_bytes-r" : 0,
+    "bytes-r" : 0,
+    "port_delta" : {
+      "time_delta" : 1,
+      "time_delta_activity" : 1670119
+    }
+  }, {
+    "autoneg" : true,
+    "enable" : true,
+    "flowctrl_rx" : false,
+    "flowctrl_tx" : false,
+    "full_duplex" : true,
+    "is_uplink" : false,
+    "mac" : "74:ac:b9:3e:e7:5d",
+    "media" : "SFP+",
+    "name" : "eth10",
+    "num_port" : 1,
+    "port_idx" : 11,
+    "port_poe" : false,
+    "rx_broadcast" : 0,
+    "rx_bytes" : 0,
+    "rx_dropped" : 0,
+    "rx_errors" : 0,
+    "rx_multicast" : 0,
+    "rx_packets" : 0,
+    "rx_rate-max" : 0,
+    "speed" : 1000,
+    "speed_caps" : 1048864,
+    "tx_broadcast" : 0,
+    "tx_bytes" : 0,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_multicast" : 0,
+    "tx_packets" : 0,
+    "tx_rate-max" : 0,
+    "type" : "ethernet",
+    "up" : false,
+    "ifname" : "eth10",
+    "tx_bytes-r" : 0,
+    "rx_bytes-r" : 0,
+    "bytes-r" : 0,
+    "port_delta" : {
+      "time_delta" : 1,
+      "time_delta_activity" : 1656387825
+    }
+  }, {
+    "autoneg" : true,
+    "enable" : true,
+    "flowctrl_rx" : false,
+    "flowctrl_tx" : false,
+    "full_duplex" : false,
+    "is_uplink" : false,
+    "mac" : "74:ac:b9:3e:e7:55",
+    "media" : "GE",
+    "name" : "eth2",
+    "num_port" : 1,
+    "port_idx" : 3,
+    "port_poe" : false,
+    "rx_broadcast" : 0,
+    "rx_bytes" : 0,
+    "rx_dropped" : 0,
+    "rx_errors" : 0,
+    "rx_multicast" : 0,
+    "rx_packets" : 0,
+    "rx_rate" : 0,
+    "rx_rate-max" : 0,
+    "speed" : 10,
+    "speed_caps" : 1048623,
+    "tx_broadcast" : 0,
+    "tx_bytes" : 0,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_multicast" : 0,
+    "tx_packets" : 0,
+    "tx_rate" : 0,
+    "tx_rate-max" : 0,
+    "type" : "ethernet",
+    "up" : false,
+    "ifname" : "eth2",
+    "tx_bytes-r" : 0,
+    "rx_bytes-r" : 0,
+    "bytes-r" : 0,
+    "port_delta" : {
+      "time_delta" : 1,
+      "time_delta_activity" : 1656387825
+    }
+  }, {
+    "autoneg" : true,
+    "enable" : true,
+    "flowctrl_rx" : false,
+    "flowctrl_tx" : true,
+    "full_duplex" : true,
+    "is_uplink" : false,
+    "mac" : "74:ac:b9:3e:e7:56",
+    "media" : "GE",
+    "name" : "eth3",
+    "num_port" : 1,
+    "port_idx" : 4,
+    "port_poe" : false,
+    "rx_broadcast" : 1216,
+    "rx_bytes" : 167832340,
+    "rx_dropped" : 110,
+    "rx_errors" : 0,
+    "rx_multicast" : 3986,
+    "rx_packets" : 1143600,
+    "rx_rate" : 800,
+    "rx_rate-max" : 1240,
+    "speed" : 1000,
+    "speed_caps" : 1048623,
+    "tx_broadcast" : 1186550,
+    "tx_bytes" : 3479416640,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_multicast" : 2472431,
+    "tx_packets" : 6045053,
+    "tx_rate" : 800,
+    "tx_rate-max" : 6056,
+    "type" : "ethernet",
+    "up" : true,
+    "ifname" : "eth3",
+    "tx_bytes-r" : 430,
+    "rx_bytes-r" : 128,
+    "bytes-r" : 558
+  }, {
+    "autoneg" : true,
+    "enable" : true,
+    "flowctrl_rx" : false,
+    "flowctrl_tx" : false,
+    "full_duplex" : true,
+    "is_uplink" : false,
+    "mac" : "74:ac:b9:3e:e7:57",
+    "media" : "GE",
+    "name" : "eth4",
+    "num_port" : 1,
+    "port_idx" : 5,
+    "port_poe" : false,
+    "rx_broadcast" : 266285,
+    "rx_bytes" : 14936647684,
+    "rx_dropped" : 223,
+    "rx_errors" : 0,
+    "rx_multicast" : 1563933,
+    "rx_packets" : 52318273,
+    "rx_rate" : 81096,
+    "rx_rate-max" : 130616,
+    "speed" : 1000,
+    "speed_caps" : 1048623,
+    "tx_broadcast" : 921606,
+    "tx_bytes" : 94811337696,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_multicast" : 973016,
+    "tx_packets" : 89477186,
+    "tx_rate" : 23304,
+    "tx_rate-max" : 105384,
+    "type" : "ethernet",
+    "up" : true,
+    "ifname" : "eth4",
+    "tx_bytes-r" : 7076,
+    "rx_bytes-r" : 29707,
+    "bytes-r" : 36783
+  }, {
+    "autoneg" : true,
+    "enable" : true,
+    "flowctrl_rx" : false,
+    "flowctrl_tx" : false,
+    "full_duplex" : false,
+    "is_uplink" : false,
+    "mac" : "74:ac:b9:3e:e7:58",
+    "media" : "GE",
+    "name" : "eth5",
+    "num_port" : 1,
+    "port_idx" : 6,
+    "port_poe" : false,
+    "rx_broadcast" : 0,
+    "rx_bytes" : 0,
+    "rx_dropped" : 0,
+    "rx_errors" : 0,
+    "rx_multicast" : 0,
+    "rx_packets" : 0,
+    "rx_rate" : 0,
+    "rx_rate-max" : 0,
+    "speed" : 10,
+    "speed_caps" : 1048623,
+    "tx_broadcast" : 0,
+    "tx_bytes" : 0,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_multicast" : 0,
+    "tx_packets" : 0,
+    "tx_rate" : 0,
+    "tx_rate-max" : 0,
+    "type" : "ethernet",
+    "up" : false,
+    "ifname" : "eth5",
+    "tx_bytes-r" : 0,
+    "rx_bytes-r" : 0,
+    "bytes-r" : 0,
+    "port_delta" : {
+      "time_delta" : 1,
+      "time_delta_activity" : 1656387825
+    }
+  }, {
+    "autoneg" : true,
+    "enable" : true,
+    "flowctrl_rx" : false,
+    "flowctrl_tx" : false,
+    "full_duplex" : false,
+    "is_uplink" : false,
+    "mac" : "74:ac:b9:3e:e7:59",
+    "media" : "GE",
+    "name" : "eth6",
+    "num_port" : 1,
+    "port_idx" : 7,
+    "port_poe" : false,
+    "rx_broadcast" : 0,
+    "rx_bytes" : 0,
+    "rx_dropped" : 0,
+    "rx_errors" : 0,
+    "rx_multicast" : 0,
+    "rx_packets" : 0,
+    "rx_rate" : 0,
+    "rx_rate-max" : 0,
+    "speed" : 10,
+    "speed_caps" : 1048623,
+    "tx_broadcast" : 0,
+    "tx_bytes" : 0,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_multicast" : 0,
+    "tx_packets" : 0,
+    "tx_rate" : 0,
+    "tx_rate-max" : 0,
+    "type" : "ethernet",
+    "up" : false,
+    "ifname" : "eth6",
+    "tx_bytes-r" : 0,
+    "rx_bytes-r" : 0,
+    "bytes-r" : 0,
+    "port_delta" : {
+      "time_delta" : 1,
+      "time_delta_activity" : 1656387825
+    }
+  }, {
+    "autoneg" : true,
+    "enable" : true,
+    "flowctrl_rx" : false,
+    "flowctrl_tx" : false,
+    "full_duplex" : false,
+    "is_uplink" : false,
+    "mac" : "74:ac:b9:3e:e7:5a",
+    "media" : "GE",
+    "name" : "eth7",
+    "num_port" : 1,
+    "port_idx" : 8,
+    "port_poe" : false,
+    "rx_broadcast" : 0,
+    "rx_bytes" : 0,
+    "rx_dropped" : 0,
+    "rx_errors" : 0,
+    "rx_multicast" : 0,
+    "rx_packets" : 0,
+    "rx_rate" : 0,
+    "rx_rate-max" : 0,
+    "speed" : 10,
+    "speed_caps" : 1048623,
+    "tx_broadcast" : 0,
+    "tx_bytes" : 0,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_multicast" : 0,
+    "tx_packets" : 0,
+    "tx_rate" : 0,
+    "tx_rate-max" : 0,
+    "type" : "ethernet",
+    "up" : false,
+    "ifname" : "eth7",
+    "tx_bytes-r" : 0,
+    "rx_bytes-r" : 0,
+    "bytes-r" : 0,
+    "port_delta" : {
+      "time_delta" : 1,
+      "time_delta_activity" : 1656387825
+    }
+  }, {
+    "autoneg" : true,
+    "enable" : true,
+    "flowctrl_rx" : false,
+    "flowctrl_tx" : false,
+    "full_duplex" : true,
+    "is_uplink" : true,
+    "mac" : "74:ac:b9:3e:e7:5b",
+    "mac_table" : [ {
+      "age" : 492966,
+      "authorized" : true,
+      "hostname" : "142-254-157-105.inf.spectrum.com",
+      "ip" : "142.254.157.105",
+      "lastReachable" : 27,
+      "mac" : "00:01:5c:89:de:46"
+    } ],
+    "media" : "GE",
+    "name" : "eth8",
+    "num_port" : 1,
+    "port_idx" : 9,
+    "port_poe" : false,
+    "rx_broadcast" : 0,
+    "rx_bytes" : 104274370461,
+    "rx_dropped" : 0,
+    "rx_errors" : 0,
+    "rx_multicast" : 0,
+    "rx_packets" : 179125801,
+    "rx_rate" : 50965,
+    "rx_rate-max" : 200790,
+    "speed" : 1000,
+    "speed_caps" : 1048623,
+    "tx_broadcast" : 0,
+    "tx_bytes" : 13767043394,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_multicast" : 0,
+    "tx_packets" : 48324879,
+    "tx_rate" : 485433,
+    "tx_rate-max" : 4463272,
+    "type" : "ethernet",
+    "up" : true,
+    "ifname" : "eth8",
+    "tx_bytes-r" : 60679,
+    "rx_bytes-r" : 6370,
+    "bytes-r" : 67049,
+    "ip" : "174.100.165.160",
+    "netmask" : "255.255.240.0"
+  }, {
+    "autoneg" : true,
+    "enable" : true,
+    "flowctrl_rx" : false,
+    "flowctrl_tx" : false,
+    "full_duplex" : true,
+    "is_uplink" : false,
+    "mac" : "74:ac:b9:3e:e7:5c",
+    "media" : "SFP+",
+    "name" : "eth9",
+    "num_port" : 1,
+    "port_idx" : 10,
+    "port_poe" : false,
+    "rx_broadcast" : 0,
+    "rx_bytes" : 0,
+    "rx_dropped" : 0,
+    "rx_errors" : 0,
+    "rx_multicast" : 0,
+    "rx_packets" : 0,
+    "rx_rate-max" : 0,
+    "speed" : 1000,
+    "speed_caps" : 1048864,
+    "tx_broadcast" : 0,
+    "tx_bytes" : 0,
+    "tx_dropped" : 0,
+    "tx_errors" : 0,
+    "tx_multicast" : 0,
+    "tx_packets" : 0,
+    "tx_rate-max" : 0,
+    "type" : "ethernet",
+    "up" : false,
+    "ifname" : "eth9",
+    "tx_bytes-r" : 0,
+    "rx_bytes-r" : 0,
+    "bytes-r" : 0
+  } ],
+  "radio_table" : [ ],
+  "required_version" : "1.0.15",
+  "satisfaction" : -1,
+  "satisfaction_now" : -1,
+  "satisfaction_real" : -1,
+  "scan_radio_table" : [ ],
+  "selfrun_beacon" : true,
+  "serial" : "74ACB93EE753",
+  "spectrum_scanning" : false,
+  "speedtest-status" : {
+    "latency" : 38,
+    "rundate" : 1656352887,
+    "runtime" : 15,
+    "server" : {
+      "cc" : "US",
+      "city" : "Southfield",
+      "country" : "United States",
+      "lat" : 42.5982,
+      "lon" : -83.1167,
+      "provider" : "123NET",
+      "provider_url" : "https://www.123.net"
+    },
+    "source_interface" : "if!eth8",
+    "status_download" : 2,
+    "status_ping" : 2,
+    "status_summary" : 2,
+    "status_upload" : 2,
+    "xput_download" : 400.8186950683594,
+    "xput_upload" : 23.378389358520508
+  },
+  "state" : 2,
+  "stats_inform_interval" : 1,
+  "storage" : [ {
+    "mount_point" : "/mnt/persistent",
+    "name" : "Backup",
+    "size" : 125783040,
+    "type" : "eMMC",
+    "used" : 1593344
+  }, {
+    "mount_point" : "/mnt/data",
+    "name" : "eMMC",
+    "size" : 13097209856,
+    "type" : "eMMC",
+    "used" : 6404538368
+  }, {
+    "mount_point" : "/tmp",
+    "name" : "Temporary",
+    "size" : 2069868544,
+    "type" : "other",
+    "used" : 221184
+  } ],
+  "stream_token" : "",
+  "switch_caps" : {
+    "feature_caps" : 256,
+    "max_aggregate_sessions" : 4,
+    "max_mirror_sessions" : 1
+  },
+  "sys_error_caps" : 0,
+  "sys_stats" : {
+    "loadavg_1" : "1.87",
+    "loadavg_15" : "1.46",
+    "loadavg_5" : "1.45",
+    "mem_buffer" : 172388352,
+    "mem_total" : 4139741184,
+    "mem_used" : 2565980160
+  },
+  "system-stats" : {
+    "cpu" : "28.1",
+    "mem" : "62.0",
+    "uptime" : "1899517"
+  },
+  "teleport_clients" : { },
+  "teleport_version" : 1,
+  "temperatures" : [ {
+    "name" : "CPU",
+    "type" : "cpu",
+    "value" : 51.25
+  }, {
+    "name" : "Local",
+    "type" : "board",
+    "value" : 48.5
+  }, {
+    "name" : "PHY",
+    "type" : "board",
+    "value" : 50.0
+  } ],
+  "time" : 1656387825,
+  "time_ms" : 113,
+  "tm_ready" : true,
+  "udapi_caps" : 104,
+  "uplink" : "eth8",
+  "uptime" : 1899517,
+  "uptime_stats" : {
+    "WAN" : {
+      "availability" : 100.0,
+      "latency_average" : 34,
+      "monitors" : [ {
+        "availability" : 100.0,
+        "latency_average" : 34,
+        "target" : "facebook.com"
+      }, {
+        "availability" : 100.0,
+        "latency_average" : 30,
+        "target" : "google.com"
+      }, {
+        "availability" : 100.0,
+        "latency_average" : 38,
+        "target" : "twitter.com"
+      } ],
+      "time_period" : 86400,
+      "uptime" : 506361
+    },
+    "WAN2" : {
+      "downtime" : 1899477,
+      "monitors" : [ {
+        "availability" : 0.0,
+        "target" : "facebook.com"
+      }, {
+        "availability" : 0.0,
+        "target" : "google.com"
+      }, {
+        "availability" : 0.0,
+        "target" : "twitter.com"
+      } ]
+    }
+  },
+  "usg_caps" : 233697276,
+  "vap_table" : [ ],
+  "version" : "1.12.22.4309",
+  "wifi_caps" : 524288,
+  "_mac" : "74-AC-B9-3E-E7-53",
+  "_authkey" : "c86bf18d6ed63d7f936d4119588af2d6",
+  "_encrypted" : true,
+  "_protoheader" : {
+    "OO0000" : 1,
+    "return" : "dKy5PudT",
+    "Ó00000" : 102,
+    "Õ00000" : 9,
+    "Ø00000" : "yzLDtx38uYSR5gtCEQxRWA==",
+    "ô00000" : "Quf3a13DBdO2ProZl9Ck3BvYTDRWsBQvut/pu5Hr7wHJYNI47okgbxZl1L4mgCRiDHFWQKe741+VlKhpbHdYd+3sDaGZst4e+VN6Vcd1LX/Dk0zd2I5OZ/6BbG1E9oM7ldqxbTYm"
+  },
+  "_devsiteid" : "5ed7f1c53a701f025fcfabf6",
+  "_id" : "5ed7f1ec3a701f02ea05fd26",
+  "_devextip" : "127.0.0.1"
+}

@@ -1,0 +1,340 @@
+{
+  "default" : {
+    "edges" : [ {
+      "downlinkMac" : "24:5a:4c:8e:b1:d7",
+      "downlinkPortNumber" : 1,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "18:e8:29:2b:36:81",
+      "uplinkPortNumber" : 11
+    }, {
+      "channel" : 157,
+      "downlinkMac" : "52:31:2e:b6:74:8f",
+      "essid" : "Fromovitz-Chabad-Center",
+      "experienceScore" : 99,
+      "protocol" : "ac",
+      "radioBand" : "na",
+      "type" : "WIRELESS",
+      "uplinkMac" : "74:ac:b9:d5:6c:b7"
+    }, {
+      "downlinkMac" : "44:d9:e7:05:80:81",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "18:e8:29:2b:36:81",
+      "uplinkPortNumber" : 4
+    }, {
+      "downlinkMac" : "b4:fb:e4:05:c9:d8",
+      "rateMbps" : 100,
+      "type" : "WIRED",
+      "uplinkMac" : "18:e8:29:2b:36:81",
+      "uplinkPortNumber" : 5
+    }, {
+      "downlinkMac" : "74:ac:b9:d5:6c:b7",
+      "downlinkPortNumber" : 1,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "18:e8:29:2b:36:81",
+      "uplinkPortNumber" : 2
+    }, {
+      "channel" : 48,
+      "downlinkMac" : "b4:fb:e4:7e:b9:5d",
+      "essid" : "SpencerFi-Homebase",
+      "experienceScore" : 96,
+      "protocol" : "na",
+      "radioBand" : "na",
+      "type" : "WIRELESS",
+      "uplinkMac" : "74:ac:b9:d5:69:a3"
+    }, {
+      "downlinkMac" : "f4:92:bf:a2:e7:c1",
+      "downlinkPortNumber" : 1,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "18:e8:29:2b:36:81",
+      "uplinkPortNumber" : 8
+    }, {
+      "channel" : 48,
+      "downlinkMac" : "a0:99:9b:18:01:93",
+      "essid" : "SpencerFi-Homebase",
+      "experienceScore" : 99,
+      "protocol" : "ac",
+      "radioBand" : "na",
+      "type" : "WIRELESS",
+      "uplinkMac" : "74:ac:b9:d5:69:a3"
+    }, {
+      "channel" : 157,
+      "downlinkMac" : "14:7d:da:60:ff:c4",
+      "essid" : "Fromovitz-Chabad-Center",
+      "experienceScore" : 96,
+      "protocol" : "ac",
+      "radioBand" : "na",
+      "type" : "WIRELESS",
+      "uplinkMac" : "74:ac:b9:d5:6c:b7"
+    }, {
+      "downlinkMac" : "7c:10:c9:d0:88:b8",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "74:ac:b9:3e:e7:53",
+      "uplinkPortNumber" : 4
+    }, {
+      "channel" : 11,
+      "downlinkMac" : "b4:fb:e4:7e:78:4d",
+      "essid" : "SpencerFi-Homebase",
+      "experienceScore" : 100,
+      "protocol" : "ng",
+      "radioBand" : "ng",
+      "type" : "WIRELESS",
+      "uplinkMac" : "74:ac:b9:d5:69:a3"
+    }, {
+      "downlinkMac" : "68:72:c3:38:2b:36",
+      "rateMbps" : 100,
+      "type" : "WIRED",
+      "uplinkMac" : "f4:92:bf:a2:e7:c1",
+      "uplinkPortNumber" : 5
+    }, {
+      "channel" : 48,
+      "downlinkMac" : "b0:be:83:30:cb:6b",
+      "essid" : "SpencerFi-Homebase",
+      "experienceScore" : 100,
+      "protocol" : "ac",
+      "radioBand" : "na",
+      "type" : "WIRELESS",
+      "uplinkMac" : "74:ac:b9:d5:69:a3"
+    }, {
+      "downlinkMac" : "b4:fb:e4:05:c8:0f",
+      "rateMbps" : 100,
+      "type" : "WIRED",
+      "uplinkMac" : "18:e8:29:2b:36:81",
+      "uplinkPortNumber" : 3
+    }, {
+      "downlinkMac" : "18:e8:29:2b:36:81",
+      "downlinkPortNumber" : 7,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "74:ac:b9:3e:e7:53",
+      "uplinkPortNumber" : 1
+    }, {
+      "channel" : 48,
+      "downlinkMac" : "a4:08:01:8e:57:a6",
+      "essid" : "SpencerFi-Homebase",
+      "experienceScore" : 94,
+      "protocol" : "ac",
+      "radioBand" : "na",
+      "type" : "WIRELESS",
+      "uplinkMac" : "74:ac:b9:d5:69:a3"
+    }, {
+      "channel" : 48,
+      "downlinkMac" : "b0:be:83:26:81:c4",
+      "essid" : "SpencerFi-Homebase",
+      "experienceScore" : 99,
+      "protocol" : "ac",
+      "radioBand" : "na",
+      "type" : "WIRELESS",
+      "uplinkMac" : "74:ac:b9:d5:69:a3"
+    }, {
+      "downlinkMac" : "74:ac:b9:d5:69:a3",
+      "downlinkPortNumber" : 1,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "18:e8:29:2b:36:81",
+      "uplinkPortNumber" : 6
+    }, {
+      "channel" : 11,
+      "downlinkMac" : "b4:fb:e4:7f:72:a7",
+      "essid" : "SpencerFi-Homebase",
+      "experienceScore" : 100,
+      "protocol" : "ng",
+      "radioBand" : "ng",
+      "type" : "WIRELESS",
+      "uplinkMac" : "74:ac:b9:d5:69:a3"
+    }, {
+      "channel" : 48,
+      "downlinkMac" : "b4:fb:e4:7e:65:41",
+      "essid" : "SpencerFi-Homebase",
+      "experienceScore" : 96,
+      "protocol" : "na",
+      "radioBand" : "na",
+      "type" : "WIRELESS",
+      "uplinkMac" : "74:ac:b9:d5:69:a3"
+    }, {
+      "channel" : 157,
+      "downlinkMac" : "8e:00:6a:f3:97:d6",
+      "essid" : "Fromovitz-Chabad-Center",
+      "experienceScore" : 86,
+      "protocol" : "ac",
+      "radioBand" : "na",
+      "type" : "WIRELESS",
+      "uplinkMac" : "74:ac:b9:d5:6c:b7"
+    }, {
+      "channel" : 157,
+      "downlinkMac" : "62:95:f7:03:49:b8",
+      "essid" : "Fromovitz-Chabad-Center",
+      "experienceScore" : 99,
+      "protocol" : "ac",
+      "radioBand" : "na",
+      "type" : "WIRELESS",
+      "uplinkMac" : "74:ac:b9:d5:6c:b7"
+    } ],
+    "vertices" : [ {
+      "allowedInVisualProgramming" : true,
+      "mac" : "44:d9:e7:05:80:81",
+      "name" : "Android Device",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : false,
+      "mac" : "b4:fb:e4:7f:72:a7",
+      "name" : "Office-Entrance",
+      "type" : "CLIENT",
+      "unifiDevice" : true
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "52:31:2e:b6:74:8f",
+      "name" : "Apple iPhone 11",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : false,
+      "mac" : "68:72:c3:38:2b:36",
+      "name" : "Samsung",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "mac" : "74:ac:b9:d5:6c:b7",
+      "model" : "U7HD",
+      "name" : "Jewish Center",
+      "state" : 1,
+      "type" : "DEVICE",
+      "wifiRadios" : [ {
+        "channel" : 157,
+        "protocol" : "ac",
+        "radioBand" : "na"
+      }, {
+        "channel" : 11,
+        "protocol" : "ng",
+        "radioBand" : "ng"
+      } ]
+    }, {
+      "mac" : "18:e8:29:2b:36:81",
+      "model" : "US16P150",
+      "name" : "SpencerFi-HomeBase 16-Port",
+      "state" : 1,
+      "type" : "DEVICE"
+    }, {
+      "allowedInVisualProgramming" : false,
+      "mac" : "b4:fb:e4:05:c8:0f",
+      "name" : "front-driveway",
+      "type" : "CLIENT",
+      "unifiDevice" : true
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "b0:be:83:30:cb:6b",
+      "name" : "MacBook-Air",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "14:7d:da:60:ff:c4",
+      "name" : "Rivkys-Air",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "a0:99:9b:18:01:93",
+      "name" : "0004DojacOS1165",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : false,
+      "mac" : "b4:fb:e4:05:c9:d8",
+      "name" : "main-entrance-exterior",
+      "type" : "CLIENT",
+      "unifiDevice" : true
+    }, {
+      "mac" : "74:ac:b9:d5:69:a3",
+      "model" : "U7HD",
+      "name" : "Home Base HD WiFi Access Point",
+      "state" : 1,
+      "type" : "DEVICE",
+      "wifiRadios" : [ {
+        "channel" : 48,
+        "protocol" : "ac",
+        "radioBand" : "na"
+      }, {
+        "channel" : 11,
+        "protocol" : "ng",
+        "radioBand" : "ng"
+      } ]
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "62:95:f7:03:49:b8",
+      "name" : "Galaxy-A71-5G",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : false,
+      "mac" : "b4:fb:e4:7e:78:4d",
+      "name" : "Front-Entrance-Interior",
+      "type" : "CLIENT",
+      "unifiDevice" : true
+    }, {
+      "mac" : "f4:92:bf:a2:e7:c1",
+      "model" : "USMINI",
+      "name" : "USW-Flex-Mini",
+      "state" : 1,
+      "type" : "DEVICE"
+    }, {
+      "allowedInVisualProgramming" : false,
+      "mac" : "b4:fb:e4:7e:65:41",
+      "name" : "Server-Room",
+      "type" : "CLIENT",
+      "unifiDevice" : true
+    }, {
+      "mac" : "24:5a:4c:8e:b1:d7",
+      "model" : "USMINI",
+      "name" : "USW-Flex-Mini",
+      "state" : 1,
+      "type" : "DEVICE"
+    }, {
+      "allowedInVisualProgramming" : false,
+      "mac" : "b4:fb:e4:7e:b9:5d",
+      "name" : "Office-Cam-2",
+      "type" : "CLIENT",
+      "unifiDevice" : true
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "a4:08:01:8e:57:a6",
+      "name" : "Linux PC",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "b0:be:83:26:81:c4",
+      "name" : "MacBook-Air-2",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "8e:00:6a:f3:97:d6",
+      "name" : "Apple iPhone 12 Pro Max",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : false,
+      "mac" : "7c:10:c9:d0:88:b8",
+      "name" : "Riipen-PC",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "mac" : "74:ac:b9:3e:e7:53",
+      "model" : "UDMPRO",
+      "name" : "SpencerFi-HomeBase",
+      "state" : 1,
+      "type" : "DEVICE"
+    } ]
+  }
+}

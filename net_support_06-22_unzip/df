@@ -1,0 +1,16 @@
+Filesystem     1K-blocks    Used Available Use% Mounted on
+overlay         12790244 6257508   5863300  52% /
+tmpfs              65536     200     65336   1% /run
+/dev/boot6      12790244 6257508   5863300  52% /data
+tmpfs            2021356   48512   1972844   3% /tmp
+tmpfs              65536       0     65536   0% /dev
+ram-overlay      2021356   27196   1994160   2% /etc_host
+tmpfs            2021356   32072   1989284   2% /etc/hosts
+devtmpfs         2021068       0   2021068   0% /dev/disk
+tmpfs              65536       0     65536   0% /run/lock
+/dev/boot4        122835    1556    112105   2% /mnt/persistent
+shm                64000       4     63996   1% /dev/shm
+ram-overlay      2021356   27196   1994160   2% /usr/lib/version
+tmpfs            2021356  204800   1816556  11% /var/log/journal
+tmpfs            2021356     204   2021152   1% /etc/systemd/system/unifi-core.service.d/capabilities-workaround.conf
+tmpfs              65536       0     65536   0% /var/opt/unifi/tmp

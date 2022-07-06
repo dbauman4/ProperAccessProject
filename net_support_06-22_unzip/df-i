@@ -1,0 +1,16 @@
+Filesystem     Inodes IUsed  IFree IUse% Mounted on
+overlay        817600 58551 759049    8% /
+tmpfs          505339   117 505222    1% /run
+/dev/boot6     817600 58551 759049    8% /data
+tmpfs          505339    56 505283    1% /tmp
+tmpfs          505339   195 505144    1% /dev
+ram-overlay    505339   166 505173    1% /etc_host
+tmpfs          505339   283 505056    1% /etc/hosts
+devtmpfs       505267   218 505049    1% /dev/disk
+tmpfs          505339     2 505337    1% /run/lock
+/dev/boot4      32768    17  32751    1% /mnt/persistent
+shm            505339     2 505337    1% /dev/shm
+ram-overlay    505339   166 505173    1% /usr/lib/version
+tmpfs          505339    11 505328    1% /var/log/journal
+tmpfs          505339    41 505298    1% /etc/systemd/system/unifi-core.service.d/capabilities-workaround.conf
+tmpfs          505339     3 505336    1% /var/opt/unifi/tmp

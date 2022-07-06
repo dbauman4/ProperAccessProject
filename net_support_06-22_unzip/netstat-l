@@ -1,0 +1,139 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:48611           0.0.0.0:*               LISTEN     
+tcp        0      0 unifi.localdomain:sip   0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:11081         0.0.0.0:*               LISTEN     
+tcp        0      0 unifi.localdomain:5066  0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:27117         0.0.0.0:*               LISTEN     
+tcp        0      0 cpe-174-100-165-1:58128 0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:8085          0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:zope-ftp      0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:domain        0.0.0.0:*               LISTEN     
+tcp        0      0 unifi.localdomai:domain 0.0.0.0:*               LISTEN     
+tcp        0      0 192.168.5.1:domain      0.0.0.0:*               LISTEN     
+tcp        0      0 192.168.2.1:domain      0.0.0.0:*               LISTEN     
+tcp        0      0 192.168.3.1:domain      0.0.0.0:*               LISTEN     
+tcp        0      0 192.168.4.1:domain      0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:3415          0.0.0.0:*               LISTEN     
+tcp        0      0 unifi.localdomain:7448  0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:9080          0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:postgresql    0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:3417          0.0.0.0:*               LISTEN     
+tcp        0      0 unifi.localdomain:3417  0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:3423          0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:8000          0.0.0.0:*               LISTEN     
+tcp6       0      0 [::]:48611              [::]:*                  LISTEN     
+tcp6       0      0 [::]:8900               [::]:*                  LISTEN     
+tcp6       0      0 [::]:6789               [::]:*                  LISTEN     
+tcp6       0      0 [::]:8901               [::]:*                  LISTEN     
+tcp6       0      0 [::]:8843               [::]:*                  LISTEN     
+tcp6       0      0 [::]:8880               [::]:*                  LISTEN     
+tcp6       0      0 [::]:http-alt           [::]:*                  LISTEN     
+tcp6       0      0 [::]:http               [::]:*                  LISTEN     
+tcp6       0      0 localhost:tproxy        [::]:*                  LISTEN     
+tcp6       0      0 ::1:domain              [::]:*                  LISTEN     
+tcp6       0      0 fe80::74ac:b9ff::domain [::]:*                  LISTEN     
+tcp6       0      0 fe80::d4d3:adff::domain [::]:*                  LISTEN     
+tcp6       0      0 SpencerFi-HomeBa:domain [::]:*                  LISTEN     
+tcp6       0      0 fe80::f04d:5fff::domain [::]:*                  LISTEN     
+tcp6       0      0 fe80::b0b9:30ff::domain [::]:*                  LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+tcp6       0      0 localhost:socks         [::]:*                  LISTEN     
+tcp6       0      0 ::1:smtp                [::]:*                  LISTEN     
+tcp6       0      0 [::]:8443               [::]:*                  LISTEN     
+tcp6       0      0 [::]:https              [::]:*                  LISTEN     
+tcp6       0      0 [::]:15996              [::]:*                  LISTEN     
+tcp6       0      0 [::]:30080              [::]:*                  LISTEN     
+udp        0      0 unifi.localdomain:sip   0.0.0.0:*                          
+udp        0      0 0.0.0.0:37881           0.0.0.0:*                          
+udp        0      0 0.0.0.0:33907           0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp        0      0 unifi.localdomain:48419 0.0.0.0:*                          
+udp        0      0 0.0.0.0:3421            0.0.0.0:*                          
+udp        0      0 192.168.4.1:50560       0.0.0.0:*                          
+udp        0      0 0.0.0.0:15996           0.0.0.0:*                          
+udp        0      0 0.0.0.0:10001           0.0.0.0:*                          
+udp        0      0 255.255.255.255:10001   0.0.0.0:*                          
+udp        0      0 0.0.0.0:10001           0.0.0.0:*                          
+udp        0      0 0.0.0.0:10001           0.0.0.0:*                          
+udp        0      0 0.0.0.0:10101           0.0.0.0:*                          
+udp        0      0 192.168.3.1:49091       0.0.0.0:*                          
+udp        0      0 localhost:domain        0.0.0.0:*                          
+udp        0      0 unifi.localdomai:domain 0.0.0.0:*                          
+udp        0      0 192.168.5.1:domain      0.0.0.0:*                          
+udp        0      0 192.168.2.1:domain      0.0.0.0:*                          
+udp        0      0 192.168.3.1:domain      0.0.0.0:*                          
+udp        0      0 192.168.4.1:domain      0.0.0.0:*                          
+udp        0      0 0.0.0.0:bootps          0.0.0.0:*                          
+udp        0      0 0.0.0.0:32876           0.0.0.0:*                          
+udp        0      0 0.0.0.0:35023           0.0.0.0:*                          
+udp        0      0 192.168.5.1:39408       0.0.0.0:*                          
+udp        0      0 192.168.2.1:43582       0.0.0.0:*                          
+udp        0      0 cpe-174-100-165-1:58128 0.0.0.0:*                          
+udp        0      0 cpe-174-100-165-1:54104 0.0.0.0:*                          
+udp6       0      0 192.168.2.1:42041       [::]:*                             
+udp6       0      0 unifi.localdomain:44108 [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+udp6       0      0 192.168.3.1:46433       [::]:*                             
+udp6       0      0 [::]:3478               [::]:*                             
+udp6       0      0 [::]:36515              [::]:*                             
+udp6       0      0 [::]:10001              [::]:*                             
+udp6       0      0 [::]:42840              [::]:*                             
+udp6       0      0 192.168.4.1:59344       [::]:*                             
+udp6       0      0 ::1:domain              [::]:*                             
+udp6       0      0 fe80::74ac:b9ff::domain [::]:*                             
+udp6       0      0 fe80::d4d3:adff::domain [::]:*                             
+udp6       0      0 SpencerFi-HomeBa:domain [::]:*                             
+udp6       0      0 fe80::f04d:5fff::domain [::]:*                             
+udp6       0      0 fe80::b0b9:30ff::domain [::]:*                             
+udp6       0      0 [::]:43074              [::]:*                             
+udp6       0      0 192.168.5.1:41191       [::]:*                             
+udp6       0      0 [::]:57750              [::]:*                             
+udp6       0      0 cpe-174-100-165-1:43430 [::]:*                             
+udp6       0      0 [::]:53882              [::]:*                             
+raw        0      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw    36096      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw        0      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw   129024      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw        0      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw   213504      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw        0      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw   213504      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw        0      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw   213504      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw        0      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw   213504      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw        0      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw   213504      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw        0      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+raw   213504      0 cpe-174-100-165-16:icmp 0.0.0.0:*               7          
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     8710     /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     335570443 /run/eth8-mon1-1.1.1.1-ping.ubnt.com.sock
+unix  2      [ ACC ]     STREAM     LISTENING     7462     /var/run/lldpd.socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING     6813     /var/run/libpod/socket/3f14a5c5882473116b7f8b75d9c8bae33c6f6dbf2a49dc3aa769ebaed2b4548e/attach
+unix  2      [ ACC ]     STREAM     LISTENING     335571511 /run/eth8-mon1-8.8.8.8-ping.ubnt.com.sock
+unix  2      [ ACC ]     STREAM     LISTENING     335571522 /run/eth8-mon2-1.1.1.1-ping.ubnt.com.sock
+unix  2      [ ACC ]     STREAM     LISTENING     7490     /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     7498     /var/run/avahi-daemon/socket
+unix  2      [ ACC ]     STREAM     LISTENING     351277903 /run/eth8-mon5-104.244.42.65-twitter.com.sock
+unix  2      [ ACC ]     STREAM     LISTENING     11098    /var/run/ulcmd_uds_server
+unix  2      [ ACC ]     STREAM     LISTENING     351668083 /run/eth8-mon4-142.250.191.206-google.com.sock
+unix  2      [ ACC ]     STREAM     LISTENING     8568     /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     16016    /run/ulp-go/jsonrpc.sock
+unix  2      [ ACC ]     STREAM     LISTENING     42005    /usr/lib/unifi/run/mongodb-27117.sock
+unix  2      [ ACC ]     STREAM     LISTENING     5541     /var/run/ubus.sock
+unix  2      [ ACC ]     STREAM     LISTENING     1446     /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     5834     /var/run/ubnt-udapi-server.sock
+unix  2      [ ACC ]     STREAM     LISTENING     351701197 /run/eth8-mon5-104.244.42.129-twitter.com.sock
+unix  2      [ ACC ]     STREAM     LISTENING     335569615 /run/eth8-mon2-8.8.8.8-ping.ubnt.com.sock
+unix  2      [ ACC ]     STREAM     LISTENING     351316949 /run/eth8-mon3-157.240.18.35-facebook.com.sock
+unix  2      [ ACC ]     STREAM     LISTENING     11495    /tmp/.speedtest.socket
+unix  2      [ ACC ]     STREAM     LISTENING     2761     @ubnt.dpi.sock
+unix  2      [ ACC ]     STREAM     LISTENING     10747    /run/avahi-daemon/socket
+unix  2      [ ACC ]     STREAM     LISTENING     10238    /var/run/postgresql/.s.PGSQL.5432
