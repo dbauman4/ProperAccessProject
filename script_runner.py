@@ -1,69 +1,75 @@
 #!/usr/bin/python3
 
+from dataclasses import dataclass
 import configparser
+import cosmos_config
 import pexpect
 import sys
 
-#Retrieves data from config file and stores it into a list 
-def CosmosConfig(choice):
-    dicts = []
-    config = configparser.ConfigParser()
-    config.read('/home/democosmosv5/Desktop/scptest/cosmos_config.ini')   
+cosmos = cosmos_config.cosmos_config() 
+
+#store config in data class
+@dataclass
+class LocalConfig():
+    def __init__(self):
+        self.localUser  = cosmos.fetch('localhost','username')
+        self.localHost  = cosmos.fetch('localhost','host')
+        self.localPass  = cosmos.fetch('localhost','password')
+        self.remoteUser = cosmos.fetch('remotehost','username')
+        self.remoteHost = cosmos.fetch('remotehost','host')
+        self.remotePass = cosmos.fetch('remotehost','password')
     
-    #obtain data from config files into dictionary
-    local_dict = dict(config.items('localhost'))
-    remote_dict = dict(config.items('remotehost'))
-
-    #index 0 == local && index 1 == remote
-    if(choice == "remote_scp" or choice == "remote"): 
-        dicts.append(local_dict)
-        dicts.append(remote_dict)
-    #index 0 == remote && index 1 == local
-    elif(choice == "local_scp" or choice == "local"):
-        dicts.append(remote_dict)
-        dicts.append(local_dict)
-    else:
-        print(choice, "is an invalid argument.\n[OPTIONS]: ""local"" | ""remote"" | ""local_scp"" | ""remote_scp""\n")
-        exit(0)
-    return dicts
-
-def SpawnProcess(config):
+    #TODO error handle if choice is neither
+def SpawnProcess(choice):
     #setup child application and ssh to desired host
     spawn = pexpect.spawnu if sys.version_info[0] >= 3 else pexpect.spawn
-    child = spawn('ssh -t ' + config[1]['username'] + '@' + config[1]['host'] + ' bash --noprofile --norc')
-    ssh_keygen_prompt = 'The authenticity of host ' + "'" + config[1]['host'] + ".*"
     
-    i = child.expect([config[1]['username'] + '@' + config[1]['host'] + "'s " + 'password:', ssh_keygen_prompt])
+    if(choice == "remotehost_scp" or choice == "remotehost"):
+        #spawn a child process to ssh into the remote machine
+        child = spawn('ssh -t ' + config.remoteUser + '@' + config.remoteHost + ' bash --noprofile --norc') 
+        ssh_keygen_prompt = 'The authenticity of host ' + "'" + config.remoteHost + ".*"
+        Authenticate(child, config.remoteUser, config.remoteHost, config.remotePass, ssh_keygen_prompt)
+        return child
+    if(choice == "localhost_scp" or choice == "localhost"):
+        #spawn a child process to ssh into the local machine
+        child = spawn('ssh -t ' + config.localUser + '@' + config.localHost + ' bash --noprofile --norc')            
+        ssh_keygen_prompt = 'The authenticity of host ' + "'" + config.localHost + ".*"
+        Authenticate(child, config.localUser, config.localHost, config.localPass, ssh_keygen_prompt)
+        return child
+
+def Authenticate(child, username, host, password, ssh_keygen_prompt):
+    i = child.expect( [username + '@' + host + "'s " + 'password:', ssh_keygen_prompt])
     #device is already added to ssh-keygen list
     if i==0: 
-        child.sendline(config[1]['password'])
+        child.sendline(password)
         child.expect('bash-[.0-9]+[$#]')
+    #device is not added to ssh-keygen list
     if i==1:
          child.sendline('yes')
-         child.expect(config[1]['username'] + '@' + config[1]['host'] + "'s " + 'password:')
-         child.sendline(config[1]['password'])
+         child.expect(username + '@' + host + "'s " + 'password:')
+         child.sendline(password)
          child.expect('bash-[.0-9]+[$#]')
-    return child
+    #return child
 
-def RunScp(child,config,scp_command):
-    scp_keygen_prompt = 'The authenticity of host ' + "'" + config[0]['host'] + ".*"
+def RunScp(child,scp_command, username,host, password):
+    scp_keygen_prompt = 'The authenticity of host ' + "'" + host + ".*"
     try:
         child.sendline(scp_command)
         # expect to enter password or authorize device to known_hosts
-        i = child.expect([config[0]['username'] + '@' + config[0]['host'] + "'s " + 'password:', scp_keygen_prompt])
+        i = child.expect([username + '@' + host + "'s " + 'password:', scp_keygen_prompt])
         # send password
         if i==0:        
-            child.sendline(config[0]['password'])
+            child.sendline(password)
             child.expect('bash-[.0-9]+[$#]')
         # add device to the ssh-keygen list
         elif i==1:
             child.sendline('yes')     
-            child.expect([config[0]['username'] + '@' + config[0]['host'] + "'s " + 'password:']) 
-            child.sendline(config[0]['password'])
+            child.expect([username + '@' + host + "'s " + 'password:']) 
+            child.sendline(password)
             child.expect('bash-[.0-9]+[$#]')
         # else something went wrong
         elif i==2: 
-            print("Error with " + config[0]['username'] + '@' + config[0]['host'] + "'s " + 'password:')
+            print("Error with " + username + '@' + host + "'s " + 'password:')
             pass
     except Exception as e:
             print(e)
@@ -75,23 +81,23 @@ def RunScp(child,config,scp_command):
 
     #determine which commands should be executed
     #TODO automate the file/filepath/destination
-def ScriptHandler(choice,config):
-    if choice == "remote_scp":
-        child = SpawnProcess(config)
-        child.sendline('cd snmp')#/scp_test')
-        scp_command = "scp network.py " + config[0]['username'] + "@" + config[0]['host'] + ":/home/democosmosv5/Desktop/scptest"
-        RunScp(child,config,scp_command)
+def ScriptHandler(choice):
+    if choice == "remotehost_scp":
+        child = SpawnProcess(choice)
+        child.sendline('cd snmp')
+        scp_command = "scp network.py " + config.localUser + "@" + config.localHost + ":/home/democosmosv5/Desktop/scptest"
+        RunScp(child,scp_command,config.localUser, config.localHost, config.localPass)
     
-    elif choice == "local_scp":
-        child = SpawnProcess(config)
+    elif choice == "localhost_scp":
+        child = SpawnProcess(choice)
         child.sendline('cd /home/democosmosv5/Desktop/scptest')
-        scp_command = 'scp local_helloworld.txt ' + config[0]['username'] + '@' + config[0]['host'] + ':/home/root/snmp' #/scp_test'
-        RunScp(child,config,scp_command)
+        scp_command = 'scp local_helloworld.txt ' + config.remoteUser + '@' + config.remoteHost + ':/root/snmp'
+        RunScp(child,scp_command,config.remoteUser, config.remoteHost, config.remotePass)
     
-    elif choice == "remote":
-        child = SpawnProcess(config)
+    elif choice == "remotehost":
+        child = SpawnProcess(choice)
         
-        child.sendline('cd snmp') #/scp_test')
+        child.sendline('cd snmp') 
         child.expect('bash-[.0-9]+[$#]')
         child.sendline('ls')
         child.expect('bash-[.0-9]+[$#]')
@@ -101,9 +107,8 @@ def ScriptHandler(choice,config):
         child.sendline('exit')
         child.close()
     
-    elif choice == "local":
-        child = SpawnProcess(config)
-        
+    elif choice == "localhost":
+        child = SpawnProcess(choice)
         child.sendline('cd /home/democosmosv5/Desktop/scptest')
         child.expect('bash-[.0-9]+[$#]')
         child.sendline('ls')
@@ -118,13 +123,13 @@ def ScriptHandler(choice,config):
     
 def main():
     choice = str(sys.argv[1])
-    config = CosmosConfig(choice)
-
-    if choice == "local" or choice == "remote" or choice == "local_scp" or "remote_scp":
-        ScriptHandler(choice,config) 
+    
+    if choice == "localhost" or choice == "remotehost" or choice == 'localhost_scp' or choice == 'remotehost_scp': 
+        ScriptHandler(choice) 
     else:
-        print(choice, "is an invalid argument.\n[OPTIONS]: ""local"" | ""remote"" | ""local_scp"" | ""remote_scp""\n")
+        print(choice, "is an invalid argument.\n[OPTIONS]: ""local"" | ""remote"" | ""localhost_scp"" | ""remotehost_scp""\n")
         exit(0)
         
 if __name__ == "__main__":
+    config = LocalConfig()#cosmos_config()
     main()
