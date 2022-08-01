@@ -12,12 +12,21 @@ cosmos = cosmos_config.cosmos_config()
 @dataclass
 class LocalConfig():
     def __init__(self):
-        self.localUser  = cosmos.fetch('localhost','username')
-        self.localHost  = cosmos.fetch('localhost','host')
-        self.localPass  = cosmos.fetch('localhost','password')
-        self.remoteUser = cosmos.fetch('remotehost','username')
-        self.remoteHost = cosmos.fetch('remotehost','host')
-        self.remotePass = cosmos.fetch('remotehost','password')
+        #credentials for USW-Flex-Mini
+        self.USWUser  = cosmos.fetch('USW','username')
+        self.USWHost  = cosmos.fetch('USW','host')
+
+        #credentials for SpencerFI-HomeBase-16
+        self.HB16User = cosmos.fetch('HomeBase-16','username')
+        self.HB16Host = cosmos.fetch('HomeBase-16','host')
+
+        #credentials for Jewish-Center
+        self.JCHost = cosmos.fetch('Jewish-Center','username')
+        self.JCUser  = cosmos.fetch('Jewish-Center','host')
+
+        #credentials for HomeBase-HD
+        self.HBHDUser  = cosmos.fetch('HomeBase-HD','username')
+        self.HBHDHost  = cosmos.fetch('HomeBase-HD','host')
     
     #TODO error handle if choice is neither
 def SpawnProcess(choice):
