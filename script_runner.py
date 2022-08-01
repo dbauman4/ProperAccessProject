@@ -98,7 +98,6 @@ def ScriptHandler(choice):
     
     elif choice == "JewishCenter":
         #spawns our child process for JewishCenter
-        child = SpawnProcess(choice)
         child = SpawnProcess(UniFi.JCUser, UniFi.JCHost)
 
         #here we can exucute command line arguments to download the desired data
@@ -111,7 +110,6 @@ def ScriptHandler(choice):
     
     elif choice == "HomeBaseHD":
         #spawns our child process for HomeBaseHD
-        child = SpawnProcess(choice)
         child = SpawnProcess(UniFi.HBHDUser, UniFi.HBHDHost)
         
         #here we can exucute command line arguments to download the desired data
