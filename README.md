@@ -9,7 +9,7 @@
 8. Design criteria for when to move a device to a different ip/channel
 
 
-**Devices for config** 
+**Devices for config (shouldn't need passwords if run on remote desktop** 
 ```
 USW-Flex-Mini IP: 192.168.1.46
 SpencerFi-HomeBase 16-Port IP: 192.168.1.205 
