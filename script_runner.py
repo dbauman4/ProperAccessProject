@@ -2,66 +2,49 @@
 
 from dataclasses import dataclass
 import configparser
-import cosmos_config
+import devices_config
 import pexpect
 import sys
 
-cosmos = cosmos_config.cosmos_config() 
+UniFi = devices_config.devices_config() 
 
 #store config in data class
 @dataclass
 class LocalConfig():
     def __init__(self):
+        
         #credentials for USW-Flex-Mini
-        self.USWUser  = cosmos.fetch('USW','username')
-        self.USWHost  = cosmos.fetch('USW','host')
+        self.USWUser  = UniFi.fetch('USW','username')
+        self.USWHost  = UniFi.fetch('USW','host')
 
         #credentials for SpencerFI-HomeBase-16
-        self.HB16User = cosmos.fetch('HomeBase-16','username')
-        self.HB16Host = cosmos.fetch('HomeBase-16','host')
+        self.HB16User = UniFi.fetch('HomeBase-16','username')
+        self.HB16Host = UniFi.fetch('HomeBase-16','host')
 
         #credentials for Jewish-Center
-        self.JCHost = cosmos.fetch('Jewish-Center','username')
-        self.JCUser  = cosmos.fetch('Jewish-Center','host')
+        self.JCHost = UniFi.fetch('Jewish-Center','username')
+        self.JCUser  = UniFi.fetch('Jewish-Center','host')
 
         #credentials for HomeBase-HD
-        self.HBHDUser  = cosmos.fetch('HomeBase-HD','username')
-        self.HBHDHost  = cosmos.fetch('HomeBase-HD','host')
+        self.HBHDUser  = UniFi.fetch('HomeBase-HD','username')
+        self.HBHDHost  = UniFi.fetch('HomeBase-HD','host')
     
-    #TODO error handle if choice is neither
-def SpawnProcess(choice):
+
+def SpawnProcess(username, host):
     #setup child application and ssh to desired host
     spawn = pexpect.spawnu if sys.version_info[0] >= 3 else pexpect.spawn
     
-    if(choice == "remotehost_scp" or choice == "remotehost"):
-        #spawn a child process to ssh into the remote machine
-        child = spawn('ssh -t ' + config.remoteUser + '@' + config.remoteHost + ' bash --noprofile --norc') 
-        ssh_keygen_prompt = 'The authenticity of host ' + "'" + config.remoteHost + ".*"
-        Authenticate(child, config.remoteUser, config.remoteHost, config.remotePass, ssh_keygen_prompt)
-        return child
-    if(choice == "localhost_scp" or choice == "localhost"):
-        #spawn a child process to ssh into the local machine
-        child = spawn('ssh -t ' + config.localUser + '@' + config.localHost + ' bash --noprofile --norc')            
-        ssh_keygen_prompt = 'The authenticity of host ' + "'" + config.localHost + ".*"
-        Authenticate(child, config.localUser, config.localHost, config.localPass, ssh_keygen_prompt)
-        return child
+    #spawn a child process to ssh into the remote machine
+    child = spawn('ssh -t ' + username + '@' + host + ' bash --noprofile --norc') 
 
-def Authenticate(child, username, host, password, ssh_keygen_prompt):
-    i = child.expect( [username + '@' + host + "'s " + 'password:', ssh_keygen_prompt])
-    #device is already added to ssh-keygen list
-    if i==0: 
-        child.sendline(password)
-        child.expect('bash-[.0-9]+[$#]')
-    #device is not added to ssh-keygen list
-    if i==1:
-         child.sendline('yes')
-         child.expect(username + '@' + host + "'s " + 'password:')
-         child.sendline(password)
-         child.expect('bash-[.0-9]+[$#]')
-    #return child
+    return child
 
-def RunScp(child,scp_command, username,host, password):
+def RunScp(child, scp_command, username, host):
     scp_keygen_prompt = 'The authenticity of host ' + "'" + host + ".*"
+    
+    #we can store this in the config file so it isn't visible
+    password = "Password1$"
+    
     try:
         child.sendline(scp_command)
         # expect to enter password or authorize device to known_hosts
@@ -89,56 +72,68 @@ def RunScp(child,scp_command, username,host, password):
     exit(0)
 
     #determine which commands should be executed
-    #TODO automate the file/filepath/destination
+    #TODO automate the file/filepath/destination based on data location
 def ScriptHandler(choice):
-    if choice == "remotehost_scp":
-        child = SpawnProcess(choice)
-        child.sendline('cd snmp')
-        scp_command = "scp network.py " + config.localUser + "@" + config.localHost + ":/home/democosmosv5/Desktop/scptest"
-        RunScp(child,scp_command,config.localUser, config.localHost, config.localPass)
-    
-    elif choice == "localhost_scp":
-        child = SpawnProcess(choice)
-        child.sendline('cd /home/democosmosv5/Desktop/scptest')
-        scp_command = 'scp local_helloworld.txt ' + config.remoteUser + '@' + config.remoteHost + ':/root/snmp'
-        RunScp(child,scp_command,config.remoteUser, config.remoteHost, config.remotePass)
-    
-    elif choice == "remotehost":
-        child = SpawnProcess(choice)
-        
-        child.sendline('cd snmp') 
-        child.expect('bash-[.0-9]+[$#]')
-        child.sendline('ls')
-        child.expect('bash-[.0-9]+[$#]')
-        
-        print(child.before)
+    if choice == "USW-Flex-Mini":
+        #spawns our child process for USW-Flex-Mini
+        child = SpawnProcess(UniFi.USWUser, UniFi.USWHost)
 
-        child.sendline('exit')
-        child.close()
-    
-    elif choice == "localhost":
-        child = SpawnProcess(choice)
-        child.sendline('cd /home/democosmosv5/Desktop/scptest')
-        child.expect('bash-[.0-9]+[$#]')
-        child.sendline('ls')
-        child.expect('bash-[.0-9]+[$#]')
-        print(child.before)
+        #here we can exucute command line arguments to download the desired data
+        child.sendline('cd snmp')
+        #this line needs our remote desktop info then we can define it once at the top 
+        scp_command = "scp network.py " + "remoteMachineName" + "@" + "remoteMachineIPv4" + "remoteMachineStoragePath"
         
-        child.sendline('exit')
-        child.close()   
+        RunScp(child, scp_command, UniFi.USWUser, UniFi.USWHost)
+    
+    elif choice == "HomeBase16":
+        #spawns our child process for HomeBase 16 port
+        child = SpawnProcess(UniFi.HB16User, UniFi.HB16Host)
+
+        #here we can exucute command line arguments to download the desired data
+        child.sendline('cd /home/democosmosv5/Desktop/scptest')
+        #this line needs our remote desktop info
+        scp_command = 'scp local_helloworld.txt ' + "remoteMachineName" + '@' + "remoteMachineIPv4" + "remoteMachineStoragePath"
+        
+        RunScp(child, scp_command, UniFi.HB16User, UniFi.HB16Host)
+    
+    elif choice == "JewishCenter":
+        #spawns our child process for JewishCenter
+        child = SpawnProcess(choice)
+        child = SpawnProcess(UniFi.JCUser, UniFi.JCHost)
+
+        #here we can exucute command line arguments to download the desired data
+        child.sendline('cd snmp')
+        #this line needs our remote desktop info
+        scp_command = "scp network.py " + "remoteMachineName" + "@" + "remoteMachineIPv4" + "remoteMachineStoragePath"
+
+        RunScp(child, scp_command, UniFi.JCUser, UniFi.JCHost)
+    
+    
+    elif choice == "HomeBaseHD":
+        #spawns our child process for HomeBaseHD
+        child = SpawnProcess(choice)
+        child = SpawnProcess(UniFi.HBHDUser, UniFi.HBHDHost)
+        
+        #here we can exucute command line arguments to download the desired data
+        child.sendline('cd snmp')
+        #this line needs our remote desktop info
+        scp_command = "scp network.py " + "remoteMachineName" + "@" + "remoteMachineIPv4" + "remoteMachineStoragePath"
+
+        RunScp(child, scp_command, UniFi.HBHDUser, UniFi.HBHDHost)
+    
     else:
         print(choice, "is an invalid argument.")
         exit(0)
     
 def main():
+    #just using argv for tests
     choice = str(sys.argv[1])
-    
-    if choice == "localhost" or choice == "remotehost" or choice == 'localhost_scp' or choice == 'remotehost_scp': 
+    if choice == "USW-Flex-Mini" or choice == "HomeBase16" or choice == 'JewishCenter' or choice == 'HomeBaseHD': 
         ScriptHandler(choice) 
     else:
-        print(choice, "is an invalid argument.\n[OPTIONS]: ""local"" | ""remote"" | ""localhost_scp"" | ""remotehost_scp""\n")
+        print(choice, "is an invalid argument.\n[OPTIONS]: ""USW-Flex-Mini"" | ""HomeBase16"" | ""JewishCenter"" | ""HomeBaseHD""\n")
         exit(0)
         
 if __name__ == "__main__":
-    config = LocalConfig()#cosmos_config()
+    UniFi = LocalConfig()
     main()
