@@ -10,7 +10,7 @@
 
 
 **Devices for config (shouldn't need passwords if run on remote desktop)** 
-- USW-Flex-Mini:192.168.1.46 / SpencerFi-HomeBase:192,168.1.1 don't open on debug menu
+- USW-Flex-Mini:192.168.1.46 / SpencerFi-HomeBase:192.168.1.1 don't open on debug menu
 ```
 USW-Flex-Mini IP: 192.168.1.46
 SpencerFi-HomeBase 16-Port IP: 192.168.1.205 
