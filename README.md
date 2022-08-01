@@ -8,8 +8,8 @@
 7. Implement a function to repeatedly compare (every 5min or something) current devices on the network with the hashmap to keep it updated
 8. Design criteria for when to move a device to a different ip/channel
 
-
-**Devices for config (shouldn't need passwords if run on remote desktop** 
+USW-Flex-Mini:192.168.1.46 / SpencerFi-HomeBase:192,168.1.1 don't open on debug menu
+**Devices for config (shouldn't need passwords if run on remote desktop)** 
 ```
 USW-Flex-Mini IP: 192.168.1.46
 SpencerFi-HomeBase 16-Port IP: 192.168.1.205 
