@@ -17,3 +17,7 @@ SpencerFi-HomeBase IP: 192.168.1.1
 Jewish Center IP: 192.168.1.66
 Home Base HD WiFi Acess Point IP: 192.168.1.208
 ```
+
+**using script_runner.py**
+We'll import it into our main.py or whatever we choose to name it
+Then we just need to call ScriptHandler(device_name) in our program to retrieve files (still working on what we'll pass to it, but I'm thinking just device name)
