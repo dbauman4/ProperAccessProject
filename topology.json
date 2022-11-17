@@ -1,0 +1,341 @@
+{
+  "default" : {
+    "edges" : [ {
+      "downlinkMac" : "00:18:ae:da:cf:37",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "d0:21:f9:ce:85:03",
+      "uplinkPortNumber" : 13
+    }, {
+      "downlinkMac" : "c8:1f:ea:df:e1:07",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "b4:fb:e4:52:15:9c",
+      "uplinkPortNumber" : 4
+    }, {
+      "channel" : 11,
+      "downlinkMac" : "28:3a:4d:2d:f7:54",
+      "essid" : "Smith22_Allstate",
+      "experienceScore" : 100,
+      "protocol" : "ng",
+      "radioBand" : "ng",
+      "type" : "WIRELESS",
+      "uplinkMac" : "d0:21:f9:ee:bd:ac"
+    }, {
+      "downlinkMac" : "d0:21:f9:ee:c8:a0",
+      "downlinkPortNumber" : 0,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "d0:21:f9:ce:85:03",
+      "uplinkPortNumber" : 12
+    }, {
+      "downlinkMac" : "70:a7:41:67:73:ec",
+      "downlinkPortNumber" : 1,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "d0:21:f9:ce:85:03",
+      "uplinkPortNumber" : 6
+    }, {
+      "channel" : 11,
+      "downlinkMac" : "28:3a:4d:2d:ac:d1",
+      "essid" : "Smith22_Allstate",
+      "experienceScore" : 100,
+      "protocol" : "ng",
+      "radioBand" : "ng",
+      "type" : "WIRELESS",
+      "uplinkMac" : "d0:21:f9:ee:bd:ac"
+    }, {
+      "downlinkMac" : "d0:21:f9:e5:4c:08",
+      "downlinkPortNumber" : 0,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 0,
+      "type" : "WIRED",
+      "uplinkMac" : "d0:21:f9:ce:85:03",
+      "uplinkPortNumber" : 5
+    }, {
+      "downlinkMac" : "c8:1f:ea:df:e0:e7",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "b4:fb:e4:52:15:9c",
+      "uplinkPortNumber" : 5
+    }, {
+      "downlinkMac" : "d0:21:f9:e0:eb:e8",
+      "downlinkPortNumber" : 0,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "d0:21:f9:ce:85:03",
+      "uplinkPortNumber" : 10
+    }, {
+      "downlinkMac" : "c8:1f:ea:df:e1:04",
+      "rateMbps" : 100,
+      "type" : "WIRED",
+      "uplinkMac" : "b4:fb:e4:52:15:9c",
+      "uplinkPortNumber" : 6
+    }, {
+      "downlinkMac" : "c8:1f:ea:df:e1:13",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "b4:fb:e4:52:15:9c",
+      "uplinkPortNumber" : 3
+    }, {
+      "downlinkMac" : "b8:85:84:c4:98:23",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "b4:fb:e4:52:15:9c",
+      "uplinkPortNumber" : 4
+    }, {
+      "downlinkMac" : "d0:21:f9:ee:a9:f0",
+      "downlinkPortNumber" : 0,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "d0:21:f9:ce:85:03",
+      "uplinkPortNumber" : 15
+    }, {
+      "downlinkMac" : "d0:21:f9:ee:c2:fc",
+      "downlinkPortNumber" : 0,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "d0:21:f9:ce:85:03",
+      "uplinkPortNumber" : 4
+    }, {
+      "downlinkMac" : "b4:fb:e4:52:15:9c",
+      "downlinkPortNumber" : 1,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "d0:21:f9:de:3b:d9",
+      "uplinkPortNumber" : 7
+    }, {
+      "downlinkMac" : "d0:21:f9:e6:a5:44",
+      "protocol" : "ax",
+      "radioBand" : "na",
+      "rssi" : 43,
+      "rxRateKbps" : 458000,
+      "txRateKbps" : 573000,
+      "type" : "WIRELESS",
+      "uplinkMac" : "70:a7:41:67:73:ec"
+    }, {
+      "downlinkMac" : "d0:21:f9:ce:85:03",
+      "downlinkPortNumber" : 24,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "d0:21:f9:de:3b:d9",
+      "uplinkPortNumber" : 1
+    }, {
+      "downlinkMac" : "d0:21:f9:ee:bd:ac",
+      "downlinkPortNumber" : 0,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "d0:21:f9:ce:85:03",
+      "uplinkPortNumber" : 2
+    }, {
+      "downlinkMac" : "d0:21:f9:bf:1a:20",
+      "downlinkPortNumber" : 0,
+      "duplex" : "FULL_DUPLEX",
+      "rateMbps" : 1000,
+      "type" : "WIRED",
+      "uplinkMac" : "d0:21:f9:ce:85:03",
+      "uplinkPortNumber" : 7
+    } ],
+    "vertices" : [ {
+      "mac" : "d0:21:f9:e5:4c:08",
+      "model" : "UAL6",
+      "name" : "Apt 3 - Upper Level",
+      "state" : 0,
+      "type" : "DEVICE"
+    }, {
+      "mac" : "d0:21:f9:e6:a5:44",
+      "model" : "UAL6",
+      "name" : "Apt 4 - Upper Level",
+      "state" : 1,
+      "type" : "DEVICE",
+      "wifiRadios" : [ {
+        "channel" : 6,
+        "protocol" : "ng",
+        "radioBand" : "ng"
+      }, {
+        "channel" : 40,
+        "protocol" : "ax",
+        "radioBand" : "na"
+      } ]
+    }, {
+      "mac" : "d0:21:f9:ee:c8:a0",
+      "model" : "UAL6",
+      "name" : "U6-Lite",
+      "state" : 1,
+      "type" : "DEVICE",
+      "wifiRadios" : [ {
+        "channel" : 1,
+        "protocol" : "ng",
+        "radioBand" : "ng"
+      }, {
+        "channel" : 44,
+        "protocol" : "ax",
+        "radioBand" : "na"
+      } ]
+    }, {
+      "mac" : "d0:21:f9:bf:1a:20",
+      "model" : "UAL6",
+      "name" : "Apt 1 - Upper Level",
+      "state" : 1,
+      "type" : "DEVICE",
+      "wifiRadios" : [ {
+        "channel" : 11,
+        "protocol" : "ng",
+        "radioBand" : "ng"
+      }, {
+        "channel" : 48,
+        "protocol" : "ax",
+        "radioBand" : "na"
+      } ]
+    }, {
+      "mac" : "d0:21:f9:de:3b:d9",
+      "model" : "UDMPROSE",
+      "name" : "UDM SE",
+      "state" : 1,
+      "type" : "DEVICE"
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "28:3a:4d:2d:ac:d1",
+      "name" : "Tammy",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "mac" : "d0:21:f9:ce:85:03",
+      "model" : "US24PRO",
+      "name" : "Core Switch - 24 POE Pro",
+      "state" : 1,
+      "type" : "DEVICE"
+    }, {
+      "mac" : "d0:21:f9:ee:bd:ac",
+      "model" : "UAL6",
+      "name" : "Smith22_Allstate",
+      "state" : 1,
+      "type" : "DEVICE",
+      "wifiRadios" : [ {
+        "channel" : 11,
+        "protocol" : "ng",
+        "radioBand" : "ng"
+      }, {
+        "channel" : 161,
+        "protocol" : "ax",
+        "radioBand" : "na"
+      } ]
+    }, {
+      "allowedInVisualProgramming" : false,
+      "mac" : "c8:1f:ea:df:e1:07",
+      "name" : "Back office phone",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "c8:1f:ea:df:e0:e7",
+      "name" : "AVXDFE0E7",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "c8:1f:ea:df:e1:04",
+      "name" : "AVXDFE104",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "mac" : "70:a7:41:67:73:ec",
+      "model" : "UALR6V2",
+      "name" : "EPH Office - Main Level",
+      "state" : 1,
+      "type" : "DEVICE",
+      "wifiRadios" : [ {
+        "channel" : 6,
+        "protocol" : "ng",
+        "radioBand" : "ng"
+      }, {
+        "channel" : 40,
+        "protocol" : "ax",
+        "radioBand" : "na"
+      } ]
+    }, {
+      "allowedInVisualProgramming" : false,
+      "mac" : "b8:85:84:c4:98:23",
+      "name" : "ADR-1QXBJV2",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "c8:1f:ea:df:e1:13",
+      "name" : "AVXDFE113",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "00:18:ae:da:cf:37",
+      "name" : "Elan Remote",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    }, {
+      "mac" : "b4:fb:e4:52:15:9c",
+      "model" : "US8P150",
+      "name" : "Smith22_Allstate",
+      "state" : 1,
+      "type" : "DEVICE"
+    }, {
+      "mac" : "d0:21:f9:e0:eb:e8",
+      "model" : "UAL6",
+      "name" : "Apt 2 - Upper Level",
+      "state" : 1,
+      "type" : "DEVICE",
+      "wifiRadios" : [ {
+        "channel" : 11,
+        "protocol" : "ng",
+        "radioBand" : "ng"
+      }, {
+        "channel" : 153,
+        "protocol" : "ax",
+        "radioBand" : "na"
+      } ]
+    }, {
+      "mac" : "d0:21:f9:ee:a9:f0",
+      "model" : "UAL6",
+      "name" : "U6-Lite",
+      "state" : 1,
+      "type" : "DEVICE",
+      "wifiRadios" : [ {
+        "channel" : 1,
+        "protocol" : "ng",
+        "radioBand" : "ng"
+      }, {
+        "channel" : 157,
+        "protocol" : "ax",
+        "radioBand" : "na"
+      } ]
+    }, {
+      "mac" : "d0:21:f9:ee:c2:fc",
+      "model" : "UAL6",
+      "name" : "U6-Lite",
+      "state" : 1,
+      "type" : "DEVICE",
+      "wifiRadios" : [ {
+        "channel" : 11,
+        "protocol" : "ng",
+        "radioBand" : "ng"
+      }, {
+        "channel" : 161,
+        "protocol" : "ax",
+        "radioBand" : "na"
+      } ]
+    }, {
+      "allowedInVisualProgramming" : true,
+      "mac" : "28:3a:4d:2d:f7:54",
+      "name" : "Front Office",
+      "type" : "CLIENT",
+      "unifiDevice" : false
+    } ]
+  }
+}
