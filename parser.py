@@ -1,5 +1,6 @@
 import json
 import pprint
+import sys
 import pandas as pd
 from pandas import json_normalize
 
@@ -7,8 +8,11 @@ from pandas import json_normalize
 
 
 #loads json into dict objects, usefull for accessing individual objects
-def parseTopology():
-    with open("topology.json", "r", encoding="utf-8") as f:
+#def parseTopology():
+def parseIt():
+    name = sys.argv[1]
+    with open(name, "r", encoding="utf-8") as f:
+    #with open("topology.json", "r", encoding="utf-8") as f:
         global data
         data = json.loads(f.read())
         global edges
@@ -30,6 +34,6 @@ def printCharts():
 
 
 
-
-parseTopology()
+#parseTopology()
+parseIt()
 printCharts()
