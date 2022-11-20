@@ -15,8 +15,10 @@ def parseTopology():
         top = json.loads(f.read())
         edges = top["default"]["edges"]
         vertices = top["default"]["vertices"]
-        df_edges = json_normalize(edges)
-        df_vertices = json_normalize(vertices)
+        #df_edges = json_normalize(edges)
+        #df_vertices = json_normalize(vertices)
+        return edges,vertices
+        
 
 #[network] -> mac, ip, name
 #[radios] na/ng -> maxPower, maxSpeedMegabitsPerSecond
@@ -25,12 +27,12 @@ def parseTopology():
 #[portTable] -> fullDuplex, ifname, name, throughputRx, throughputTx, type, usageRx, usageTx
 def parseBasicInfo():
     with open("basicInfo.json","r", encoding="utf-8") as f:
-            basicInfo = json.loads(f.read())
-            network = basicInfo["detail"]["deviceList"]["network"]
-            radios = basicInfo["detail"]["deviceList"]["network"]["radios"]
-            appInfo = basicInfo["detail"]["apps"]["info"]
-            lastSpeedTest = basicInfo["detail"]["apps"]["lastSpeedTest"]
-            portTable = basicInfo["detail"]["apps"]["info"]["port_table"]
+        basicInfo = json.loads(f.read())
+        network = basicInfo["detail"]["deviceList"]["network"]
+        radios = basicInfo["detail"]["deviceList"]["network"]["radios"]
+        appInfo = basicInfo["detail"]["apps"]["info"]
+        lastSpeedTest = basicInfo["detail"]["apps"]["lastSpeedTest"]
+        portTable = basicInfo["detail"]["apps"]["info"]["port_table"]
 
 #[default] -> ip, mac, model, type, bytes-d, tx_bytes-d, rx_bytes-d, bytes-r, connect_request_ip
 #[uplink] -> bytes, tx_bytes, rx_bytes, tx_packets, rx_packets
@@ -43,13 +45,15 @@ def parseBasicInfo():
 def parseDevices():
     with open("devices.json", "r", encoding="utf-8") as f:
         devices = json.loads(f.read())
-        default = devices["default"]
-        uplink = devices["default"]["uplink"]
-        downlink_table = devices["default"]["downlink_table"]
-        radio_table = devices["default"]["radio_table"]
-        port_table = devices["default"]["port_table"]
-        ethernet_table = devices["default"]["ethernet_table"]
-        last_uplink = devices["default"]["last_uplink"]
+        default = devices[0]["default"]
+        #uplink = devices[0]["default"]["uplink"]
+        #downlink_table = devices[0]["default"]["downlink_table"]
+        #radio_table = devices[0]["default"]["radio_table"]
+        #port_table = devices[0]["default"]["port_table"]
+        #ethernet_table = devices[0]["default"]["ethernet_table"]
+        #last_uplink = devices[0]["default"]["last_uplink"]
+        return default
+        
 
 #[port_table] -> name, rx_broadcast, rx_bytes, rx_dropped, rx_errors, rx_packets, rx_multicast, 
 #tx_broadcast, tx_bytes, tx_multicast, tx_dropped, tx_packets, port_idx, media, speed_caps, 
@@ -68,6 +72,58 @@ def parseNetworkSysconf():
     
     printCharts(port_table)
     
+#bar chart in future using basic info
+#y (number of bytes) rx & tx usage, color coded, diff lines
+#x mac/ip of device
+def barChart():
+    #print the device types and ip 
+    devices_default = parseDevices()
+    for i in range(len(devices_default)):
+        print(devices_default[i]["type"] + " : "+ devices_default[i]["mac"])
+        #if("downlink_table" in devices_default[i]):
+        #    print("downlink_table in "+ str(i))
+
+    edges, verticies = parseTopology()
+
+    connections = {}
+    clients = []
+    totalclients = 0
+    totaldevice = 0
+    for i in range(len(verticies)):
+        print(verticies[i]["type"] + " : " + verticies[i]["mac"])
+        #connections.update({verticies[i]["mac"]:[]})
+        if(verticies[i]["type"]=="DEVICE"):
+            connections.update({verticies[i]["mac"]:[]})
+            totaldevice+=1
+        else:
+            clients.append(verticies[i]["mac"])
+            totalclients+=1
+    print("total clients: "+str(totalclients)+" total devices: "+str(totaldevice) + "\n")
+
+    for i in range(len(edges)):
+        print(edges[i]["type"] + " : " + edges[i]["downlinkMac"] + " -> " + edges[i]["uplinkMac"])
+        if(edges[i]["uplinkMac"] in connections):
+            connections[edges[i]["uplinkMac"]].append(edges[i]["downlinkMac"])
+
+    for k,v in connections.items():
+        print(k)
+        if(len(v)!=0):
+            for y in range(len(v)):
+                print("\t"+str(connections[k][y]))
+        else:
+            print("\tN/A")
+    
+    print(clients)
+
+    
+
+    
+
+    
+
+    
+
+
 def printCharts(port_table = []):
     df = json_normalize(port_table)
     sns.kdeplot(df['rx_bytes'])
@@ -82,8 +138,8 @@ def printCharts(port_table = []):
     #df = json_normalize(vertices)
     #print(df)
 
-def main()
-    
+def main():
+    barChart()
 
 main()
 #parseNetworkSysconf()
