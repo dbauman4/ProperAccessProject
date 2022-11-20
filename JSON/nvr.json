@@ -1,1 +1,223 @@
-{"mac":"D021F9DE3BD9","host":"192.168.1.1","name":"UDM SE","canAutoUpdate":true,"isStatsGatheringEnabled":true,"timezone":"America/New_York","version":"2.2.6","ucoreVersion":"2.5.51","firmwareVersion":"2.5.11","uiVersion":null,"hardwarePlatform":"al324","ports":{"ump":7449,"http":7080,"https":7443,"rtsp":7447,"rtsps":7441,"rtmp":1935,"devicesWss":7442,"cameraHttps":7444,"cameraTcp":7877,"liveWs":7445,"liveWss":7446,"tcpStreams":7451,"playback":7450,"emsCLI":7440,"emsJsonCLI":1112,"emsLiveFLV":7550,"cameraEvents":7551,"stacking":7600,"tcpBridge":7888,"ucore":11081,"piongw":7777,"discoveryClient":0},"uptime":7412236000,"lastSeen":1667874021270,"isUpdating":false,"lastUpdateAt":null,"isStation":false,"enableAutomaticBackups":true,"enableStatsReporting":false,"isSshEnabled":false,"errorCode":null,"releaseChannel":"release","ssoChannel":"release","hosts":["192.168.1.1","192.168.2.1","192.168.3.1","192.168.4.1","192.168.5.1","192.168.6.1"],"enableBridgeAutoAdoption":true,"isUCoreSetup":true,"hardwareId":"2355e448-9c16-56cb-8d01-131bec1f56f8","hardwareRevision":"113-00917-26","hostType":59948,"hostShortname":"UDMPROSE","isHardware":true,"isWirelessUplinkEnabled":true,"timeFormat":"12h","temperatureUnit":"C","recordingRetentionDurationMs":null,"enableCrashReporting":true,"disableAudio":false,"analyticsData":"anonymous","isDbAvailable":true,"isRecordingDisabled":false,"isRecordingMotionOnly":true,"isInsightsEnabled":true,"isRecycling":false,"avgMotions":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"disableAutoLink":false,"skipFirmwareUpdate":false,"streamSharingAvailable":true,"isPrimary":false,"lastDriveSlowEvent":null,"locationSettings":{"isAway":true,"isGeofencingEnabled":false,"latitude":"4*.***4","longitude":"-**.***1","radius":200},"featureFlags":{"beta":false,"dev":false,"notificationsV2":true},"systemInfo":{"cpu":{"averageLoad":2.75,"temperature":53},"memory":{"available":1756712,"free":570568,"total":4041024},"storage":{"available":0,"isRecycling":false,"size":0,"type":"hdd","used":0,"devices":[{"model":null,"size":null,"healthy":false}]},"ustorage":{"disks":[{"slot":1,"state":"nodisk"}],"space":[{"device":"sda2","total_bytes":0,"used_bytes":0,"action":"none","progress":null,"estimate":0},{"device":"sda5","total_bytes":117034172416,"used_bytes":1043574784,"action":"none","progress":null,"estimate":0}]},"tmpfs":{"available":524288,"total":524288,"used":0,"path":"/var/opt/unifi-protect/tmp"}},"doorbellSettings":{"defaultMessageText":"WELCOME","defaultMessageResetTimeoutMs":60000,"customMessages":[],"allMessages":[{"type":"LEAVE_PACKAGE_AT_DOOR","text":"LEAVE PACKAGE AT DOOR"},{"type":"DO_NOT_DISTURB","text":"DO NOT DISTURB"}]},"smartDetectAgreement":{"status":"pending","lastUpdateAt":null},"storageStats":{"utilization":0,"capacity":0,"remainingCapacity":0,"recordingSpace":{"total":0,"used":0,"available":0},"storageDistribution":{"recordingTypeDistributions":[],"resolutionDistributions":[]}},"id":"62812b6601304703e70003e9","isAway":true,"isSetup":true,"network":"Ethernet","type":"UDM-PRO-SE","upSince":1660461785067,"maxCameraCapacity":{"4K":7,"2K":12,"HD":20},"marketName":"UDM SE","isStacked":false,"modelKey":"nvr","location":{}}
+{
+    "mac": "D021F9DE3BD9",
+    "host": "192.168.1.1",
+    "name": "UDM SE",
+    "canAutoUpdate": true,
+    "isStatsGatheringEnabled": true,
+    "timezone": "America/New_York",
+    "version": "2.2.6",
+    "ucoreVersion": "2.5.51",
+    "firmwareVersion": "2.5.11",
+    "uiVersion": null,
+    "hardwarePlatform": "al324",
+    "ports": {
+        "ump": 7449,
+        "http": 7080,
+        "https": 7443,
+        "rtsp": 7447,
+        "rtsps": 7441,
+        "rtmp": 1935,
+        "devicesWss": 7442,
+        "cameraHttps": 7444,
+        "cameraTcp": 7877,
+        "liveWs": 7445,
+        "liveWss": 7446,
+        "tcpStreams": 7451,
+        "playback": 7450,
+        "emsCLI": 7440,
+        "emsJsonCLI": 1112,
+        "emsLiveFLV": 7550,
+        "cameraEvents": 7551,
+        "stacking": 7600,
+        "tcpBridge": 7888,
+        "ucore": 11081,
+        "piongw": 7777,
+        "discoveryClient": 0
+    },
+    "uptime": 7412236000,
+    "lastSeen": 1667874021270,
+    "isUpdating": false,
+    "lastUpdateAt": null,
+    "isStation": false,
+    "enableAutomaticBackups": true,
+    "enableStatsReporting": false,
+    "isSshEnabled": false,
+    "errorCode": null,
+    "releaseChannel": "release",
+    "ssoChannel": "release",
+    "hosts": [
+        "192.168.1.1",
+        "192.168.2.1",
+        "192.168.3.1",
+        "192.168.4.1",
+        "192.168.5.1",
+        "192.168.6.1"
+    ],
+    "enableBridgeAutoAdoption": true,
+    "isUCoreSetup": true,
+    "hardwareId": "2355e448-9c16-56cb-8d01-131bec1f56f8",
+    "hardwareRevision": "113-00917-26",
+    "hostType": 59948,
+    "hostShortname": "UDMPROSE",
+    "isHardware": true,
+    "isWirelessUplinkEnabled": true,
+    "timeFormat": "12h",
+    "temperatureUnit": "C",
+    "recordingRetentionDurationMs": null,
+    "enableCrashReporting": true,
+    "disableAudio": false,
+    "analyticsData": "anonymous",
+    "isDbAvailable": true,
+    "isRecordingDisabled": false,
+    "isRecordingMotionOnly": true,
+    "isInsightsEnabled": true,
+    "isRecycling": false,
+    "avgMotions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "disableAutoLink": false,
+    "skipFirmwareUpdate": false,
+    "streamSharingAvailable": true,
+    "isPrimary": false,
+    "lastDriveSlowEvent": null,
+    "locationSettings": {
+        "isAway": true,
+        "isGeofencingEnabled": false,
+        "latitude": "4*.***4",
+        "longitude": "-**.***1",
+        "radius": 200
+    },
+    "featureFlags": {
+        "beta": false,
+        "dev": false,
+        "notificationsV2": true
+    },
+    "systemInfo": {
+        "cpu": {
+            "averageLoad": 2.75,
+            "temperature": 53
+        },
+        "memory": {
+            "available": 1756712,
+            "free": 570568,
+            "total": 4041024
+        },
+        "storage": {
+            "available": 0,
+            "isRecycling": false,
+            "size": 0,
+            "type": "hdd",
+            "used": 0,
+            "devices": [
+                {
+                    "model": null,
+                    "size": null,
+                    "healthy": false
+                }
+            ]
+        },
+        "ustorage": {
+            "disks": [
+                {
+                    "slot": 1,
+                    "state": "nodisk"
+                }
+            ],
+            "space": [
+                {
+                    "device": "sda2",
+                    "total_bytes": 0,
+                    "used_bytes": 0,
+                    "action": "none",
+                    "progress": null,
+                    "estimate": 0
+                },
+                {
+                    "device": "sda5",
+                    "total_bytes": 117034172416,
+                    "used_bytes": 1043574784,
+                    "action": "none",
+                    "progress": null,
+                    "estimate": 0
+                }
+            ]
+        },
+        "tmpfs": {
+            "available": 524288,
+            "total": 524288,
+            "used": 0,
+            "path": "/var/opt/unifi-protect/tmp"
+        }
+    },
+    "doorbellSettings": {
+        "defaultMessageText": "WELCOME",
+        "defaultMessageResetTimeoutMs": 60000,
+        "customMessages": [],
+        "allMessages": [
+            {
+                "type": "LEAVE_PACKAGE_AT_DOOR",
+                "text": "LEAVE PACKAGE AT DOOR"
+            },
+            {
+                "type": "DO_NOT_DISTURB",
+                "text": "DO NOT DISTURB"
+            }
+        ]
+    },
+    "smartDetectAgreement": {
+        "status": "pending",
+        "lastUpdateAt": null
+    },
+    "storageStats": {
+        "utilization": 0,
+        "capacity": 0,
+        "remainingCapacity": 0,
+        "recordingSpace": {
+            "total": 0,
+            "used": 0,
+            "available": 0
+        },
+        "storageDistribution": {
+            "recordingTypeDistributions": [],
+            "resolutionDistributions": []
+        }
+    },
+    "id": "62812b6601304703e70003e9",
+    "isAway": true,
+    "isSetup": true,
+    "network": "Ethernet",
+    "type": "UDM-PRO-SE",
+    "upSince": 1660461785067,
+    "maxCameraCapacity": {
+        "4K": 7,
+        "2K": 12,
+        "HD": 20
+    },
+    "marketName": "UDM SE",
+    "isStacked": false,
+    "modelKey": "nvr",
+    "location": {}
+}

@@ -1,1 +1,123 @@
-{"daemon":false,"pathSeparator":"/","logAppenders":[{"name":"file appender","type":"file","level":6,"fileName":"/data/unifi-protect/logs/ems","newLineCharacters":"\n","fileHistorySize":3,"fileLength":10485760,"singleLine":true}],"applications":[{"appDir":"./","name":"evostreamms","description":"EVOSTREAM MEDIA SERVER","protocol":"dynamiclinklibrary","default":true,"maxWaitForTracksPeriod":10000,"streamsExpireTimer":10,"rtcpDetectionInterval":1,"hasStreamAliases":true,"hasIngestPoints":true,"validateHandshake":false,"aliases":["er","live","vod"],"maxRtmpOutBuffer":524288,"maxRtspOutBuffer":2097152,"pushPullPersistenceFile":"/dev/null","authPersistenceFile":"/dev/null","connectionsLimitPersistenceFile":"/dev/null","bandwidthLimitPersistenceFile":"/dev/null","ingestPointsPersistenceFile":"/dev/null","eventLogger":{"sinks":[{"type":"RPC","url":"ws://127.0.0.1:7080/ems","serializerType":"JSON","enabledEvents":["inStreamCreated","outStreamCreated","inStreamClosed","outStreamClosed","rtspStreamNotFound","recordChunkClosed","recordChunkError","wrtcSDPChanged","wrtcCandidateDiscovered","wrtcConnected","wrtcClosed","streamLatency","streamMpma"]}]},"mediaStorage":[{"mediaFolder":"/data/unifi-protect/video"}],"acceptors":[{"ip":"127.0.0.1","port":7440,"protocol":"inboundWsJsonCli","useLengthPadding":true},{"ip":"127.0.0.1","port":1112,"protocol":"inboundJsonCli","useLengthPadding":true},{"ip":"0.0.0.0","port":7445,"protocol":"inboundWsStreaming"},{"ip":"0.0.0.0","port":7451,"protocol":"inboundTcpStreaming"},{"ip":"0.0.0.0","port":7446,"protocol":"inboundWssStreaming","sslKey":"/data/unifi-core/config/unifi-core.key","sslCert":"/data/unifi-core/config/unifi-core.crt","cipherSuite":"HIGH:!aNULL@STRENGTH"},{"ip":"0.0.0.0","port":7550,"protocol":"inboundLiveFlv","maxInboundFrameSize":4194304,"waitForMetadata":5},{"ip":"0.0.0.0","port":7447,"protocol":"inboundRtsp"},{"ip":"0.0.0.0","port":7441,"protocol":"inboundRtsps","sslKey":"/data/unifi-core/config/unifi-core.key","sslCert":"/data/unifi-core/config/unifi-core.crt"}]}]}
+{
+    "daemon": false,
+    "pathSeparator": "/",
+    "logAppenders": [
+        {
+            "name": "file appender",
+            "type": "file",
+            "level": 6,
+            "fileName": "/data/unifi-protect/logs/ems",
+            "newLineCharacters": "\n",
+            "fileHistorySize": 3,
+            "fileLength": 10485760,
+            "singleLine": true
+        }
+    ],
+    "applications": [
+        {
+            "appDir": "./",
+            "name": "evostreamms",
+            "description": "EVOSTREAM MEDIA SERVER",
+            "protocol": "dynamiclinklibrary",
+            "default": true,
+            "maxWaitForTracksPeriod": 10000,
+            "streamsExpireTimer": 10,
+            "rtcpDetectionInterval": 1,
+            "hasStreamAliases": true,
+            "hasIngestPoints": true,
+            "validateHandshake": false,
+            "aliases": [
+                "er",
+                "live",
+                "vod"
+            ],
+            "maxRtmpOutBuffer": 524288,
+            "maxRtspOutBuffer": 2097152,
+            "pushPullPersistenceFile": "/dev/null",
+            "authPersistenceFile": "/dev/null",
+            "connectionsLimitPersistenceFile": "/dev/null",
+            "bandwidthLimitPersistenceFile": "/dev/null",
+            "ingestPointsPersistenceFile": "/dev/null",
+            "eventLogger": {
+                "sinks": [
+                    {
+                        "type": "RPC",
+                        "url": "ws://127.0.0.1:7080/ems",
+                        "serializerType": "JSON",
+                        "enabledEvents": [
+                            "inStreamCreated",
+                            "outStreamCreated",
+                            "inStreamClosed",
+                            "outStreamClosed",
+                            "rtspStreamNotFound",
+                            "recordChunkClosed",
+                            "recordChunkError",
+                            "wrtcSDPChanged",
+                            "wrtcCandidateDiscovered",
+                            "wrtcConnected",
+                            "wrtcClosed",
+                            "streamLatency",
+                            "streamMpma"
+                        ]
+                    }
+                ]
+            },
+            "mediaStorage": [
+                {
+                    "mediaFolder": "/data/unifi-protect/video"
+                }
+            ],
+            "acceptors": [
+                {
+                    "ip": "127.0.0.1",
+                    "port": 7440,
+                    "protocol": "inboundWsJsonCli",
+                    "useLengthPadding": true
+                },
+                {
+                    "ip": "127.0.0.1",
+                    "port": 1112,
+                    "protocol": "inboundJsonCli",
+                    "useLengthPadding": true
+                },
+                {
+                    "ip": "0.0.0.0",
+                    "port": 7445,
+                    "protocol": "inboundWsStreaming"
+                },
+                {
+                    "ip": "0.0.0.0",
+                    "port": 7451,
+                    "protocol": "inboundTcpStreaming"
+                },
+                {
+                    "ip": "0.0.0.0",
+                    "port": 7446,
+                    "protocol": "inboundWssStreaming",
+                    "sslKey": "/data/unifi-core/config/unifi-core.key",
+                    "sslCert": "/data/unifi-core/config/unifi-core.crt",
+                    "cipherSuite": "HIGH:!aNULL@STRENGTH"
+                },
+                {
+                    "ip": "0.0.0.0",
+                    "port": 7550,
+                    "protocol": "inboundLiveFlv",
+                    "maxInboundFrameSize": 4194304,
+                    "waitForMetadata": 5
+                },
+                {
+                    "ip": "0.0.0.0",
+                    "port": 7447,
+                    "protocol": "inboundRtsp"
+                },
+                {
+                    "ip": "0.0.0.0",
+                    "port": 7441,
+                    "protocol": "inboundRtsps",
+                    "sslKey": "/data/unifi-core/config/unifi-core.key",
+                    "sslCert": "/data/unifi-core/config/unifi-core.crt"
+                }
+            ]
+        }
+    ]
+}
