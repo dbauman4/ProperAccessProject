@@ -87,12 +87,14 @@ def barChart():
 
     connections = {}
     clients = []
+    devices = []
     totalclients = 0
     totaldevice = 0
     for i in range(len(verticies)):
         print(verticies[i]["type"] + " : " + verticies[i]["mac"])
         #connections.update({verticies[i]["mac"]:[]})
         if(verticies[i]["type"]=="DEVICE"):
+            devices.append(verticies[i]["mac"])
             connections.update({verticies[i]["mac"]:[]})
             totaldevice+=1
         else:
@@ -113,7 +115,14 @@ def barChart():
         else:
             print("\tN/A")
     
-    print(clients)
+    print("Clients: "+str(clients))
+    print("Devices: "+str(devices))
+
+    for i in range(len(devices_default)):
+        #print(i)
+        if devices_default[i]["mac"] in devices:
+            print(i)
+    
 
     
 
