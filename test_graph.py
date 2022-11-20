@@ -46,7 +46,7 @@ def parseDevices():
         default = devices["default"]
         uplink = devices["default"]["uplink"]
         downlink_table = devices["default"]["downlink_table"]
-        radio_table = devices["default"["radio_table"]
+        radio_table = devices["default"]["radio_table"]
         port_table = devices["default"]["port_table"]
         ethernet_table = devices["default"]["ethernet_table"]
         last_uplink = devices["default"]["last_uplink"]
