@@ -44,7 +44,7 @@ class inifile():
         return self.sections[section]
 
 class devices_config():
-    def __init__(self,filename='/home/democosmosv5/Desktop/scptest/devices_config.ini'):
+    def __init__(self,filename='/home/Desktop/scptest/devices_config.ini'):
         self.inifile = inifile(filename)
         try:
             self.inifile.load()
