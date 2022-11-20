@@ -1,0 +1,11 @@
+{
+  "default" : {
+    "is_supported" : true,
+    "setting" : {
+      "_id" : "62bdbc3a2d0ec10c4e754559",
+      "key" : "teleport",
+      "site_id" : "62b3d8ca0dbd9d089a5e8f7b",
+      "enabled" : true
+    }
+  }
+}

@@ -1,0 +1,4098 @@
+{
+  "summary": {
+    "UniFi OS Version": "2.5.11",
+    "UniFi OS Release channel": "release",
+    "Applications": [
+      {
+        "name": "network",
+        "version": "7.2.95",
+        "state": "active",
+        "releaseChannel": "release"
+      },
+      {
+        "name": "protect",
+        "version": "2.2.6",
+        "state": "active",
+        "releaseChannel": "release"
+      },
+      {
+        "name": "access",
+        "version": "1.4.5",
+        "state": "active",
+        "releaseChannel": "release"
+      },
+      {
+        "name": "talk",
+        "version": "1.17.2",
+        "state": "active",
+        "releaseChannel": "release"
+      },
+      {
+        "name": "uid-agent",
+        "version": "1.49.4+1951",
+        "state": "active",
+        "releaseChannel": "release"
+      },
+      {
+        "name": "connect",
+        "version": null,
+        "state": "inactive",
+        "releaseChannel": "release"
+      }
+    ],
+    "Network Devices": [
+      {
+        "mac": "B4FBE4C00618",
+        "ip": "192.168.1.3",
+        "name": "AP01-Office",
+        "status": "online",
+        "firmwareStatus": "upToDate",
+        "firmware": "BZ.qca956x_6.2.35+14043.220812.1940",
+        "startupTime": 1663701735,
+        "model": "UAP AC Pro",
+        "shortname": "U7PG2",
+        "isManaged": true,
+        "metadata": {
+          "radios": {
+            "na": {
+              "gain": 3,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 1300
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 22,
+              "maxSpeedMegabitsPerSecond": 450
+            }
+          },
+          "deviceType": "uap"
+        },
+        "productLine": "network",
+        "images": {
+          "m": "https://static.ui.com/fingerprint/ui/icons/4538e4a6-b426-4549-aa4d-9c3771b4b169_101x101.png",
+          "xl": "https://static.ui.com/fingerprint/ui/icons/4538e4a6-b426-4549-aa4d-9c3771b4b169_257x257.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/4538e4a6-b426-4549-aa4d-9c3771b4b169_51x51.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/4538e4a6-b426-4549-aa4d-9c3771b4b169_129x129.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/4538e4a6-b426-4549-aa4d-9c3771b4b169_25x25.png"
+        },
+        "imageData": {
+          "iconId": "4538e4a6-b426-4549-aa4d-9c3771b4b169",
+          "resolutions": [
+            [
+              101,
+              101
+            ],
+            [
+              257,
+              257
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              129,
+              129
+            ],
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        "source": "discovery"
+      },
+      {
+        "mac": "D021F9E54C08",
+        "ip": "192.168.1.25",
+        "name": "Apt 3 - Upper Level",
+        "status": "offline",
+        "firmwareStatus": "upToDate",
+        "firmware": "6.2.41.14083",
+        "startupTime": 0,
+        "model": "U6 Lite",
+        "shortname": "UAL6",
+        "isManaged": true,
+        "metadata": {
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "deviceType": "uap",
+          "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+          "wifiExperience": -1,
+          "has2_4GHz": true,
+          "has5GHz": true
+        },
+        "productLine": "network",
+        "images": {
+          "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+          "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+        },
+        "imageData": {
+          "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+          "resolutions": [
+            [
+              257,
+              257
+            ],
+            [
+              129,
+              129
+            ],
+            [
+              101,
+              101
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        "source": "network"
+      },
+      {
+        "mac": "D021F9DE3BD9",
+        "ip": "192.161.44.154",
+        "name": "UDM SE",
+        "status": "online",
+        "firmwareStatus": "upToDate",
+        "firmware": "2.5.11.7956",
+        "startupTime": 1660461784,
+        "model": "Dream Machine Pro SE",
+        "shortname": "UDMPROSE",
+        "isManaged": true,
+        "metadata": {
+          "radios": {},
+          "deviceType": "udm",
+          "site_id": "62b3d8ca0dbd9d089a5e8f7b"
+        },
+        "productLine": "network",
+        "images": {
+          "xl": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_257x257.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_129x129.png",
+          "m": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_101x101.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_51x51.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_25x25.png"
+        },
+        "imageData": {
+          "iconId": "b3a5cfb0-1617-4419-8c28-36b137e8b587",
+          "resolutions": [
+            [
+              257,
+              257
+            ],
+            [
+              129,
+              129
+            ],
+            [
+              101,
+              101
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        "source": "network"
+      },
+      {
+        "mac": "70A7416773EC",
+        "ip": "192.168.1.202",
+        "name": "EPH Office - Main Level",
+        "status": "online",
+        "firmwareStatus": "upToDate",
+        "firmware": "6.2.44.14098",
+        "startupTime": 1667374198,
+        "model": "U6 LR",
+        "shortname": "UALR6V2",
+        "isManaged": true,
+        "metadata": {
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "deviceType": "uap",
+          "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+          "wifiExperience": -1,
+          "has2_4GHz": true,
+          "has5GHz": true
+        },
+        "productLine": "network",
+        "images": {
+          "xl": "https://static.ui.com/fingerprint/ui/icons/06a25b40-ef1f-463a-82d9-13236866ea3d_257x257.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/06a25b40-ef1f-463a-82d9-13236866ea3d_51x51.png",
+          "m": "https://static.ui.com/fingerprint/ui/icons/06a25b40-ef1f-463a-82d9-13236866ea3d_101x101.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/06a25b40-ef1f-463a-82d9-13236866ea3d_25x25.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/06a25b40-ef1f-463a-82d9-13236866ea3d_129x129.png"
+        },
+        "imageData": {
+          "iconId": "06a25b40-ef1f-463a-82d9-13236866ea3d",
+          "resolutions": [
+            [
+              257,
+              257
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              101,
+              101
+            ],
+            [
+              25,
+              25
+            ],
+            [
+              129,
+              129
+            ]
+          ]
+        },
+        "source": "network"
+      },
+      {
+        "mac": "D021F9EEC8A0",
+        "ip": "192.168.1.26",
+        "name": "U6-Lite",
+        "status": "online",
+        "firmwareStatus": "upToDate",
+        "firmware": "6.2.44.14098",
+        "startupTime": 1667375664,
+        "model": "U6 Lite",
+        "shortname": "UAL6",
+        "isManaged": true,
+        "metadata": {
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "deviceType": "uap",
+          "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+          "wifiExperience": -1,
+          "has2_4GHz": true,
+          "has5GHz": true
+        },
+        "productLine": "network",
+        "images": {
+          "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+          "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+        },
+        "imageData": {
+          "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+          "resolutions": [
+            [
+              257,
+              257
+            ],
+            [
+              129,
+              129
+            ],
+            [
+              101,
+              101
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        "source": "network"
+      },
+      {
+        "mac": "D021F9EEA9F0",
+        "ip": "192.168.1.119",
+        "name": "U6-Lite",
+        "status": "online",
+        "firmwareStatus": "upToDate",
+        "firmware": "6.2.44.14098",
+        "startupTime": 1667375283,
+        "model": "U6 Lite",
+        "shortname": "UAL6",
+        "isManaged": true,
+        "metadata": {
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "deviceType": "uap",
+          "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+          "wifiExperience": -1,
+          "has2_4GHz": true,
+          "has5GHz": true
+        },
+        "productLine": "network",
+        "images": {
+          "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+          "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+        },
+        "imageData": {
+          "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+          "resolutions": [
+            [
+              257,
+              257
+            ],
+            [
+              129,
+              129
+            ],
+            [
+              101,
+              101
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        "source": "network"
+      },
+      {
+        "mac": "D021F9EEC2FC",
+        "ip": "192.168.1.192",
+        "name": "U6-Lite",
+        "status": "online",
+        "firmwareStatus": "upToDate",
+        "firmware": "6.2.44.14098",
+        "startupTime": 1667375464,
+        "model": "U6 Lite",
+        "shortname": "UAL6",
+        "isManaged": true,
+        "metadata": {
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "deviceType": "uap",
+          "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+          "wifiExperience": -1,
+          "has2_4GHz": true,
+          "has5GHz": true
+        },
+        "productLine": "network",
+        "images": {
+          "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+          "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+        },
+        "imageData": {
+          "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+          "resolutions": [
+            [
+              257,
+              257
+            ],
+            [
+              129,
+              129
+            ],
+            [
+              101,
+              101
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        "source": "network"
+      },
+      {
+        "mac": "D021F9E6A544",
+        "ip": "192.168.1.27",
+        "name": "Apt 4 - Upper Level",
+        "status": "online",
+        "firmwareStatus": "updateAvailable",
+        "firmware": "6.0.21.13673",
+        "startupTime": 1666148406,
+        "model": "U6 Lite",
+        "shortname": "UAL6",
+        "isManaged": true,
+        "metadata": {
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "deviceType": "uap",
+          "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+          "wifiExperience": -1,
+          "has2_4GHz": true,
+          "has5GHz": true
+        },
+        "productLine": "network",
+        "images": {
+          "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+          "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+        },
+        "imageData": {
+          "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+          "resolutions": [
+            [
+              257,
+              257
+            ],
+            [
+              129,
+              129
+            ],
+            [
+              101,
+              101
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        "source": "network"
+      },
+      {
+        "mac": "D021F9E0EBE8",
+        "ip": "192.168.1.210",
+        "name": "Apt 2 - Upper Level",
+        "status": "online",
+        "firmwareStatus": "upToDate",
+        "firmware": "6.2.44.14098",
+        "startupTime": 1667374894,
+        "model": "U6 Lite",
+        "shortname": "UAL6",
+        "isManaged": true,
+        "metadata": {
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "deviceType": "uap",
+          "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+          "wifiExperience": -1,
+          "has2_4GHz": true,
+          "has5GHz": true
+        },
+        "productLine": "network",
+        "images": {
+          "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+          "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+        },
+        "imageData": {
+          "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+          "resolutions": [
+            [
+              257,
+              257
+            ],
+            [
+              129,
+              129
+            ],
+            [
+              101,
+              101
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        "source": "network"
+      },
+      {
+        "mac": "D021F9BF1A20",
+        "ip": "192.168.1.195",
+        "name": "Apt 1 - Upper Level",
+        "status": "online",
+        "firmwareStatus": "upToDate",
+        "firmware": "6.2.44.14098",
+        "startupTime": 1667374371,
+        "model": "U6 Lite",
+        "shortname": "UAL6",
+        "isManaged": true,
+        "metadata": {
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "deviceType": "uap",
+          "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+          "wifiExperience": -1,
+          "has2_4GHz": true,
+          "has5GHz": true
+        },
+        "productLine": "network",
+        "images": {
+          "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+          "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+        },
+        "imageData": {
+          "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+          "resolutions": [
+            [
+              257,
+              257
+            ],
+            [
+              129,
+              129
+            ],
+            [
+              101,
+              101
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        "source": "network"
+      },
+      {
+        "mac": "D021F9EEBDAC",
+        "ip": "192.168.6.50",
+        "name": "Smith22_Allstate",
+        "status": "online",
+        "firmwareStatus": "upToDate",
+        "firmware": "6.2.44.14098",
+        "startupTime": 1667375083,
+        "model": "U6 Lite",
+        "shortname": "UAL6",
+        "isManaged": true,
+        "metadata": {
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "deviceType": "uap",
+          "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+          "wifiExperience": 100,
+          "has2_4GHz": true,
+          "has5GHz": true
+        },
+        "productLine": "network",
+        "images": {
+          "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+          "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+        },
+        "imageData": {
+          "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+          "resolutions": [
+            [
+              257,
+              257
+            ],
+            [
+              129,
+              129
+            ],
+            [
+              101,
+              101
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        "source": "network"
+      },
+      {
+        "mac": "D021F9CE8503",
+        "ip": "192.168.1.203",
+        "name": "Core Switch - 24 POE Pro",
+        "status": "online",
+        "firmwareStatus": "upToDate",
+        "firmware": "6.3.13.14104",
+        "startupTime": 1666148321,
+        "model": "USW Pro 24 PoE",
+        "shortname": "US24PRO",
+        "isManaged": true,
+        "metadata": {
+          "radios": {},
+          "deviceType": "usw",
+          "site_id": "62b3d8ca0dbd9d089a5e8f7b"
+        },
+        "productLine": "network",
+        "images": {
+          "xl": "https://static.ui.com/fingerprint/ui/icons/07cecefa-4be6-4a88-9a3c-8b2d910cd653_257x257.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/07cecefa-4be6-4a88-9a3c-8b2d910cd653_129x129.png",
+          "m": "https://static.ui.com/fingerprint/ui/icons/07cecefa-4be6-4a88-9a3c-8b2d910cd653_101x101.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/07cecefa-4be6-4a88-9a3c-8b2d910cd653_51x51.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/07cecefa-4be6-4a88-9a3c-8b2d910cd653_25x25.png"
+        },
+        "imageData": {
+          "iconId": "07cecefa-4be6-4a88-9a3c-8b2d910cd653",
+          "resolutions": [
+            [
+              257,
+              257
+            ],
+            [
+              129,
+              129
+            ],
+            [
+              101,
+              101
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        "source": "network"
+      },
+      {
+        "mac": "B4FBE452159C",
+        "ip": "192.168.6.171",
+        "name": "Smith22_Allstate",
+        "status": "online",
+        "firmwareStatus": "upToDate",
+        "firmware": "6.3.13.14104",
+        "startupTime": 1666148316,
+        "model": "US 8 PoE 150W",
+        "shortname": "S28150",
+        "isManaged": true,
+        "metadata": {
+          "radios": {},
+          "deviceType": "usw",
+          "site_id": "62b3d8ca0dbd9d089a5e8f7b"
+        },
+        "productLine": "network",
+        "images": {
+          "xl": "https://static.ui.com/fingerprint/ui/icons/8c1931af-758d-4bdc-9c90-cd7914a59333_257x257.png",
+          "xs": "https://static.ui.com/fingerprint/ui/icons/8c1931af-758d-4bdc-9c90-cd7914a59333_25x25.png",
+          "s": "https://static.ui.com/fingerprint/ui/icons/8c1931af-758d-4bdc-9c90-cd7914a59333_51x51.png",
+          "l": "https://static.ui.com/fingerprint/ui/icons/8c1931af-758d-4bdc-9c90-cd7914a59333_129x129.png",
+          "m": "https://static.ui.com/fingerprint/ui/icons/8c1931af-758d-4bdc-9c90-cd7914a59333_101x101.png"
+        },
+        "imageData": {
+          "iconId": "8c1931af-758d-4bdc-9c90-cd7914a59333",
+          "resolutions": [
+            [
+              257,
+              257
+            ],
+            [
+              25,
+              25
+            ],
+            [
+              51,
+              51
+            ],
+            [
+              129,
+              129
+            ],
+            [
+              101,
+              101
+            ]
+          ]
+        },
+        "source": "network"
+      }
+    ],
+    "Protect Devices": [],
+    "CPU": {
+      "model": "unknown",
+      "speed": 0,
+      "cores": 4,
+      "currentload": 0.18,
+      "loadavg": [
+        0.94,
+        1.46,
+        1.3
+      ],
+      "temperature": 53
+    },
+    "Memory": {
+      "free": 207584,
+      "total": 4041024,
+      "available": 1761264
+    },
+    "Storage": [
+      {
+        "id": 0,
+        "type": "emmc",
+        "mounted": true,
+        "mountPoint": "/",
+        "canErase": false,
+        "size": 5708562432,
+        "used": 590503936,
+        "avail": 4807892992
+      },
+      {
+        "id": 1,
+        "type": "hdd",
+        "mounted": false,
+        "mountPoint": "/srv",
+        "canErase": false,
+        "size": null,
+        "used": null,
+        "avail": null,
+        "device": {
+          "mounted": false,
+          "model": null,
+          "serial": null,
+          "firmware": null,
+          "size": null,
+          "rpm": null,
+          "healthy": false,
+          "ataVersion": null,
+          "sataVersion": null
+        }
+      },
+      {
+        "id": 2,
+        "type": "internalSSD",
+        "mounted": true,
+        "mountPoint": "/ssd1",
+        "canErase": false,
+        "size": 117034172416,
+        "used": 1042296832,
+        "avail": 110002814976
+      }
+    ]
+  },
+  "detail": {
+    "apps": [
+      {
+        "name": "settings",
+        "type": "app",
+        "host": "localhost",
+        "protocol": "http",
+        "uiIndex": "index.js",
+        "swaiVersion": 2,
+        "uiDir": "/usr/share/unifi-core/app/node_modules/@ubnt/unifi-settings/dist",
+        "uiVersion": "1.12.24",
+        "uiNpmPackageName": "@ubnt/unifi-settings",
+        "uiCdnUrl": "https://cdn.pkg.svc.ui.com/unifi-settings/",
+        "uiCdnVersion": "1.12.24_4aeb8ab7e8",
+        "proxy": {
+          "ui": "/app-assets/settings"
+        },
+        "ui": {
+          "baseUrl": "/settings/",
+          "publicPath": "/app-assets/settings/",
+          "cdnPublicPaths": [
+            "https://cdn.pkg.svc.ui.com/unifi-settings/1.12.24_4aeb8ab7e8"
+          ],
+          "prefetch": [],
+          "icon": null,
+          "hotkey": null,
+          "entrypoint": "index.js",
+          "swaiVersion": 2,
+          "apiPrefix": "/"
+        }
+      },
+      {
+        "name": "network",
+        "type": "controller",
+        "ui": {
+          "baseUrl": "/network/",
+          "publicPath": "/app-assets/network/",
+          "cdnPublicPaths": [
+            "https://net-fe-static-assets.network-controller.svc.ui.com/release/7.2.95.0/unifi/"
+          ],
+          "prefetch": [
+            "react/js/vendor.12b60ed9b908b5f4cfbf.js",
+            "react/js/activity.12b60ed9b908b5f4cfbf.js",
+            "react/js/app.12b60ed9b908b5f4cfbf.js",
+            "react/js/clients.12b60ed9b908b5f4cfbf.js",
+            "react/js/devices.12b60ed9b908b5f4cfbf.js",
+            "react/js/dynamic.appSwitcher.12b60ed9b908b5f4cfbf.js",
+            "react/js/dynamic.ufsdn.12b60ed9b908b5f4cfbf.js",
+            "react/js/insights.12b60ed9b908b5f4cfbf.js",
+            "react/js/ips.12b60ed9b908b5f4cfbf.js",
+            "react/js/ips-map.12b60ed9b908b5f4cfbf.js",
+            "react/js/logs.12b60ed9b908b5f4cfbf.js",
+            "react/js/multi-step-animations.12b60ed9b908b5f4cfbf.js",
+            "react/js/port-management-configurations.12b60ed9b908b5f4cfbf.js",
+            "react/js/port-management-insights.12b60ed9b908b5f4cfbf.js",
+            "react/js/portManagement.12b60ed9b908b5f4cfbf.js",
+            "react/js/settings.12b60ed9b908b5f4cfbf.js",
+            "react/js/statistics.12b60ed9b908b5f4cfbf.js",
+            "react/js/swai.12b60ed9b908b5f4cfbf.js",
+            "react/js/threatManagement.12b60ed9b908b5f4cfbf.js",
+            "react/js/topology.12b60ed9b908b5f4cfbf.js",
+            "react/js/traffic-overview.12b60ed9b908b5f4cfbf.js",
+            "react/js/ulteProAdoption.12b60ed9b908b5f4cfbf.js",
+            "react/js/unifiDevices.12b60ed9b908b5f4cfbf.js",
+            "react/js/wifi-scanner.12b60ed9b908b5f4cfbf.js",
+            "react/js/wifiConnectivity.12b60ed9b908b5f4cfbf.js",
+            "react/js/wifiPerformance.12b60ed9b908b5f4cfbf.js",
+            "react/js/wifiman.12b60ed9b908b5f4cfbf.js"
+          ],
+          "icon": null,
+          "hotkey": null,
+          "entrypoint": "hybrid-swai-7.2.95.0-g6a10a46b3.js",
+          "swaiVersion": 3,
+          "apiPrefix": "/proxy/network/"
+        },
+        "required": true,
+        "updatable": true,
+        "releaseChannel": "release",
+        "isInstalled": true,
+        "isRunning": true,
+        "isConfigured": true,
+        "unadoptedDevices": [],
+        "state": "active",
+        "version": "7.2.95",
+        "status": "ok",
+        "statusMessage": "",
+        "updateAvailable": null,
+        "info": {
+          "timestamp": 1667874027184,
+          "startedAt": 1667723016484,
+          "udmConnected": true,
+          "isReadyForSetup": true,
+          "udmProvisionCompleted": true,
+          "apCount": 9,
+          "switchCount": 3,
+          "wifiExperienceScore": 98,
+          "wanStatus": "OK",
+          "health": {
+            "label": "fair"
+          },
+          "network_status": {
+            "health": "fair",
+            "historical_satisfaction": [
+              99,
+              98,
+              99,
+              99,
+              99,
+              99,
+              99,
+              99,
+              98,
+              100,
+              100,
+              100
+            ]
+          },
+          "clientCount": 8,
+          "wiredClients": 6,
+          "wirelessClients": 2,
+          "guestClients": 0,
+          "lastSpeedTest": {
+            "downloadSpeed": 113.80722045898438,
+            "ping": 21,
+            "runDate": 1660582852,
+            "uploadSpeed": 22.232336044311523
+          },
+          "updateAvailable": false,
+          "portTable": [
+            {
+              "fullDuplex": false,
+              "ifname": "eth8",
+              "name": "Port 9",
+              "poeCaps": 0,
+              "poePower": 0,
+              "speed": 0,
+              "throughputRx": 1104,
+              "throughputTx": 4200,
+              "type": "wan",
+              "up": false,
+              "usageRx": 1296093544.5689654,
+              "usageTx": 781668716.4827586
+            },
+            {
+              "fullDuplex": false,
+              "ifname": "eth0",
+              "name": "Port 1",
+              "poeCaps": 0,
+              "poePower": 0,
+              "speed": 0,
+              "throughputRx": 2546,
+              "throughputTx": 1493,
+              "type": "lan",
+              "up": false,
+              "usageRx": 338926027.3103448,
+              "usageTx": 165501010.89655173
+            },
+            {
+              "fullDuplex": false,
+              "ifname": "eth6",
+              "name": "Port 7",
+              "poeCaps": 0,
+              "poePower": 0,
+              "speed": 0,
+              "throughputRx": 665,
+              "throughputTx": 2190,
+              "type": "lan",
+              "up": false,
+              "usageRx": 517645507.5689655,
+              "usageTx": 1279384951.7586207
+            }
+          ],
+          "teleportEnabled": true,
+          "throughput": 5304
+        },
+        "controllerStatus": "READY",
+        "abridged": true,
+        "unifiCareDevices": [],
+        "host": "localhost",
+        "protocol": "http",
+        "uiIndex": "hybrid-swai-7.2.95.0-g6a10a46b3.js",
+        "swaiVersion": 3,
+        "port": 8081,
+        "prefetch": [
+          "react/js/vendor.12b60ed9b908b5f4cfbf.js",
+          "react/js/activity.12b60ed9b908b5f4cfbf.js",
+          "react/js/app.12b60ed9b908b5f4cfbf.js",
+          "react/js/clients.12b60ed9b908b5f4cfbf.js",
+          "react/js/devices.12b60ed9b908b5f4cfbf.js",
+          "react/js/dynamic.appSwitcher.12b60ed9b908b5f4cfbf.js",
+          "react/js/dynamic.ufsdn.12b60ed9b908b5f4cfbf.js",
+          "react/js/insights.12b60ed9b908b5f4cfbf.js",
+          "react/js/ips.12b60ed9b908b5f4cfbf.js",
+          "react/js/ips-map.12b60ed9b908b5f4cfbf.js",
+          "react/js/logs.12b60ed9b908b5f4cfbf.js",
+          "react/js/multi-step-animations.12b60ed9b908b5f4cfbf.js",
+          "react/js/port-management-configurations.12b60ed9b908b5f4cfbf.js",
+          "react/js/port-management-insights.12b60ed9b908b5f4cfbf.js",
+          "react/js/portManagement.12b60ed9b908b5f4cfbf.js",
+          "react/js/settings.12b60ed9b908b5f4cfbf.js",
+          "react/js/statistics.12b60ed9b908b5f4cfbf.js",
+          "react/js/swai.12b60ed9b908b5f4cfbf.js",
+          "react/js/threatManagement.12b60ed9b908b5f4cfbf.js",
+          "react/js/topology.12b60ed9b908b5f4cfbf.js",
+          "react/js/traffic-overview.12b60ed9b908b5f4cfbf.js",
+          "react/js/ulteProAdoption.12b60ed9b908b5f4cfbf.js",
+          "react/js/unifiDevices.12b60ed9b908b5f4cfbf.js",
+          "react/js/wifi-scanner.12b60ed9b908b5f4cfbf.js",
+          "react/js/wifiConnectivity.12b60ed9b908b5f4cfbf.js",
+          "react/js/wifiPerformance.12b60ed9b908b5f4cfbf.js",
+          "react/js/wifiman.12b60ed9b908b5f4cfbf.js"
+        ],
+        "uiDir": "/usr/lib/unifi/webapps/ROOT/app-unifi",
+        "uiCdn": "https://net-fe-static-assets.network-controller.svc.ui.com/release/7.2.95.0/unifi",
+        "proxy": {
+          "api": "/proxy/network",
+          "ui": "/app-assets/network"
+        },
+        "installState": "installed",
+        "updateProgress": 100
+      },
+      {
+        "name": "protect",
+        "type": "controller",
+        "ui": {
+          "baseUrl": "/protect/",
+          "publicPath": "/app-assets/protect/",
+          "cdnPublicPaths": [
+            "https://cdn.pkg.svc.ui.com/unifi-protect-ui/2.2.3/"
+          ],
+          "prefetch": [],
+          "icon": null,
+          "hotkey": null,
+          "entrypoint": "swai-2.2.3.js",
+          "swaiVersion": 5,
+          "apiPrefix": "/proxy/protect/"
+        },
+        "updatable": true,
+        "releaseChannel": "release",
+        "isInstalled": true,
+        "isRunning": true,
+        "isConfigured": true,
+        "unadoptedDevices": [],
+        "state": "active",
+        "version": "2.2.6",
+        "status": "ok",
+        "statusMessage": "",
+        "updateAvailable": null,
+        "isGeofencingEnabled": false,
+        "controllerStatus": "READY",
+        "restorePercentage": 100,
+        "features": {
+          "stackable": false
+        },
+        "info": {
+          "events": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "isSetup": true,
+          "lastMotion": null,
+          "lastMotionCamera": null,
+          "lastMotionCameraAddress": null,
+          "lastMotionCameraModel": null,
+          "managedCameras": 0,
+          "onlineCameras": 0,
+          "offlineCameras": 0,
+          "retentionTime": null,
+          "oldestRecording": null,
+          "recordingSpaceTotal": 48314695680,
+          "recordingSpaceUsed": 1043550208,
+          "startedAt": 1660443784708,
+          "throughput": 409,
+          "timeFormat": "12h",
+          "cameras": [],
+          "deviceGroups": [],
+          "stacks": {
+            "is_primary": false,
+            "is_stacked": false,
+            "is_connected": false,
+            "total_count": 0,
+            "current_idx": 0
+          }
+        },
+        "host": "localhost",
+        "protocol": "http",
+        "uiIndex": "swai-2.2.3.js",
+        "swaiVersion": 5,
+        "port": 7080,
+        "uiDir": "/usr/share/unifi-protect/app/node_modules/@ubnt/unifi-protect-ui-internal/dist",
+        "uiCdn": "https://cdn.pkg.svc.ui.com/unifi-protect-ui/2.2.3",
+        "uiVersion": "2.2.3",
+        "proxy": {
+          "api": "/proxy/protect",
+          "ui": "/app-assets/protect"
+        },
+        "installState": "installed",
+        "installable": true,
+        "updateProgress": 100
+      },
+      {
+        "name": "access",
+        "type": "controller",
+        "ui": {
+          "baseUrl": "/access/",
+          "publicPath": "/app-assets/access/",
+          "cdnPublicPaths": [
+            "https://cdn.pkg.svc.ui.com/unifi-access-ui/1.4.5-1233-fcae534f1d/"
+          ],
+          "prefetch": [],
+          "icon": "icon.png",
+          "hotkey": null,
+          "entrypoint": "index.1.4.5-1233.js",
+          "swaiVersion": 2,
+          "apiPrefix": "/proxy/access/"
+        },
+        "updatable": true,
+        "releaseChannel": "release",
+        "isInstalled": true,
+        "isRunning": true,
+        "isConfigured": false,
+        "unadoptedDevices": [],
+        "state": "active",
+        "version": "1.4.5",
+        "status": "ok",
+        "statusMessage": "",
+        "updateAvailable": "1.4.6+2493",
+        "host": "localhost",
+        "protocol": "http",
+        "uiIndex": "index.1.4.5-1233.js",
+        "swaiVersion": 2,
+        "port": 12080,
+        "uiDir": "/usr/lib/unifi-access/swai",
+        "uiCdn": "https://cdn.pkg.svc.ui.com/unifi-access-ui/1.4.5-1233-fcae534f1d",
+        "proxy": {
+          "api": "/proxy/access",
+          "ui": "/app-assets/access"
+        },
+        "adoptionDisabled": true,
+        "controllerStatus": "READY",
+        "info": {
+          "doorCount": 0,
+          "uahCount": 0,
+          "udaProCount": 0,
+          "udaLiteCount": 0,
+          "updateAvailable": false,
+          "health": {
+            "score": 100,
+            "label": "Health"
+          },
+          "startedAt": 1660461857,
+          "devices": {
+            "online": [],
+            "offline": []
+          },
+          "events": [
+            {
+              "timestamp": 1667830768,
+              "count": 0
+            },
+            {
+              "timestamp": 1667834369,
+              "count": 0
+            },
+            {
+              "timestamp": 1667837970,
+              "count": 0
+            },
+            {
+              "timestamp": 1667841571,
+              "count": 0
+            },
+            {
+              "timestamp": 1667845172,
+              "count": 0
+            },
+            {
+              "timestamp": 1667848773,
+              "count": 0
+            },
+            {
+              "timestamp": 1667852374,
+              "count": 0
+            },
+            {
+              "timestamp": 1667855975,
+              "count": 0
+            },
+            {
+              "timestamp": 1667859576,
+              "count": 0
+            },
+            {
+              "timestamp": 1667863177,
+              "count": 0
+            },
+            {
+              "timestamp": 1667866778,
+              "count": 0
+            },
+            {
+              "timestamp": 1667870379,
+              "count": 0
+            }
+          ]
+        },
+        "installable": true
+      },
+      {
+        "name": "talk",
+        "type": "controller",
+        "ui": {
+          "baseUrl": "/talk/",
+          "publicPath": "/app-assets/talk/",
+          "cdnPublicPaths": [
+            "https://cdn.pkg.svc.ui.com/unifi-talk-ui/v1.17.1-a833c23ee6/"
+          ],
+          "prefetch": [],
+          "icon": null,
+          "hotkey": null,
+          "entrypoint": "index-1.17.1.js",
+          "swaiVersion": 4,
+          "apiPrefix": "/proxy/talk/"
+        },
+        "updatable": true,
+        "releaseChannel": "release",
+        "isInstalled": true,
+        "isRunning": true,
+        "isConfigured": false,
+        "unadoptedDevices": [],
+        "state": "active",
+        "version": "1.17.2",
+        "status": "ok",
+        "statusMessage": "",
+        "updateAvailable": "1.18.2",
+        "host": "localhost",
+        "protocol": "http",
+        "uiIndex": "index-1.17.1.js",
+        "swaiVersion": 4,
+        "port": 30080,
+        "uiCdn": "https://cdn.pkg.svc.ui.com/unifi-talk-ui/v1.17.1-a833c23ee6",
+        "uiPath": "/",
+        "proxy": {
+          "api": "/proxy/talk",
+          "ui": "/app-assets/talk"
+        },
+        "configurestate": "unconfigured",
+        "info": {
+          "phones": 0,
+          "numbers": 0,
+          "activeCalls": 0,
+          "version": "1.17.2",
+          "updateAvailable": false,
+          "startedAt": 1660461921955,
+          "phonesOnline": 0,
+          "phonesOffline": 0,
+          "calls": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "callExperience": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "lastCall": null,
+          "lastCallType": null,
+          "lastCallPhone": null,
+          "lastCallSubject": null,
+          "lastCallPhoneModel": null
+        },
+        "apps": [
+          {
+            "swaiVersion": 4,
+            "name": "talk",
+            "port": 30080,
+            "uiPath": "/",
+            "uiCdn": "https://cdn.pkg.svc.ui.com/unifi-talk-ui/v1.17.1-a833c23ee6",
+            "uiIndex": "index-1.17.1.js",
+            "type": "controller"
+          }
+        ],
+        "installable": true
+      },
+      {
+        "name": "uid-agent",
+        "type": "controller",
+        "ui": {
+          "baseUrl": "/uid-agent/",
+          "publicPath": "/app-assets/uid-agent/",
+          "cdnPublicPaths": [
+            "https://cdn.pkg.svc.ui.com/uid-agent-fe/1.49.4-1283-db09cb136f/"
+          ],
+          "prefetch": [],
+          "icon": "icon.png",
+          "hotkey": null,
+          "entrypoint": "index.1.49.4-1283.js",
+          "swaiVersion": 2,
+          "apiPrefix": "/proxy/uid-agent/"
+        },
+        "updatable": true,
+        "releaseChannel": "release",
+        "isInstalled": true,
+        "isRunning": true,
+        "isConfigured": false,
+        "unadoptedDevices": [],
+        "state": "active",
+        "version": "1.49.4+1951",
+        "status": "ok",
+        "statusMessage": "",
+        "updateAvailable": "1.51.1+2099",
+        "host": "localhost",
+        "protocol": "http",
+        "uiIndex": "index.1.49.4-1283.js",
+        "swaiVersion": 2,
+        "port": 6080,
+        "uiDir": "/usr/lib/uid-agent/web-swai",
+        "uiCdn": "https://cdn.pkg.svc.ui.com/uid-agent-fe/1.49.4-1283-db09cb136f",
+        "proxy": {
+          "api": "/proxy/uid-agent",
+          "ui": "/app-assets/uid-agent"
+        },
+        "controllerStatus": "READY",
+        "info": {},
+        "installable": true
+      },
+      {
+        "name": "connect",
+        "type": "controller",
+        "ui": {
+          "baseUrl": "/connect/"
+        },
+        "prerelease": true,
+        "updatable": true,
+        "releaseChannel": "release",
+        "isInstalled": false,
+        "isRunning": false,
+        "isConfigured": false,
+        "unadoptedDevices": [],
+        "state": "inactive",
+        "version": null,
+        "status": "offline",
+        "statusMessage": "",
+        "updateAvailable": null,
+        "installable": false
+      },
+      {
+        "name": "users",
+        "type": "app",
+        "host": "localhost",
+        "protocol": "http",
+        "uiIndex": "index.js",
+        "swaiVersion": 2,
+        "port": 9080,
+        "uiDir": "/usr/lib/ulp-go/swai",
+        "uiCdn": "https://cdn.pkg.svc.ui.com/unifi-ulp-ui/1.4.8-873-df4779fa39",
+        "proxy": {
+          "api": "/proxy/users",
+          "ui": "/app-assets/users"
+        },
+        "ui": {
+          "baseUrl": "/users/",
+          "publicPath": "/app-assets/users/",
+          "cdnPublicPaths": [
+            "https://cdn.pkg.svc.ui.com/unifi-ulp-ui/1.4.8-873-df4779fa39/"
+          ],
+          "prefetch": [],
+          "icon": "icon.png",
+          "hotkey": null,
+          "entrypoint": "index.js",
+          "swaiVersion": 2,
+          "apiPrefix": "/proxy/users/"
+        },
+        "info": {
+          "users": {
+            "owners": 1,
+            "superAdmins": 0,
+            "limitedAdmins": 0,
+            "users": 0
+          }
+        },
+        "controllerStatus": "READY"
+      },
+      {
+        "name": "led",
+        "state": "inactive",
+        "version": null,
+        "isInstalled": false,
+        "isRunning": false,
+        "status": "offline",
+        "statusMessage": ""
+      }
+    ],
+    "settings": {
+      "isSetup": true,
+      "location": {
+        "lat": 41.2854,
+        "long": -82.0431,
+        "radius": 200,
+        "text": "Grafton, Ohio, United States"
+      },
+      "name": "UDM SE",
+      "timezone": "America/New_York",
+      "sendDiagnostics": "anonymous",
+      "backupEnabled": true,
+      "backupSchedule": {
+        "frequency": "weekly",
+        "day": 1,
+        "hour": 0
+      },
+      "refreshUbicAuth": false,
+      "isInternalUser": false,
+      "setupType": null,
+      "setup_device_id": "bbed3738-31e0-41a0-a57f-15a45fb64d45",
+      "setupData": {
+        "name": "UDM SE",
+        "timezone": "America/New_York",
+        "optimizeNetwork": true,
+        "sendDiagnostics": "anonymous",
+        "newAccount": false,
+        "advancedSetup": {
+          "mode": "dhcp"
+        },
+        "setup_type": "home",
+        "business_type": "",
+        "business_size": "",
+        "location": {
+          "lat": 41.2854,
+          "long": -82.0431,
+          "radius": 200,
+          "text": "Grafton, Ohio, United States"
+        },
+        "isp": {
+          "upload": 21,
+          "download": 65,
+          "downloadResults": 65,
+          "uploadResults": 21,
+          "speedTestProvider": "GLW Broadband, Inc",
+          "pingResult": 28.3
+        },
+        "schedule": {
+          "frequency": "weekly",
+          "day": 0,
+          "hour": 3,
+          "includeFirmware": true,
+          "includeControllers": false
+        },
+        "country": 840,
+        "setupId": "bc00e2ca-86ae-453d-8a28-f8210f4e669f",
+        "raid": "raid5",
+        "updateFirmware": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36",
+        "onCompleteTraceSent": true
+      },
+      "setupId": "bc00e2ca-86ae-453d-8a28-f8210f4e669f",
+      "country": 840,
+      "autoBackupEnabled": true,
+      "internetRequired": true,
+      "ustorage": {
+        "hotspare": false,
+        "raid": "raid1"
+      },
+      "updateSchedule": {
+        "frequency": "weekly",
+        "day": 1,
+        "hour": 3,
+        "includeFirmware": true,
+        "includeControllers": false
+      }
+    },
+    "firmware": {
+      "latest": {
+        "timestamp": 1667873910093,
+        "channel": "release",
+        "created": "2022-08-10T12:30:06+00:00",
+        "file_size": 883058114,
+        "id": "c63182d3-f1ba-47cd-a324-e4c4a28e2e76",
+        "md5": "f0c3eb2f339535beb1e8903eb0552247",
+        "sha256_checksum": "40408c6e46d2215227b1ee46bca104fb27cbeddded031b164c35277c533ccb6d",
+        "platform": "UDMPROSE",
+        "product": "unifi-dream",
+        "updated": "2022-08-11T15:07:12+00:00",
+        "tags": {
+          "ubnt_version": "UDMPROSE.al324.v2.5.11.b2ebfc7.220801.1422"
+        },
+        "version": "v2.5.11+b2ebfc7",
+        "version_major": 2,
+        "version_minor": 5,
+        "version_patch": 11,
+        "version_build": "b2ebfc7",
+        "probability": 0.2,
+        "probability_computed": 1,
+        "release_date": "2022-08-15T00:00:00+00:00",
+        "_links": {
+          "self": {
+            "href": "https://fw-update.ubnt.com/api/firmware/c63182d3-f1ba-47cd-a324-e4c4a28e2e76"
+          },
+          "upload": [
+            {
+              "name": "data",
+              "href": "https://fw-update.ubnt.com/api/firmware/c63182d3-f1ba-47cd-a324-e4c4a28e2e76/data"
+            },
+            {
+              "name": "changelog",
+              "href": "https://fw-update.ubnt.com/api/firmware/c63182d3-f1ba-47cd-a324-e4c4a28e2e76/changelog"
+            }
+          ],
+          "data": {
+            "href": "https://fw-download.ubnt.com/data/unifi-dream/7f68-UDMPROSE-2.5.11-c63182d3f1ba47cda324e4c4a28e2e76.bin"
+          }
+        },
+        "cachedAt": 1667873910093
+      },
+      "latestByChannel": {
+        "release": {
+          "timestamp": 1667873910093,
+          "channel": "release",
+          "created": "2022-08-10T12:30:06+00:00",
+          "file_size": 883058114,
+          "id": "c63182d3-f1ba-47cd-a324-e4c4a28e2e76",
+          "md5": "f0c3eb2f339535beb1e8903eb0552247",
+          "sha256_checksum": "40408c6e46d2215227b1ee46bca104fb27cbeddded031b164c35277c533ccb6d",
+          "platform": "UDMPROSE",
+          "product": "unifi-dream",
+          "updated": "2022-08-11T15:07:12+00:00",
+          "tags": {
+            "ubnt_version": "UDMPROSE.al324.v2.5.11.b2ebfc7.220801.1422"
+          },
+          "version": "v2.5.11+b2ebfc7",
+          "version_major": 2,
+          "version_minor": 5,
+          "version_patch": 11,
+          "version_build": "b2ebfc7",
+          "probability": 0.2,
+          "probability_computed": 1,
+          "release_date": "2022-08-15T00:00:00+00:00",
+          "_links": {
+            "self": {
+              "href": "https://fw-update.ubnt.com/api/firmware/c63182d3-f1ba-47cd-a324-e4c4a28e2e76"
+            },
+            "upload": [
+              {
+                "name": "data",
+                "href": "https://fw-update.ubnt.com/api/firmware/c63182d3-f1ba-47cd-a324-e4c4a28e2e76/data"
+              },
+              {
+                "name": "changelog",
+                "href": "https://fw-update.ubnt.com/api/firmware/c63182d3-f1ba-47cd-a324-e4c4a28e2e76/changelog"
+              }
+            ],
+            "data": {
+              "href": "https://fw-download.ubnt.com/data/unifi-dream/7f68-UDMPROSE-2.5.11-c63182d3f1ba47cda324e4c4a28e2e76.bin"
+            }
+          },
+          "cachedAt": 1667873910093
+        }
+      },
+      "progress": {
+        "state": "done",
+        "url": "https://fw-download.ubnt.com/data/unifi-dream/7f68-UDMPROSE-2.5.11-c63182d3f1ba47cda324e4c4a28e2e76.bin",
+        "bytes": 0,
+        "progress": 100
+      },
+      "channels": [
+        "release"
+      ],
+      "schedule": {
+        "frequency": "weekly",
+        "includeFirmware": true,
+        "includeControllers": true,
+        "day": 0,
+        "hour": 3
+      },
+      "releaseChannel": "release",
+      "update": {
+        "state": "NOT_STARTED",
+        "failedReason": "NONE"
+      },
+      "autoUpdatePrompt": null
+    },
+    "controllers": [
+      {
+        "name": "network",
+        "type": "controller",
+        "ui": {
+          "baseUrl": "/network/",
+          "publicPath": "/app-assets/network/",
+          "cdnPublicPaths": [
+            "https://net-fe-static-assets.network-controller.svc.ui.com/release/7.2.95.0/unifi/"
+          ],
+          "prefetch": [
+            "react/js/vendor.12b60ed9b908b5f4cfbf.js",
+            "react/js/activity.12b60ed9b908b5f4cfbf.js",
+            "react/js/app.12b60ed9b908b5f4cfbf.js",
+            "react/js/clients.12b60ed9b908b5f4cfbf.js",
+            "react/js/devices.12b60ed9b908b5f4cfbf.js",
+            "react/js/dynamic.appSwitcher.12b60ed9b908b5f4cfbf.js",
+            "react/js/dynamic.ufsdn.12b60ed9b908b5f4cfbf.js",
+            "react/js/insights.12b60ed9b908b5f4cfbf.js",
+            "react/js/ips.12b60ed9b908b5f4cfbf.js",
+            "react/js/ips-map.12b60ed9b908b5f4cfbf.js",
+            "react/js/logs.12b60ed9b908b5f4cfbf.js",
+            "react/js/multi-step-animations.12b60ed9b908b5f4cfbf.js",
+            "react/js/port-management-configurations.12b60ed9b908b5f4cfbf.js",
+            "react/js/port-management-insights.12b60ed9b908b5f4cfbf.js",
+            "react/js/portManagement.12b60ed9b908b5f4cfbf.js",
+            "react/js/settings.12b60ed9b908b5f4cfbf.js",
+            "react/js/statistics.12b60ed9b908b5f4cfbf.js",
+            "react/js/swai.12b60ed9b908b5f4cfbf.js",
+            "react/js/threatManagement.12b60ed9b908b5f4cfbf.js",
+            "react/js/topology.12b60ed9b908b5f4cfbf.js",
+            "react/js/traffic-overview.12b60ed9b908b5f4cfbf.js",
+            "react/js/ulteProAdoption.12b60ed9b908b5f4cfbf.js",
+            "react/js/unifiDevices.12b60ed9b908b5f4cfbf.js",
+            "react/js/wifi-scanner.12b60ed9b908b5f4cfbf.js",
+            "react/js/wifiConnectivity.12b60ed9b908b5f4cfbf.js",
+            "react/js/wifiPerformance.12b60ed9b908b5f4cfbf.js",
+            "react/js/wifiman.12b60ed9b908b5f4cfbf.js"
+          ],
+          "icon": null,
+          "hotkey": null,
+          "entrypoint": "hybrid-swai-7.2.95.0-g6a10a46b3.js",
+          "swaiVersion": 3,
+          "apiPrefix": "/proxy/network/"
+        },
+        "required": true,
+        "updatable": true,
+        "releaseChannel": "release",
+        "isInstalled": true,
+        "isRunning": true,
+        "isConfigured": true,
+        "unadoptedDevices": [],
+        "state": "active",
+        "version": "7.2.95",
+        "status": "ok",
+        "statusMessage": "",
+        "updateAvailable": null,
+        "info": {
+          "timestamp": 1667874027184,
+          "startedAt": 1667723016484,
+          "udmConnected": true,
+          "isReadyForSetup": true,
+          "udmProvisionCompleted": true,
+          "apCount": 9,
+          "switchCount": 3,
+          "wifiExperienceScore": 98,
+          "wanStatus": "OK",
+          "health": {
+            "label": "fair"
+          },
+          "network_status": {
+            "health": "fair",
+            "historical_satisfaction": [
+              99,
+              98,
+              99,
+              99,
+              99,
+              99,
+              99,
+              99,
+              98,
+              100,
+              100,
+              100
+            ]
+          },
+          "clientCount": 8,
+          "wiredClients": 6,
+          "wirelessClients": 2,
+          "guestClients": 0,
+          "lastSpeedTest": {
+            "downloadSpeed": 113.80722045898438,
+            "ping": 21,
+            "runDate": 1660582852,
+            "uploadSpeed": 22.232336044311523
+          },
+          "updateAvailable": false,
+          "portTable": [
+            {
+              "fullDuplex": false,
+              "ifname": "eth8",
+              "name": "Port 9",
+              "poeCaps": 0,
+              "poePower": 0,
+              "speed": 0,
+              "throughputRx": 1104,
+              "throughputTx": 4200,
+              "type": "wan",
+              "up": false,
+              "usageRx": 1296093544.5689654,
+              "usageTx": 781668716.4827586
+            },
+            {
+              "fullDuplex": false,
+              "ifname": "eth0",
+              "name": "Port 1",
+              "poeCaps": 0,
+              "poePower": 0,
+              "speed": 0,
+              "throughputRx": 2546,
+              "throughputTx": 1493,
+              "type": "lan",
+              "up": false,
+              "usageRx": 338926027.3103448,
+              "usageTx": 165501010.89655173
+            },
+            {
+              "fullDuplex": false,
+              "ifname": "eth6",
+              "name": "Port 7",
+              "poeCaps": 0,
+              "poePower": 0,
+              "speed": 0,
+              "throughputRx": 665,
+              "throughputTx": 2190,
+              "type": "lan",
+              "up": false,
+              "usageRx": 517645507.5689655,
+              "usageTx": 1279384951.7586207
+            }
+          ],
+          "teleportEnabled": true,
+          "throughput": 5304
+        },
+        "controllerStatus": "READY",
+        "abridged": true,
+        "unifiCareDevices": [],
+        "host": "localhost",
+        "protocol": "http",
+        "uiIndex": "hybrid-swai-7.2.95.0-g6a10a46b3.js",
+        "swaiVersion": 3,
+        "port": 8081,
+        "prefetch": [
+          "react/js/vendor.12b60ed9b908b5f4cfbf.js",
+          "react/js/activity.12b60ed9b908b5f4cfbf.js",
+          "react/js/app.12b60ed9b908b5f4cfbf.js",
+          "react/js/clients.12b60ed9b908b5f4cfbf.js",
+          "react/js/devices.12b60ed9b908b5f4cfbf.js",
+          "react/js/dynamic.appSwitcher.12b60ed9b908b5f4cfbf.js",
+          "react/js/dynamic.ufsdn.12b60ed9b908b5f4cfbf.js",
+          "react/js/insights.12b60ed9b908b5f4cfbf.js",
+          "react/js/ips.12b60ed9b908b5f4cfbf.js",
+          "react/js/ips-map.12b60ed9b908b5f4cfbf.js",
+          "react/js/logs.12b60ed9b908b5f4cfbf.js",
+          "react/js/multi-step-animations.12b60ed9b908b5f4cfbf.js",
+          "react/js/port-management-configurations.12b60ed9b908b5f4cfbf.js",
+          "react/js/port-management-insights.12b60ed9b908b5f4cfbf.js",
+          "react/js/portManagement.12b60ed9b908b5f4cfbf.js",
+          "react/js/settings.12b60ed9b908b5f4cfbf.js",
+          "react/js/statistics.12b60ed9b908b5f4cfbf.js",
+          "react/js/swai.12b60ed9b908b5f4cfbf.js",
+          "react/js/threatManagement.12b60ed9b908b5f4cfbf.js",
+          "react/js/topology.12b60ed9b908b5f4cfbf.js",
+          "react/js/traffic-overview.12b60ed9b908b5f4cfbf.js",
+          "react/js/ulteProAdoption.12b60ed9b908b5f4cfbf.js",
+          "react/js/unifiDevices.12b60ed9b908b5f4cfbf.js",
+          "react/js/wifi-scanner.12b60ed9b908b5f4cfbf.js",
+          "react/js/wifiConnectivity.12b60ed9b908b5f4cfbf.js",
+          "react/js/wifiPerformance.12b60ed9b908b5f4cfbf.js",
+          "react/js/wifiman.12b60ed9b908b5f4cfbf.js"
+        ],
+        "uiDir": "/usr/lib/unifi/webapps/ROOT/app-unifi",
+        "uiCdn": "https://net-fe-static-assets.network-controller.svc.ui.com/release/7.2.95.0/unifi",
+        "proxy": {
+          "api": "/proxy/network",
+          "ui": "/app-assets/network"
+        },
+        "installState": "installed",
+        "updateProgress": 100
+      },
+      {
+        "name": "protect",
+        "type": "controller",
+        "ui": {
+          "baseUrl": "/protect/",
+          "publicPath": "/app-assets/protect/",
+          "cdnPublicPaths": [
+            "https://cdn.pkg.svc.ui.com/unifi-protect-ui/2.2.3/"
+          ],
+          "prefetch": [],
+          "icon": null,
+          "hotkey": null,
+          "entrypoint": "swai-2.2.3.js",
+          "swaiVersion": 5,
+          "apiPrefix": "/proxy/protect/"
+        },
+        "updatable": true,
+        "releaseChannel": "release",
+        "isInstalled": true,
+        "isRunning": true,
+        "isConfigured": true,
+        "unadoptedDevices": [],
+        "state": "active",
+        "version": "2.2.6",
+        "status": "ok",
+        "statusMessage": "",
+        "updateAvailable": null,
+        "isGeofencingEnabled": false,
+        "controllerStatus": "READY",
+        "restorePercentage": 100,
+        "features": {
+          "stackable": false
+        },
+        "info": {
+          "events": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "isSetup": true,
+          "lastMotion": null,
+          "lastMotionCamera": null,
+          "lastMotionCameraAddress": null,
+          "lastMotionCameraModel": null,
+          "managedCameras": 0,
+          "onlineCameras": 0,
+          "offlineCameras": 0,
+          "retentionTime": null,
+          "oldestRecording": null,
+          "recordingSpaceTotal": 48314695680,
+          "recordingSpaceUsed": 1043550208,
+          "startedAt": 1660443784708,
+          "throughput": 409,
+          "timeFormat": "12h",
+          "cameras": [],
+          "deviceGroups": [],
+          "stacks": {
+            "is_primary": false,
+            "is_stacked": false,
+            "is_connected": false,
+            "total_count": 0,
+            "current_idx": 0
+          }
+        },
+        "host": "localhost",
+        "protocol": "http",
+        "uiIndex": "swai-2.2.3.js",
+        "swaiVersion": 5,
+        "port": 7080,
+        "uiDir": "/usr/share/unifi-protect/app/node_modules/@ubnt/unifi-protect-ui-internal/dist",
+        "uiCdn": "https://cdn.pkg.svc.ui.com/unifi-protect-ui/2.2.3",
+        "uiVersion": "2.2.3",
+        "proxy": {
+          "api": "/proxy/protect",
+          "ui": "/app-assets/protect"
+        },
+        "installState": "installed",
+        "installable": true,
+        "updateProgress": 100
+      },
+      {
+        "name": "access",
+        "type": "controller",
+        "ui": {
+          "baseUrl": "/access/",
+          "publicPath": "/app-assets/access/",
+          "cdnPublicPaths": [
+            "https://cdn.pkg.svc.ui.com/unifi-access-ui/1.4.5-1233-fcae534f1d/"
+          ],
+          "prefetch": [],
+          "icon": "icon.png",
+          "hotkey": null,
+          "entrypoint": "index.1.4.5-1233.js",
+          "swaiVersion": 2,
+          "apiPrefix": "/proxy/access/"
+        },
+        "updatable": true,
+        "releaseChannel": "release",
+        "isInstalled": true,
+        "isRunning": true,
+        "isConfigured": false,
+        "unadoptedDevices": [],
+        "state": "active",
+        "version": "1.4.5",
+        "status": "ok",
+        "statusMessage": "",
+        "updateAvailable": "1.4.6+2493",
+        "host": "localhost",
+        "protocol": "http",
+        "uiIndex": "index.1.4.5-1233.js",
+        "swaiVersion": 2,
+        "port": 12080,
+        "uiDir": "/usr/lib/unifi-access/swai",
+        "uiCdn": "https://cdn.pkg.svc.ui.com/unifi-access-ui/1.4.5-1233-fcae534f1d",
+        "proxy": {
+          "api": "/proxy/access",
+          "ui": "/app-assets/access"
+        },
+        "adoptionDisabled": true,
+        "controllerStatus": "READY",
+        "info": {
+          "doorCount": 0,
+          "uahCount": 0,
+          "udaProCount": 0,
+          "udaLiteCount": 0,
+          "updateAvailable": false,
+          "health": {
+            "score": 100,
+            "label": "Health"
+          },
+          "startedAt": 1660461857,
+          "devices": {
+            "online": [],
+            "offline": []
+          },
+          "events": [
+            {
+              "timestamp": 1667830768,
+              "count": 0
+            },
+            {
+              "timestamp": 1667834369,
+              "count": 0
+            },
+            {
+              "timestamp": 1667837970,
+              "count": 0
+            },
+            {
+              "timestamp": 1667841571,
+              "count": 0
+            },
+            {
+              "timestamp": 1667845172,
+              "count": 0
+            },
+            {
+              "timestamp": 1667848773,
+              "count": 0
+            },
+            {
+              "timestamp": 1667852374,
+              "count": 0
+            },
+            {
+              "timestamp": 1667855975,
+              "count": 0
+            },
+            {
+              "timestamp": 1667859576,
+              "count": 0
+            },
+            {
+              "timestamp": 1667863177,
+              "count": 0
+            },
+            {
+              "timestamp": 1667866778,
+              "count": 0
+            },
+            {
+              "timestamp": 1667870379,
+              "count": 0
+            }
+          ]
+        },
+        "installable": true
+      },
+      {
+        "name": "talk",
+        "type": "controller",
+        "ui": {
+          "baseUrl": "/talk/",
+          "publicPath": "/app-assets/talk/",
+          "cdnPublicPaths": [
+            "https://cdn.pkg.svc.ui.com/unifi-talk-ui/v1.17.1-a833c23ee6/"
+          ],
+          "prefetch": [],
+          "icon": null,
+          "hotkey": null,
+          "entrypoint": "index-1.17.1.js",
+          "swaiVersion": 4,
+          "apiPrefix": "/proxy/talk/"
+        },
+        "updatable": true,
+        "releaseChannel": "release",
+        "isInstalled": true,
+        "isRunning": true,
+        "isConfigured": false,
+        "unadoptedDevices": [],
+        "state": "active",
+        "version": "1.17.2",
+        "status": "ok",
+        "statusMessage": "",
+        "updateAvailable": "1.18.2",
+        "host": "localhost",
+        "protocol": "http",
+        "uiIndex": "index-1.17.1.js",
+        "swaiVersion": 4,
+        "port": 30080,
+        "uiCdn": "https://cdn.pkg.svc.ui.com/unifi-talk-ui/v1.17.1-a833c23ee6",
+        "uiPath": "/",
+        "proxy": {
+          "api": "/proxy/talk",
+          "ui": "/app-assets/talk"
+        },
+        "configurestate": "unconfigured",
+        "info": {
+          "phones": 0,
+          "numbers": 0,
+          "activeCalls": 0,
+          "version": "1.17.2",
+          "updateAvailable": false,
+          "startedAt": 1660461921955,
+          "phonesOnline": 0,
+          "phonesOffline": 0,
+          "calls": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "callExperience": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "lastCall": null,
+          "lastCallType": null,
+          "lastCallPhone": null,
+          "lastCallSubject": null,
+          "lastCallPhoneModel": null
+        },
+        "apps": [
+          {
+            "swaiVersion": 4,
+            "name": "talk",
+            "port": 30080,
+            "uiPath": "/",
+            "uiCdn": "https://cdn.pkg.svc.ui.com/unifi-talk-ui/v1.17.1-a833c23ee6",
+            "uiIndex": "index-1.17.1.js",
+            "type": "controller"
+          }
+        ],
+        "installable": true
+      },
+      {
+        "name": "uid-agent",
+        "type": "controller",
+        "ui": {
+          "baseUrl": "/uid-agent/",
+          "publicPath": "/app-assets/uid-agent/",
+          "cdnPublicPaths": [
+            "https://cdn.pkg.svc.ui.com/uid-agent-fe/1.49.4-1283-db09cb136f/"
+          ],
+          "prefetch": [],
+          "icon": "icon.png",
+          "hotkey": null,
+          "entrypoint": "index.1.49.4-1283.js",
+          "swaiVersion": 2,
+          "apiPrefix": "/proxy/uid-agent/"
+        },
+        "updatable": true,
+        "releaseChannel": "release",
+        "isInstalled": true,
+        "isRunning": true,
+        "isConfigured": false,
+        "unadoptedDevices": [],
+        "state": "active",
+        "version": "1.49.4+1951",
+        "status": "ok",
+        "statusMessage": "",
+        "updateAvailable": "1.51.1+2099",
+        "host": "localhost",
+        "protocol": "http",
+        "uiIndex": "index.1.49.4-1283.js",
+        "swaiVersion": 2,
+        "port": 6080,
+        "uiDir": "/usr/lib/uid-agent/web-swai",
+        "uiCdn": "https://cdn.pkg.svc.ui.com/uid-agent-fe/1.49.4-1283-db09cb136f",
+        "proxy": {
+          "api": "/proxy/uid-agent",
+          "ui": "/app-assets/uid-agent"
+        },
+        "controllerStatus": "READY",
+        "info": {},
+        "installable": true
+      },
+      {
+        "name": "connect",
+        "type": "controller",
+        "ui": {
+          "baseUrl": "/connect/"
+        },
+        "prerelease": true,
+        "updatable": true,
+        "releaseChannel": "release",
+        "isInstalled": false,
+        "isRunning": false,
+        "isConfigured": false,
+        "unadoptedDevices": [],
+        "state": "inactive",
+        "version": null,
+        "status": "offline",
+        "statusMessage": "",
+        "updateAvailable": null,
+        "installable": false
+      }
+    ],
+    "system": {
+      "info": {
+        "ip": "192.161.44.154",
+        "mac": "D021F9DE3BD9",
+        "latestUpdateCheck": 1667873910093,
+        "updateSchedule": {
+          "frequency": "weekly",
+          "includeFirmware": true,
+          "includeControllers": true,
+          "day": 0,
+          "hour": 3
+        },
+        "firmwareDownload": {
+          "progress": 100,
+          "state": "done"
+        },
+        "uptime": 7412248.66,
+        "hostname": "UDM-SE",
+        "deviceId": "D021F9DE3BD900000000066AC4FF0000000006B78E130000000062804856:1993247710",
+        "ports": {
+          "http": 80,
+          "https": 443,
+          "ipc": 11081,
+          "stackable": 11082
+        },
+        "sfpPort": {
+          "portIdx": 10,
+          "supportedValues": [
+            "autoneg",
+            "10000 FDX",
+            "1000 FDX"
+          ]
+        },
+        "ucareState": null,
+        "now": 1667874033202,
+        "wans": [
+          {
+            "interface": "eth8",
+            "ipv4": "192.161.44.154",
+            "ipv6": "fe80::d221:f9ff:fede:3be1",
+            "plugged": true,
+            "enabled": true,
+            "type": "WAN",
+            "port": 9,
+            "mac": "d0:21:f9:de:3b:e1"
+          },
+          {
+            "interface": "eth9",
+            "plugged": false,
+            "enabled": true,
+            "type": "WAN2",
+            "port": 10,
+            "mac": "d0:21:f9:de:3b:e2"
+          }
+        ],
+        "ucore_version": "2.5.51",
+        "hardware": {
+          "sysid": 59948,
+          "name": "UniFi Dream Machine SE",
+          "shortname": "UDMPROSE",
+          "subtype": "",
+          "reboot": "30",
+          "upgrade": "310",
+          "cpu.id": "411fd073-00000000",
+          "uuid": "2355e448-9c16-56cb-8d01-131bec1f56f8",
+          "bom": "113-00917-26",
+          "hwrev": 234778,
+          "serialno": "d021f9de3bd9",
+          "qrid": "VCYlEH",
+          "mac": "D021F9DE3BD9",
+          "firmwareVersion": "2.5.11",
+          "isUbios": false,
+          "debianCodename": "stretch"
+        },
+        "features": {
+          "ssh": true,
+          "speedTest": true,
+          "adoptDevices": true,
+          "setupConfigUFN": true,
+          "waitForUFN": true,
+          "hasFirewall": true,
+          "hasUdapi": true,
+          "hasLedStatus": false,
+          "cloudBackup": true,
+          "systoolSupportDump": true,
+          "UFNSetsHostname": true,
+          "systoolAnonId": true,
+          "cpuInfo": true,
+          "storage": {
+            "hasRemovableStorage": true,
+            "canSetHotspare": false,
+            "canFormat": true,
+            "internalSSD": "sda5"
+          },
+          "hasGateway": true,
+          "autoDetectPreviousSubnet": true
+        },
+        "storage": [
+          {
+            "id": 0,
+            "type": "emmc",
+            "mounted": true,
+            "mountPoint": "/",
+            "canErase": false,
+            "size": 5708562432,
+            "used": 590503936,
+            "avail": 4807892992
+          },
+          {
+            "id": 1,
+            "type": "hdd",
+            "mounted": false,
+            "mountPoint": "/srv",
+            "canErase": false,
+            "size": null,
+            "used": null,
+            "avail": null,
+            "device": {
+              "mounted": false,
+              "model": null,
+              "serial": null,
+              "firmware": null,
+              "size": null,
+              "rpm": null,
+              "healthy": false,
+              "ataVersion": null,
+              "sataVersion": null
+            }
+          },
+          {
+            "id": 2,
+            "type": "internalSSD",
+            "mounted": true,
+            "mountPoint": "/ssd1",
+            "canErase": false,
+            "size": 117034172416,
+            "used": 1042296832,
+            "avail": 110002814976
+          }
+        ],
+        "ustorage": {
+          "disks": [
+            {
+              "slot": 1,
+              "state": "nodisk"
+            }
+          ],
+          "space": [
+            {
+              "action": "none",
+              "device": "sda2",
+              "estimate": 0,
+              "health": "health",
+              "progress": null,
+              "reasons": [],
+              "space_type": "swap",
+              "total_bytes": 0,
+              "used_bytes": 0
+            },
+            {
+              "action": "none",
+              "device": "sda5",
+              "estimate": 0,
+              "health": "health",
+              "progress": null,
+              "reasons": [],
+              "space_type": "secondary",
+              "total_bytes": 117034172416,
+              "used_bytes": 1043574784
+            }
+          ]
+        },
+        "cpu": {
+          "model": "unknown",
+          "speed": 0,
+          "cores": 4,
+          "currentload": 0.18,
+          "loadavg": [
+            0.94,
+            1.46,
+            1.3
+          ],
+          "temperature": 53,
+          "cpus": [
+            {
+              "model": "unknown",
+              "speed": 0,
+              "times": {
+                "user": 531364250,
+                "nice": 0,
+                "sys": 273709300,
+                "idle": 6493178160,
+                "irq": 0
+              }
+            },
+            {
+              "model": "unknown",
+              "speed": 0,
+              "times": {
+                "user": 531904200,
+                "nice": 0,
+                "sys": 276137980,
+                "idle": 6495251460,
+                "irq": 0
+              }
+            },
+            {
+              "model": "unknown",
+              "speed": 0,
+              "times": {
+                "user": 527664660,
+                "nice": 0,
+                "sys": 275574570,
+                "idle": 6502670470,
+                "irq": 0
+              }
+            },
+            {
+              "model": "unknown",
+              "speed": 0,
+              "times": {
+                "user": 510171030,
+                "nice": 0,
+                "sys": 268768190,
+                "idle": 6542881920,
+                "irq": 0
+              }
+            }
+          ]
+        },
+        "memory": {
+          "free": 207584,
+          "total": 4041024,
+          "available": 1761264
+        },
+        "network": {
+          "interfaces": {
+            "eth8": [
+              {
+                "address": "192.161.44.154",
+                "netmask": "255.255.255.128",
+                "family": "IPv4",
+                "mac": "d0:21:f9:de:3b:e1",
+                "internal": false,
+                "cidr": "192.161.44.154/25"
+              },
+              {
+                "address": "fe80::d221:f9ff:fede:3be1",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:e1",
+                "internal": false,
+                "cidr": "fe80::d221:f9ff:fede:3be1/64",
+                "scopeid": 11
+              }
+            ],
+            "br0": [
+              {
+                "address": "192.168.1.1",
+                "netmask": "255.255.255.0",
+                "family": "IPv4",
+                "mac": "d2:21:f9:de:3b:da",
+                "internal": false,
+                "cidr": "192.168.1.1/24"
+              },
+              {
+                "address": "fe80::d021:f9ff:fede:3bda",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d2:21:f9:de:3b:da",
+                "internal": false,
+                "cidr": "fe80::d021:f9ff:fede:3bda/64",
+                "scopeid": 14
+              }
+            ],
+            "br2": [
+              {
+                "address": "192.168.2.1",
+                "netmask": "255.255.255.0",
+                "family": "IPv4",
+                "mac": "d0:21:f9:de:3b:e3",
+                "internal": false,
+                "cidr": "192.168.2.1/24"
+              },
+              {
+                "address": "fe80::ec6e:97ff:fe76:6d34",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:e3",
+                "internal": false,
+                "cidr": "fe80::ec6e:97ff:fe76:6d34/64",
+                "scopeid": 32
+              }
+            ],
+            "br3": [
+              {
+                "address": "192.168.3.1",
+                "netmask": "255.255.255.0",
+                "family": "IPv4",
+                "mac": "d0:21:f9:de:3b:e3",
+                "internal": false,
+                "cidr": "192.168.3.1/24"
+              },
+              {
+                "address": "fe80::5c1e:4aff:fe47:ddd6",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:e3",
+                "internal": false,
+                "cidr": "fe80::5c1e:4aff:fe47:ddd6/64",
+                "scopeid": 33
+              }
+            ],
+            "br4": [
+              {
+                "address": "192.168.4.1",
+                "netmask": "255.255.255.0",
+                "family": "IPv4",
+                "mac": "d0:21:f9:de:3b:e3",
+                "internal": false,
+                "cidr": "192.168.4.1/24"
+              },
+              {
+                "address": "fe80::d45c:11ff:fe1b:c364",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:e3",
+                "internal": false,
+                "cidr": "fe80::d45c:11ff:fe1b:c364/64",
+                "scopeid": 34
+              }
+            ],
+            "br5": [
+              {
+                "address": "192.168.5.1",
+                "netmask": "255.255.255.0",
+                "family": "IPv4",
+                "mac": "d0:21:f9:de:3b:e3",
+                "internal": false,
+                "cidr": "192.168.5.1/24"
+              },
+              {
+                "address": "fe80::4499:aaff:feb7:7acf",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:e3",
+                "internal": false,
+                "cidr": "fe80::4499:aaff:feb7:7acf/64",
+                "scopeid": 35
+              }
+            ],
+            "br6": [
+              {
+                "address": "192.168.6.1",
+                "netmask": "255.255.255.0",
+                "family": "IPv4",
+                "mac": "d0:21:f9:de:3b:e3",
+                "internal": false,
+                "cidr": "192.168.6.1/24"
+              },
+              {
+                "address": "fe80::b0d5:7ff:fe2d:a420",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:e3",
+                "internal": false,
+                "cidr": "fe80::b0d5:7ff:fe2d:a420/64",
+                "scopeid": 38
+              }
+            ],
+            "switch0": [
+              {
+                "address": "fe80::d021:f9ff:fede:3bda",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d2:21:f9:de:3b:da",
+                "internal": false,
+                "cidr": "fe80::d021:f9ff:fede:3bda/64",
+                "scopeid": 5
+              }
+            ],
+            "eth0": [
+              {
+                "address": "fe80::d221:f9ff:fede:3bd9",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:d9",
+                "internal": false,
+                "cidr": "fe80::d221:f9ff:fede:3bd9/64",
+                "scopeid": 15
+              }
+            ],
+            "eth1": [
+              {
+                "address": "fe80::d221:f9ff:fede:3bda",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:da",
+                "internal": false,
+                "cidr": "fe80::d221:f9ff:fede:3bda/64",
+                "scopeid": 16
+              }
+            ],
+            "eth2": [
+              {
+                "address": "fe80::d221:f9ff:fede:3bdb",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:db",
+                "internal": false,
+                "cidr": "fe80::d221:f9ff:fede:3bdb/64",
+                "scopeid": 17
+              }
+            ],
+            "eth3": [
+              {
+                "address": "fe80::d221:f9ff:fede:3bdc",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:dc",
+                "internal": false,
+                "cidr": "fe80::d221:f9ff:fede:3bdc/64",
+                "scopeid": 18
+              }
+            ],
+            "eth4": [
+              {
+                "address": "fe80::d221:f9ff:fede:3bdd",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:dd",
+                "internal": false,
+                "cidr": "fe80::d221:f9ff:fede:3bdd/64",
+                "scopeid": 19
+              }
+            ],
+            "eth5": [
+              {
+                "address": "fe80::d221:f9ff:fede:3bde",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:de",
+                "internal": false,
+                "cidr": "fe80::d221:f9ff:fede:3bde/64",
+                "scopeid": 20
+              }
+            ],
+            "eth6": [
+              {
+                "address": "fe80::d221:f9ff:fede:3bdf",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:df",
+                "internal": false,
+                "cidr": "fe80::d221:f9ff:fede:3bdf/64",
+                "scopeid": 21
+              }
+            ],
+            "eth7": [
+              {
+                "address": "fe80::d221:f9ff:fede:3be0",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d0:21:f9:de:3b:e0",
+                "internal": false,
+                "cidr": "fe80::d221:f9ff:fede:3be0/64",
+                "scopeid": 22
+              }
+            ],
+            "switch0.1": [
+              {
+                "address": "fe80::d021:f9ff:fede:3bda",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d2:21:f9:de:3b:da",
+                "internal": false,
+                "cidr": "fe80::d021:f9ff:fede:3bda/64",
+                "scopeid": 27
+              }
+            ],
+            "switch0.2": [
+              {
+                "address": "fe80::d021:f9ff:fede:3bda",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d2:21:f9:de:3b:da",
+                "internal": false,
+                "cidr": "fe80::d021:f9ff:fede:3bda/64",
+                "scopeid": 28
+              }
+            ],
+            "switch0.3": [
+              {
+                "address": "fe80::d021:f9ff:fede:3bda",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d2:21:f9:de:3b:da",
+                "internal": false,
+                "cidr": "fe80::d021:f9ff:fede:3bda/64",
+                "scopeid": 29
+              }
+            ],
+            "switch0.4": [
+              {
+                "address": "fe80::d021:f9ff:fede:3bda",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d2:21:f9:de:3b:da",
+                "internal": false,
+                "cidr": "fe80::d021:f9ff:fede:3bda/64",
+                "scopeid": 30
+              }
+            ],
+            "switch0.5": [
+              {
+                "address": "fe80::d021:f9ff:fede:3bda",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d2:21:f9:de:3b:da",
+                "internal": false,
+                "cidr": "fe80::d021:f9ff:fede:3bda/64",
+                "scopeid": 31
+              }
+            ],
+            "switch0.6": [
+              {
+                "address": "fe80::d021:f9ff:fede:3bda",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "d2:21:f9:de:3b:da",
+                "internal": false,
+                "cidr": "fe80::d021:f9ff:fede:3bda/64",
+                "scopeid": 37
+              }
+            ]
+          },
+          "associatedInterfaces": {
+            "eth10": "eth10.6",
+            "switch0": "switch0.6"
+          }
+        },
+        "ssh": false,
+        "owner": {
+          "unique_id": "f665ec65-e1bf-4816-bafe-475f61d112d0",
+          "first_name": "UniFi",
+          "last_name": "User",
+          "full_name": "UniFi User",
+          "email": "paclient.eph@properaccess.com",
+          "email_status": "VERIFIED",
+          "email_is_null": false,
+          "phone": "",
+          "avatar_relative_path": "",
+          "avatar_rpath2": "",
+          "status": "ACTIVE",
+          "employee_number": "",
+          "create_time": 1656601264,
+          "extras": {},
+          "login_time": 1663700774,
+          "username": "",
+          "local_account_exist": false,
+          "password_revision": 0,
+          "sso_account": "paclient.eph@properaccess.com",
+          "sso_uuid": "5bbf8f64-bf63-4d64-84bc-901b9aae4457",
+          "sso_username": "paeph",
+          "sso_picture": "",
+          "uid_sso_id": "",
+          "uid_sso_account": "",
+          "groups": [
+            {
+              "unique_id": "caeb6a24-9bec-4f82-bf28-3fcc55cdd867",
+              "name": "UDM-SE",
+              "up_id": "",
+              "up_ids": [],
+              "system_name": "UDM-SE",
+              "create_time": "2022-06-30T11:01:04-04:00"
+            }
+          ],
+          "roles": [
+            {
+              "unique_id": "364c56da-e8a2-44cf-9190-35ac1a3628ac",
+              "name": "Owner",
+              "system_role": true,
+              "level": 1,
+              "create_time": "2022-05-15T12:33:12-04:00",
+              "update_time": "2022-05-15T12:33:12-04:00"
+            }
+          ],
+          "permissions": {
+            "access.management": [
+              "admin"
+            ],
+            "connect.management": [
+              "admin"
+            ],
+            "led.management": [
+              "admin"
+            ],
+            "network.management": [
+              "admin"
+            ],
+            "protect.management": [
+              "admin"
+            ],
+            "system.management.location": [
+              "admin"
+            ],
+            "system.management.user": [
+              "admin"
+            ],
+            "talk.management": [
+              "admin"
+            ]
+          },
+          "scopes": [
+            "write:protect.viewer",
+            "write:protect.user:$",
+            "write:protect.user",
+            "write:protect.sensor",
+            "write:protect.schedule",
+            "write:protect.nvr",
+            "write:protect.light",
+            "write:protect.legacyUFV",
+            "write:protect.group",
+            "write:protect.doorlock",
+            "write:protect.display",
+            "write:protect.deviceGroup",
+            "write:protect.chime",
+            "write:protect.camera",
+            "write:protect.bridge",
+            "view:user_timezone",
+            "view:user",
+            "view:systemlog",
+            "view:system_info",
+            "view:sso",
+            "view:settings",
+            "view:role:viewer",
+            "view:role:admin",
+            "view:role",
+            "view:permission:viewer",
+            "view:permission:super_admin",
+            "view:permission:owner",
+            "view:permission:admin",
+            "view:permission",
+            "view:notification",
+            "view:location_policy",
+            "view:location_device",
+            "view:location_activity",
+            "view:location",
+            "view:holiday_timezone",
+            "view:holiday",
+            "view:group",
+            "view:door_group",
+            "view:controller:uid-agent",
+            "view:controller:talk",
+            "view:controller:protect",
+            "view:controller:network",
+            "view:controller:led",
+            "view:controller:connect",
+            "view:controller:access",
+            "view:controller",
+            "view:cloud_access",
+            "view:backup",
+            "view:app:users",
+            "view:app:settings",
+            "view:app:locations",
+            "view:access:user",
+            "view:access.visitor",
+            "view:access.systemlog",
+            "view:access.settings",
+            "view:access.schedule",
+            "view:access.policy",
+            "view:access.pin_code",
+            "view:access.nfc_card",
+            "view:access.face",
+            "view:access.device",
+            "view:access.dashboard",
+            "update:access.device",
+            "systemlog:user",
+            "systemlog:system",
+            "systemlog:location",
+            "systemlog:access",
+            "readmedia:protect.camera",
+            "read:protect.viewer",
+            "read:protect.user:$",
+            "read:protect.user",
+            "read:protect.sensor",
+            "read:protect.schedule",
+            "read:protect.nvr",
+            "read:protect.light",
+            "read:protect.legacyUFV",
+            "read:protect.group",
+            "read:protect.doorlock",
+            "read:protect.display",
+            "read:protect.deviceGroup",
+            "read:protect.chime",
+            "read:protect.camera",
+            "read:protect.bridge",
+            "open:door",
+            "notify:user",
+            "notify:talk",
+            "notify:protect",
+            "notify:network",
+            "notify:location",
+            "notify:led",
+            "notify:access",
+            "manage:controller:talk",
+            "manage:controller:network",
+            "manage:controller:led",
+            "manage:controller:connect",
+            "manage:controller:access",
+            "manage:controller",
+            "edit:user_timezone",
+            "edit:user_credential",
+            "edit:user",
+            "edit:unifi-os:user",
+            "edit:systemlog",
+            "edit:system_info",
+            "edit:sso",
+            "edit:settings",
+            "edit:role:viewer",
+            "edit:role:admin",
+            "edit:role",
+            "edit:permission:viewer",
+            "edit:permission:super_admin",
+            "edit:permission:owner",
+            "edit:permission:admin",
+            "edit:permission",
+            "edit:os-settings:update_install",
+            "edit:os-settings:update_channel",
+            "edit:os-settings:transfer_owner",
+            "edit:os-settings:support_file",
+            "edit:os-settings:ssh",
+            "edit:os-settings:send_diagnostics",
+            "edit:os-settings:restart",
+            "edit:os-settings:reset",
+            "edit:os-settings:remote_access",
+            "edit:os-settings:raid",
+            "edit:os-settings:poweroff",
+            "edit:os-settings:notify",
+            "edit:os-settings:hotspare",
+            "edit:os-settings:general",
+            "edit:os-settings:client_network",
+            "edit:os-settings:backup",
+            "edit:os-settings:auto_update",
+            "edit:notification",
+            "edit:location_policy",
+            "edit:location_device",
+            "edit:location_activity",
+            "edit:location",
+            "edit:holiday_timezone",
+            "edit:holiday",
+            "edit:group",
+            "edit:feedback",
+            "edit:door_group",
+            "edit:controller:uid-agent",
+            "edit:cloud_access",
+            "edit:backup",
+            "edit:access:user",
+            "edit:access.visitor",
+            "edit:access.settings",
+            "edit:access.schedule",
+            "edit:access.policy",
+            "edit:access.pin_code",
+            "edit:access.nfc_card",
+            "edit:access.face",
+            "edit:access.device",
+            "deletemedia:protect.camera",
+            "delete:protect.viewer",
+            "delete:protect.user:$",
+            "delete:protect.user",
+            "delete:protect.sensor",
+            "delete:protect.schedule",
+            "delete:protect.nvr",
+            "delete:protect.light",
+            "delete:protect.legacyUFV",
+            "delete:protect.group",
+            "delete:protect.doorlock",
+            "delete:protect.display",
+            "delete:protect.deviceGroup",
+            "delete:protect.chime",
+            "delete:protect.camera",
+            "delete:protect.bridge",
+            "delete:access.device",
+            "create:protect.viewer",
+            "create:protect.user",
+            "create:protect.sensor",
+            "create:protect.schedule",
+            "create:protect.liveview",
+            "create:protect.light",
+            "create:protect.group",
+            "create:protect.doorlock",
+            "create:protect.display",
+            "create:protect.deviceGroup",
+            "create:protect.chime",
+            "create:protect.camera",
+            "create:protect.bridge",
+            "cloud_access:system",
+            "cloud_access:controller",
+            "assign:role_super_admin",
+            "assign:role:viewer",
+            "assign:role:admin",
+            "assign:role",
+            "adopt:access.device",
+            "access.open_door:location",
+            "access.open_door:floor",
+            "access.open_door:door_group",
+            "access.open_door:door",
+            "access.open_door:building"
+          ],
+          "cloud_access_granted": true,
+          "update_time": 1667669595,
+          "avatar": null,
+          "nfc_display_id": "",
+          "nfc_card_type": "",
+          "nfc_card_status": "",
+          "id": "f665ec65-e1bf-4816-bafe-475f61d112d0",
+          "isOwner": true,
+          "isSuperAdmin": true,
+          "isMember": false,
+          "ucorePermission": {
+            "hasViewUserPermission": true,
+            "hasEditUserPermission": true,
+            "hasViewSettingsPermission": true,
+            "hasUpdateChannelPermission": true,
+            "hasGeneralSettingsPermission": true,
+            "hasUpdateAndInstallPermission": true,
+            "hasAutoUpdatePermission": true,
+            "hasNotificationPermission": true,
+            "hasRemoteAccessPermission": true,
+            "hasBackupPermission": true,
+            "hasRestartConsolePermission": true,
+            "hasPoweroffConsolePermission": true,
+            "hasResetConsolePermission": true,
+            "hasTransferOwnerPermission": true,
+            "hasSSHPermission": true,
+            "hasSupportFilePermission": true
+          },
+          "maskedEmail": "pa************@properaccess.com"
+        },
+        "portStatus": [
+          {
+            "id": "eth0",
+            "enabled": true,
+            "plugged": true,
+            "type": "LAN",
+            "mac": "d0:21:f9:de:3b:d9"
+          },
+          {
+            "id": "eth1",
+            "enabled": true,
+            "plugged": false,
+            "type": "LAN",
+            "mac": "d0:21:f9:de:3b:da"
+          },
+          {
+            "id": "eth10",
+            "enabled": true,
+            "plugged": false,
+            "type": "LAN",
+            "mac": "d0:21:f9:de:3b:e3"
+          },
+          {
+            "id": "eth2",
+            "enabled": true,
+            "plugged": false,
+            "type": "LAN",
+            "mac": "d0:21:f9:de:3b:db"
+          },
+          {
+            "id": "eth3",
+            "enabled": true,
+            "plugged": false,
+            "type": "LAN",
+            "mac": "d0:21:f9:de:3b:dc"
+          },
+          {
+            "id": "eth4",
+            "enabled": true,
+            "plugged": false,
+            "type": "LAN",
+            "mac": "d0:21:f9:de:3b:dd"
+          },
+          {
+            "id": "eth5",
+            "enabled": true,
+            "plugged": false,
+            "type": "LAN",
+            "mac": "d0:21:f9:de:3b:de"
+          },
+          {
+            "id": "eth6",
+            "enabled": true,
+            "plugged": true,
+            "type": "LAN",
+            "mac": "d0:21:f9:de:3b:df"
+          },
+          {
+            "id": "eth7",
+            "enabled": true,
+            "plugged": false,
+            "type": "LAN",
+            "mac": "d0:21:f9:de:3b:e0"
+          },
+          {
+            "id": "eth8",
+            "enabled": true,
+            "plugged": true,
+            "type": "WAN",
+            "mac": "d0:21:f9:de:3b:e1"
+          },
+          {
+            "id": "eth9",
+            "enabled": true,
+            "plugged": false,
+            "type": "WAN2",
+            "mac": "d0:21:f9:de:3b:e2"
+          }
+        ]
+      },
+      "hasInternet": true,
+      "deviceState": "setup",
+      "deviceStateLastChanged": 1660461855,
+      "publicIp": "192.161.44.154",
+      "isUnifiSelfSignedCertificate": null,
+      "directConnectDomain": "d021f9de3bd9066ac4ff06b78e13062804856.id.ui.direct",
+      "cloudConnected": true,
+      "isStarted": true,
+      "isStacked": false
+    },
+    "deviceList": {
+      "unifiOS": [
+        {
+          "mac": "D021F9DE3BD9",
+          "ip": "192.161.44.154",
+          "name": "Dream Machine Pro Special Edition",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "2.5.11",
+          "startupTime": 1660461795,
+          "model": "Dream Machine Pro SE",
+          "shortname": "UDM-PRO-SE",
+          "isManaged": true,
+          "metadata": {
+            "radios": {},
+            "deviceType": "udm"
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_257x257.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_101x101.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_51x51.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_25x25.png"
+          },
+          "deviceId": "D021F9DE3BD900000000066AC4FF0000000006B78E130000000062804856:1993247710",
+          "directConnectDomain": "d021f9de3bd9066ac4ff06b78e13062804856.id.ui.direct",
+          "imageData": {
+            "iconId": "b3a5cfb0-1617-4419-8c28-36b137e8b587",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "discovery"
+        },
+        {
+          "mac": "D221F9DE3BD9",
+          "ip": "127.0.0.1",
+          "name": "Dream Machine Pro Special Edition",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "",
+          "startupTime": 1660461792,
+          "model": "Dream Machine Pro SE",
+          "shortname": "UDM-PRO-SE",
+          "isManaged": true,
+          "metadata": {
+            "radios": {},
+            "deviceType": "udm"
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_257x257.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_101x101.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_51x51.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_25x25.png"
+          },
+          "imageData": {
+            "iconId": "b3a5cfb0-1617-4419-8c28-36b137e8b587",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "discovery"
+        }
+      ],
+      "network": [
+        {
+          "mac": "B4FBE4C00618",
+          "ip": "192.168.1.3",
+          "name": "AP01-Office",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "BZ.qca956x_6.2.35+14043.220812.1940",
+          "startupTime": 1663701735,
+          "model": "UAP AC Pro",
+          "shortname": "U7PG2",
+          "isManaged": true,
+          "metadata": {
+            "radios": {
+              "na": {
+                "gain": 3,
+                "maxPower": 23,
+                "maxSpeedMegabitsPerSecond": 1300
+              },
+              "ng": {
+                "gain": 3,
+                "maxPower": 22,
+                "maxSpeedMegabitsPerSecond": 450
+              }
+            },
+            "deviceType": "uap"
+          },
+          "productLine": "network",
+          "images": {
+            "m": "https://static.ui.com/fingerprint/ui/icons/4538e4a6-b426-4549-aa4d-9c3771b4b169_101x101.png",
+            "xl": "https://static.ui.com/fingerprint/ui/icons/4538e4a6-b426-4549-aa4d-9c3771b4b169_257x257.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/4538e4a6-b426-4549-aa4d-9c3771b4b169_51x51.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/4538e4a6-b426-4549-aa4d-9c3771b4b169_129x129.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/4538e4a6-b426-4549-aa4d-9c3771b4b169_25x25.png"
+          },
+          "imageData": {
+            "iconId": "4538e4a6-b426-4549-aa4d-9c3771b4b169",
+            "resolutions": [
+              [
+                101,
+                101
+              ],
+              [
+                257,
+                257
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "discovery"
+        },
+        {
+          "mac": "D021F9E54C08",
+          "ip": "192.168.1.25",
+          "name": "Apt 3 - Upper Level",
+          "status": "offline",
+          "firmwareStatus": "upToDate",
+          "firmware": "6.2.41.14083",
+          "startupTime": 0,
+          "model": "U6 Lite",
+          "shortname": "UAL6",
+          "isManaged": true,
+          "metadata": {
+            "radios": {
+              "na": {
+                "gain": 4,
+                "maxPower": 25,
+                "maxSpeedMegabitsPerSecond": 2400
+              },
+              "ng": {
+                "gain": 3,
+                "maxPower": 20,
+                "maxSpeedMegabitsPerSecond": 300
+              }
+            },
+            "deviceType": "uap",
+            "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+            "wifiExperience": -1,
+            "has2_4GHz": true,
+            "has5GHz": true
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+          },
+          "imageData": {
+            "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "network"
+        },
+        {
+          "mac": "D021F9DE3BD9",
+          "ip": "192.161.44.154",
+          "name": "UDM SE",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "2.5.11.7956",
+          "startupTime": 1660461784,
+          "model": "Dream Machine Pro SE",
+          "shortname": "UDMPROSE",
+          "isManaged": true,
+          "metadata": {
+            "radios": {},
+            "deviceType": "udm",
+            "site_id": "62b3d8ca0dbd9d089a5e8f7b"
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_257x257.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_101x101.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_51x51.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/b3a5cfb0-1617-4419-8c28-36b137e8b587_25x25.png"
+          },
+          "imageData": {
+            "iconId": "b3a5cfb0-1617-4419-8c28-36b137e8b587",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "network"
+        },
+        {
+          "mac": "70A7416773EC",
+          "ip": "192.168.1.202",
+          "name": "EPH Office - Main Level",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "6.2.44.14098",
+          "startupTime": 1667374198,
+          "model": "U6 LR",
+          "shortname": "UALR6V2",
+          "isManaged": true,
+          "metadata": {
+            "radios": {
+              "na": {
+                "gain": 4,
+                "maxPower": 25,
+                "maxSpeedMegabitsPerSecond": 2400
+              },
+              "ng": {
+                "gain": 3,
+                "maxPower": 20,
+                "maxSpeedMegabitsPerSecond": 300
+              }
+            },
+            "deviceType": "uap",
+            "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+            "wifiExperience": -1,
+            "has2_4GHz": true,
+            "has5GHz": true
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/06a25b40-ef1f-463a-82d9-13236866ea3d_257x257.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/06a25b40-ef1f-463a-82d9-13236866ea3d_51x51.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/06a25b40-ef1f-463a-82d9-13236866ea3d_101x101.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/06a25b40-ef1f-463a-82d9-13236866ea3d_25x25.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/06a25b40-ef1f-463a-82d9-13236866ea3d_129x129.png"
+          },
+          "imageData": {
+            "iconId": "06a25b40-ef1f-463a-82d9-13236866ea3d",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                25,
+                25
+              ],
+              [
+                129,
+                129
+              ]
+            ]
+          },
+          "source": "network"
+        },
+        {
+          "mac": "D021F9EEC8A0",
+          "ip": "192.168.1.26",
+          "name": "U6-Lite",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "6.2.44.14098",
+          "startupTime": 1667375664,
+          "model": "U6 Lite",
+          "shortname": "UAL6",
+          "isManaged": true,
+          "metadata": {
+            "radios": {
+              "na": {
+                "gain": 4,
+                "maxPower": 25,
+                "maxSpeedMegabitsPerSecond": 2400
+              },
+              "ng": {
+                "gain": 3,
+                "maxPower": 20,
+                "maxSpeedMegabitsPerSecond": 300
+              }
+            },
+            "deviceType": "uap",
+            "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+            "wifiExperience": -1,
+            "has2_4GHz": true,
+            "has5GHz": true
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+          },
+          "imageData": {
+            "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "network"
+        },
+        {
+          "mac": "D021F9EEA9F0",
+          "ip": "192.168.1.119",
+          "name": "U6-Lite",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "6.2.44.14098",
+          "startupTime": 1667375283,
+          "model": "U6 Lite",
+          "shortname": "UAL6",
+          "isManaged": true,
+          "metadata": {
+            "radios": {
+              "na": {
+                "gain": 4,
+                "maxPower": 25,
+                "maxSpeedMegabitsPerSecond": 2400
+              },
+              "ng": {
+                "gain": 3,
+                "maxPower": 20,
+                "maxSpeedMegabitsPerSecond": 300
+              }
+            },
+            "deviceType": "uap",
+            "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+            "wifiExperience": -1,
+            "has2_4GHz": true,
+            "has5GHz": true
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+          },
+          "imageData": {
+            "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "network"
+        },
+        {
+          "mac": "D021F9EEC2FC",
+          "ip": "192.168.1.192",
+          "name": "U6-Lite",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "6.2.44.14098",
+          "startupTime": 1667375464,
+          "model": "U6 Lite",
+          "shortname": "UAL6",
+          "isManaged": true,
+          "metadata": {
+            "radios": {
+              "na": {
+                "gain": 4,
+                "maxPower": 25,
+                "maxSpeedMegabitsPerSecond": 2400
+              },
+              "ng": {
+                "gain": 3,
+                "maxPower": 20,
+                "maxSpeedMegabitsPerSecond": 300
+              }
+            },
+            "deviceType": "uap",
+            "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+            "wifiExperience": -1,
+            "has2_4GHz": true,
+            "has5GHz": true
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+          },
+          "imageData": {
+            "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "network"
+        },
+        {
+          "mac": "D021F9E6A544",
+          "ip": "192.168.1.27",
+          "name": "Apt 4 - Upper Level",
+          "status": "online",
+          "firmwareStatus": "updateAvailable",
+          "firmware": "6.0.21.13673",
+          "startupTime": 1666148406,
+          "model": "U6 Lite",
+          "shortname": "UAL6",
+          "isManaged": true,
+          "metadata": {
+            "radios": {
+              "na": {
+                "gain": 4,
+                "maxPower": 25,
+                "maxSpeedMegabitsPerSecond": 2400
+              },
+              "ng": {
+                "gain": 3,
+                "maxPower": 20,
+                "maxSpeedMegabitsPerSecond": 300
+              }
+            },
+            "deviceType": "uap",
+            "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+            "wifiExperience": -1,
+            "has2_4GHz": true,
+            "has5GHz": true
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+          },
+          "imageData": {
+            "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "network"
+        },
+        {
+          "mac": "D021F9E0EBE8",
+          "ip": "192.168.1.210",
+          "name": "Apt 2 - Upper Level",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "6.2.44.14098",
+          "startupTime": 1667374894,
+          "model": "U6 Lite",
+          "shortname": "UAL6",
+          "isManaged": true,
+          "metadata": {
+            "radios": {
+              "na": {
+                "gain": 4,
+                "maxPower": 25,
+                "maxSpeedMegabitsPerSecond": 2400
+              },
+              "ng": {
+                "gain": 3,
+                "maxPower": 20,
+                "maxSpeedMegabitsPerSecond": 300
+              }
+            },
+            "deviceType": "uap",
+            "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+            "wifiExperience": -1,
+            "has2_4GHz": true,
+            "has5GHz": true
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+          },
+          "imageData": {
+            "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "network"
+        },
+        {
+          "mac": "D021F9BF1A20",
+          "ip": "192.168.1.195",
+          "name": "Apt 1 - Upper Level",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "6.2.44.14098",
+          "startupTime": 1667374371,
+          "model": "U6 Lite",
+          "shortname": "UAL6",
+          "isManaged": true,
+          "metadata": {
+            "radios": {
+              "na": {
+                "gain": 4,
+                "maxPower": 25,
+                "maxSpeedMegabitsPerSecond": 2400
+              },
+              "ng": {
+                "gain": 3,
+                "maxPower": 20,
+                "maxSpeedMegabitsPerSecond": 300
+              }
+            },
+            "deviceType": "uap",
+            "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+            "wifiExperience": -1,
+            "has2_4GHz": true,
+            "has5GHz": true
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+          },
+          "imageData": {
+            "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "network"
+        },
+        {
+          "mac": "D021F9EEBDAC",
+          "ip": "192.168.6.50",
+          "name": "Smith22_Allstate",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "6.2.44.14098",
+          "startupTime": 1667375083,
+          "model": "U6 Lite",
+          "shortname": "UAL6",
+          "isManaged": true,
+          "metadata": {
+            "radios": {
+              "na": {
+                "gain": 4,
+                "maxPower": 25,
+                "maxSpeedMegabitsPerSecond": 2400
+              },
+              "ng": {
+                "gain": 3,
+                "maxPower": 20,
+                "maxSpeedMegabitsPerSecond": 300
+              }
+            },
+            "deviceType": "uap",
+            "site_id": "62b3d8ca0dbd9d089a5e8f7b",
+            "wifiExperience": 100,
+            "has2_4GHz": true,
+            "has5GHz": true
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_257x257.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_101x101.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_51x51.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/182fa28c-f63e-4381-9fe5-3ed98db687b5_25x25.png"
+          },
+          "imageData": {
+            "iconId": "182fa28c-f63e-4381-9fe5-3ed98db687b5",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "network"
+        },
+        {
+          "mac": "D021F9CE8503",
+          "ip": "192.168.1.203",
+          "name": "Core Switch - 24 POE Pro",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "6.3.13.14104",
+          "startupTime": 1666148321,
+          "model": "USW Pro 24 PoE",
+          "shortname": "US24PRO",
+          "isManaged": true,
+          "metadata": {
+            "radios": {},
+            "deviceType": "usw",
+            "site_id": "62b3d8ca0dbd9d089a5e8f7b"
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/07cecefa-4be6-4a88-9a3c-8b2d910cd653_257x257.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/07cecefa-4be6-4a88-9a3c-8b2d910cd653_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/07cecefa-4be6-4a88-9a3c-8b2d910cd653_101x101.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/07cecefa-4be6-4a88-9a3c-8b2d910cd653_51x51.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/07cecefa-4be6-4a88-9a3c-8b2d910cd653_25x25.png"
+          },
+          "imageData": {
+            "iconId": "07cecefa-4be6-4a88-9a3c-8b2d910cd653",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                25,
+                25
+              ]
+            ]
+          },
+          "source": "network"
+        },
+        {
+          "mac": "B4FBE452159C",
+          "ip": "192.168.6.171",
+          "name": "Smith22_Allstate",
+          "status": "online",
+          "firmwareStatus": "upToDate",
+          "firmware": "6.3.13.14104",
+          "startupTime": 1666148316,
+          "model": "US 8 PoE 150W",
+          "shortname": "S28150",
+          "isManaged": true,
+          "metadata": {
+            "radios": {},
+            "deviceType": "usw",
+            "site_id": "62b3d8ca0dbd9d089a5e8f7b"
+          },
+          "productLine": "network",
+          "images": {
+            "xl": "https://static.ui.com/fingerprint/ui/icons/8c1931af-758d-4bdc-9c90-cd7914a59333_257x257.png",
+            "xs": "https://static.ui.com/fingerprint/ui/icons/8c1931af-758d-4bdc-9c90-cd7914a59333_25x25.png",
+            "s": "https://static.ui.com/fingerprint/ui/icons/8c1931af-758d-4bdc-9c90-cd7914a59333_51x51.png",
+            "l": "https://static.ui.com/fingerprint/ui/icons/8c1931af-758d-4bdc-9c90-cd7914a59333_129x129.png",
+            "m": "https://static.ui.com/fingerprint/ui/icons/8c1931af-758d-4bdc-9c90-cd7914a59333_101x101.png"
+          },
+          "imageData": {
+            "iconId": "8c1931af-758d-4bdc-9c90-cd7914a59333",
+            "resolutions": [
+              [
+                257,
+                257
+              ],
+              [
+                25,
+                25
+              ],
+              [
+                51,
+                51
+              ],
+              [
+                129,
+                129
+              ],
+              [
+                101,
+                101
+              ]
+            ]
+          },
+          "source": "network"
+        }
+      ]
+    }
+  }
+}
