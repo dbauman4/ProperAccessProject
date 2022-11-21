@@ -46,12 +46,12 @@ def parseDevices():
     with open("devices.json", "r", encoding="utf-8") as f:
         devices = json.loads(f.read())
         default = devices[0]["default"]
-        #uplink = devices[0]["default"]["uplink"]
-        #downlink_table = devices[0]["default"]["downlink_table"]
-        #radio_table = devices[0]["default"]["radio_table"]
-        #port_table = devices[0]["default"]["port_table"]
-        #ethernet_table = devices[0]["default"]["ethernet_table"]
-        #last_uplink = devices[0]["default"]["last_uplink"]
+        uplink = devices[0]["default"]["uplink"]
+        downlink_table = devices[0]["default"]["downlink_table"]
+        radio_table = devices[0]["default"]["radio_table"]
+        port_table = devices[0]["default"]["port_table"]
+        ethernet_table = devices[0]["default"]["ethernet_table"]
+        last_uplink = devices[0]["default"]["last_uplink"]
         return default
         
 
@@ -123,16 +123,6 @@ def barChart():
         if devices_default[i]["mac"] in devices:
             print(i)
     
-
-    
-
-    
-
-    
-
-    
-
-
 def printCharts(port_table = []):
     df = json_normalize(port_table)
     sns.kdeplot(df['rx_bytes'])
